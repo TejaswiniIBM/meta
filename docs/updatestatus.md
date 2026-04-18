@@ -27,6 +27,7 @@
 - 2026-03-21: [Update autoconf-version to 2.73 from 2.72](https://github.com/zopencommunity/autoconfport/pull/53) ❌
 
 ### buildkiteport
+- 2026-04-17: [Update buildkite-version to 3.123.1 from 3.61.0](https://github.com/zopencommunity/buildkiteport/pull/103) ❌
 - 2026-04-14: [Update buildkite-version to 3.123.0 from 3.61.0](https://github.com/zopencommunity/buildkiteport/pull/102) ❌
 - 2026-04-09: [Update buildkite-version to 3.122.0 from 3.61.0](https://github.com/zopencommunity/buildkiteport/pull/101) ❌
 - 2026-04-08: [Update buildkite-version to 3.121.1 from 3.61.0](https://github.com/zopencommunity/buildkiteport/pull/100) ❌
@@ -56,7 +57,6 @@
 - 2025-10-09: [Update buildkite-version to 3.109.0 from 3.61.0](https://github.com/zopencommunity/buildkiteport/pull/76) ❌
 - 2025-10-02: [Update buildkite-version to 3.108.0 from 3.61.0](https://github.com/zopencommunity/buildkiteport/pull/75) ❌
 - 2025-09-24: [Update buildkite-version to 3.107.2 from 3.61.0](https://github.com/zopencommunity/buildkiteport/pull/74) ❌
-- 2025-09-18: [Update buildkite-version to 3.107.0 from 3.61.0](https://github.com/zopencommunity/buildkiteport/pull/73) ❌
 
 ### c3270port
 - 2025-12-23: [Update c3270-version to 4.5ga5 from 4.4ga6](https://github.com/zopencommunity/c3270port/pull/32) ❌
@@ -83,6 +83,7 @@
 - 2025-05-26: [Update ccache-version to 4.11.3 from V.R.M](https://github.com/zopencommunity/ccacheport/pull/1) ❌
 
 ### chezmoiport
+- 2026-04-17: [Update chezmoi-version to 2.70.2 from 2.62.5](https://github.com/zopencommunity/chezmoiport/pull/24) ❌
 - 2026-04-09: [Update chezmoi-version to 2.70.1 from 2.62.5](https://github.com/zopencommunity/chezmoiport/pull/23) ❌
 - 2026-03-10: [Update chezmoi-version to 2.70.0 from 2.62.5](https://github.com/zopencommunity/chezmoiport/pull/22) ❌
 - 2026-02-11: [Update chezmoi-version to 2.69.4 from 2.62.5](https://github.com/zopencommunity/chezmoiport/pull/21) ❌
@@ -159,6 +160,7 @@
 - 2025-02-01: [Update creduce-version to 2.10.0 from V.R.M](https://github.com/zopencommunity/creduceport/pull/1) ❓
 
 ### crushport
+- 2026-04-17: [Update crush-version to 0.59.0 from 0.11.0](https://github.com/zopencommunity/crushport/pull/107) ❌
 - 2026-04-16: [Update crush-version to 0.58.0 from 0.11.0](https://github.com/zopencommunity/crushport/pull/106) ❌
 - 2026-04-14: [Update crush-version to 0.57.0 from 0.11.0](https://github.com/zopencommunity/crushport/pull/105) ❌
 - 2026-04-09: [Update crush-version to 0.56.0 from 0.11.0](https://github.com/zopencommunity/crushport/pull/104) ❌
@@ -188,7 +190,6 @@
 - 2026-02-14: [Update crush-version to 0.43.0 from 0.11.0](https://github.com/zopencommunity/crushport/pull/80) ❌
 - 2026-02-12: [Update crush-version to 0.42.0 from 0.11.0](https://github.com/zopencommunity/crushport/pull/79) ❌
 - 2026-02-10: [Update crush-version to 0.41.0 from 0.11.0](https://github.com/zopencommunity/crushport/pull/78) ❌
-- 2026-02-09: [Update crush-version to 0.40.0 from 0.11.0](https://github.com/zopencommunity/crushport/pull/77) ❌
 
 ### cunitport
 - 2026-01-20: [Update cunit-version to 3.5.4 from 3.2.7](https://github.com/zopencommunity/cunitport/pull/11) ❌
@@ -207,6 +208,7 @@
 - 2025-04-11: [Update direnv-version to 2.36.0 from 2.35.0](https://github.com/zopencommunity/direnvport/pull/11) ❌
 
 ### dnf5port
+- 2026-04-17: [Update dnf5-version to 5.4.1.0 from 5.3.0.0](https://github.com/zopencommunity/dnf5port/pull/9) ❌
 - 2026-02-17: [Update dnf5-version to 5.4.0.0 from 5.3.0.0](https://github.com/zopencommunity/dnf5port/pull/8) ❌
 
 ### doxygenport
@@ -222,7 +224,7 @@
 
 ### emacsport
 - 2025-08-22: [Update emacs-version to 30.2 from 29.4](https://github.com/zopencommunity/emacsport/pull/14) ❌
-- 2025-02-24: [Update emacs-version to 30.1 from 29.4](https://github.com/zopencommunity/emacsport/pull/11) ❌
+- 2025-02-24: [Update emacs-version to 30.1 from 29.4](https://github.com/zopencommunity/emacsport/pull/11) ❓
 
 ### expatport
 - 2025-09-25: [Update expat-version to 2.7.3 from 2.5.0](https://github.com/zopencommunity/expatport/pull/19) ❌
@@ -252,6 +254,7 @@
 - 2024-06-08: [Update gin-version to 1.10.0 from 1.9.1](https://github.com/zopencommunity/ginport/pull/2) ❌
 
 ### githubcliport
+- 2026-04-17: [Update ghcli-version to 2.90.0 from 2.86.0](https://github.com/zopencommunity/githubcliport/pull/80) ❌
 - 2026-03-26: [Update ghcli-version to 2.89.0 from 2.86.0](https://github.com/zopencommunity/githubcliport/pull/79) ❌
 
 ### gitlabcliport
@@ -340,6 +343,7 @@
 - 2025-04-14: [Update gperf-version to 3.2.1 from 3.1](https://github.com/zopencommunity/gperfport/pull/8) ✅
 
 ### grafanaport
+- 2026-04-17: [Update grafana-version to 13.0.1 from 11.1.3](https://github.com/zopencommunity/grafanaport/pull/37) ❌
 - 2026-04-14: [Update grafana-version to 13.0.0 from 11.1.3](https://github.com/zopencommunity/grafanaport/pull/36) ❌
 - 2026-03-25: [Update grafana-version to 12.4.2 from 11.1.3](https://github.com/zopencommunity/grafanaport/pull/35) ❌
 - 2026-03-10: [Update grafana-version to 12.4.1 from 11.1.3](https://github.com/zopencommunity/grafanaport/pull/34) ❌
@@ -369,7 +373,6 @@
 - 2024-10-02: [Update grafana-version to 11.2.2 from 11.1.3](https://github.com/zopencommunity/grafanaport/pull/9) ❓
 - 2024-08-27: [Update grafana-version to 11.2.0 from 11.1.3](https://github.com/zopencommunity/grafanaport/pull/7) ❓
 - 2024-08-15: [Update grafana-version to 11.1.4 from 11.1.3](https://github.com/zopencommunity/grafanaport/pull/6) ❓
-- 2024-07-24: [Update grafana-version to 11.1.2 from 11.0.0](https://github.com/zopencommunity/grafanaport/pull/4) ❓
 
 ### groffport
 - 2026-03-14: [Update groff-version to 1.24.1 from 1.23.0](https://github.com/zopencommunity/groffport/pull/18) ❌
@@ -463,6 +466,7 @@
 - 2025-05-11: [Update m4-version to 1.4.20 from 1.4.19](https://github.com/zopencommunity/m4port/pull/44) ❌
 
 ### mavenport
+- 2026-04-17: [Update maven-version to 3.9.15 from 3.9.14](https://github.com/zopencommunity/mavenport/pull/17) ❌
 - 2026-03-06: [Update maven-version to 3.9.13 from 3.9.12](https://github.com/zopencommunity/mavenport/pull/15) ❌
 
 ### mesonport
@@ -571,6 +575,7 @@
 - 2023-12-22: [Update php-version to 8.3.1 from 8.2.13](https://github.com/zopencommunity/phpport/pull/14) ❓
 
 ### pocoport
+- 2026-04-17: [Update poco-version to 1.15.2 from 1.12.5p2](https://github.com/zopencommunity/pocoport/pull/13) ❌
 - 2026-03-29: [Update poco-version to 1.15.1 from 1.12.5p2](https://github.com/zopencommunity/pocoport/pull/12) ❌
 - 2026-02-14: [Update poco-version to 1.15.0 from 1.12.5p2](https://github.com/zopencommunity/pocoport/pull/11) ❌
 - 2025-05-12: [Update poco-version to 1.14.2 from 1.12.5p2](https://github.com/zopencommunity/pocoport/pull/10) ❌
@@ -740,7 +745,6 @@
 
 ### yqport
 - 2026-04-13: [Update yq-version to 4.53.3 from 4.52.5](https://github.com/zopencommunity/yqport/pull/41) ❌
-- 2026-04-12: [Update yq-version to 4.53.2 from 4.52.5](https://github.com/zopencommunity/yqport/pull/40) ❌
 
 ### z3port
 - 2025-10-30: [Update z3-version to 4.15.4 from 4.15.3](https://github.com/zopencommunity/z3port/pull/1) ❌
@@ -939,145 +943,145 @@
 - ✅ m4port - [![Bump Status](https://github.com/zopencommunity/m4port/actions/workflows/bump.yml/badge.svg)](https://github.com/zopencommunity/m4port/actions/workflows/bump.yml)
 - ✅ makeport - [![Bump Status](https://github.com/zopencommunity/makeport/actions/workflows/bump.yml/badge.svg)](https://github.com/zopencommunity/makeport/actions/workflows/bump.yml)
 - ✅ man-dbport - [![Bump Status](https://github.com/zopencommunity/man-dbport/actions/workflows/bump.yml/badge.svg)](https://github.com/zopencommunity/man-dbport/actions/workflows/bump.yml)
-- ❌ mavenport - Workflow not configured
-- ❌ mcport - Workflow not configured
-- ❌ mesonport - Workflow not configured
+- ✅ mavenport - [![Bump Status](https://github.com/zopencommunity/mavenport/actions/workflows/bump.yml/badge.svg)](https://github.com/zopencommunity/mavenport/actions/workflows/bump.yml)
+- ✅ mcport - [![Bump Status](https://github.com/zopencommunity/mcport/actions/workflows/bump.yml/badge.svg)](https://github.com/zopencommunity/mcport/actions/workflows/bump.yml)
+- ✅ mesonport - [![Bump Status](https://github.com/zopencommunity/mesonport/actions/workflows/bump.yml/badge.svg)](https://github.com/zopencommunity/mesonport/actions/workflows/bump.yml)
 - ❌ meta - Workflow not configured
-- ❌ metaldioport - Workflow not configured
-- ❌ metaport - Workflow not configured
-- ❌ microport - Workflow not configured
-- ❌ mimallocport - Workflow not configured
+- ✅ metaldioport - [![Bump Status](https://github.com/zopencommunity/metaldioport/actions/workflows/bump.yml/badge.svg)](https://github.com/zopencommunity/metaldioport/actions/workflows/bump.yml)
+- ✅ metaport - [![Bump Status](https://github.com/zopencommunity/metaport/actions/workflows/bump.yml/badge.svg)](https://github.com/zopencommunity/metaport/actions/workflows/bump.yml)
+- ✅ microport - [![Bump Status](https://github.com/zopencommunity/microport/actions/workflows/bump.yml/badge.svg)](https://github.com/zopencommunity/microport/actions/workflows/bump.yml)
+- ✅ mimallocport - [![Bump Status](https://github.com/zopencommunity/mimallocport/actions/workflows/bump.yml/badge.svg)](https://github.com/zopencommunity/mimallocport/actions/workflows/bump.yml)
 - ❌ minjaport - Workflow not configured
-- ❌ mkcertport - Workflow not configured
-- ❌ moreutilsport - Workflow not configured
-- ❌ mpfrport - Workflow not configured
-- ❌ multitailport - Workflow not configured
-- ❌ murexport - Workflow not configured
+- ✅ mkcertport - [![Bump Status](https://github.com/zopencommunity/mkcertport/actions/workflows/bump.yml/badge.svg)](https://github.com/zopencommunity/mkcertport/actions/workflows/bump.yml)
+- ✅ moreutilsport - [![Bump Status](https://github.com/zopencommunity/moreutilsport/actions/workflows/bump.yml/badge.svg)](https://github.com/zopencommunity/moreutilsport/actions/workflows/bump.yml)
+- ✅ mpfrport - [![Bump Status](https://github.com/zopencommunity/mpfrport/actions/workflows/bump.yml/badge.svg)](https://github.com/zopencommunity/mpfrport/actions/workflows/bump.yml)
+- ✅ multitailport - [![Bump Status](https://github.com/zopencommunity/multitailport/actions/workflows/bump.yml/badge.svg)](https://github.com/zopencommunity/multitailport/actions/workflows/bump.yml)
+- ✅ murexport - [![Bump Status](https://github.com/zopencommunity/murexport/actions/workflows/bump.yml/badge.svg)](https://github.com/zopencommunity/murexport/actions/workflows/bump.yml)
 - ❌ my_basicport - Workflow not configured
-- ❌ nanoport - Workflow not configured
-- ❌ natsport - Workflow not configured
-- ❌ ncduport - Workflow not configured
-- ❌ ncursesport - Workflow not configured
-- ❌ neovimport - Workflow not configured
-- ❌ netpbmport - Workflow not configured
-- ❌ nghttp2port - Workflow not configured
-- ❌ nginxport - Workflow not configured
-- ❌ ninjaport - Workflow not configured
+- ✅ nanoport - [![Bump Status](https://github.com/zopencommunity/nanoport/actions/workflows/bump.yml/badge.svg)](https://github.com/zopencommunity/nanoport/actions/workflows/bump.yml)
+- ✅ natsport - [![Bump Status](https://github.com/zopencommunity/natsport/actions/workflows/bump.yml/badge.svg)](https://github.com/zopencommunity/natsport/actions/workflows/bump.yml)
+- ✅ ncduport - [![Bump Status](https://github.com/zopencommunity/ncduport/actions/workflows/bump.yml/badge.svg)](https://github.com/zopencommunity/ncduport/actions/workflows/bump.yml)
+- ✅ ncursesport - [![Bump Status](https://github.com/zopencommunity/ncursesport/actions/workflows/bump.yml/badge.svg)](https://github.com/zopencommunity/ncursesport/actions/workflows/bump.yml)
+- ✅ neovimport - [![Bump Status](https://github.com/zopencommunity/neovimport/actions/workflows/bump.yml/badge.svg)](https://github.com/zopencommunity/neovimport/actions/workflows/bump.yml)
+- ✅ netpbmport - [![Bump Status](https://github.com/zopencommunity/netpbmport/actions/workflows/bump.yml/badge.svg)](https://github.com/zopencommunity/netpbmport/actions/workflows/bump.yml)
+- ✅ nghttp2port - [![Bump Status](https://github.com/zopencommunity/nghttp2port/actions/workflows/bump.yml/badge.svg)](https://github.com/zopencommunity/nghttp2port/actions/workflows/bump.yml)
+- ✅ nginxport - [![Bump Status](https://github.com/zopencommunity/nginxport/actions/workflows/bump.yml/badge.svg)](https://github.com/zopencommunity/nginxport/actions/workflows/bump.yml)
+- ✅ ninjaport - [![Bump Status](https://github.com/zopencommunity/ninjaport/actions/workflows/bump.yml/badge.svg)](https://github.com/zopencommunity/ninjaport/actions/workflows/bump.yml)
 - ❌ nmapport - Workflow not configured
-- ❌ nnnport - Workflow not configured
-- ❌ npthport - Workflow not configured
-- ❌ ntbtlsport - Workflow not configured
+- ✅ nnnport - [![Bump Status](https://github.com/zopencommunity/nnnport/actions/workflows/bump.yml/badge.svg)](https://github.com/zopencommunity/nnnport/actions/workflows/bump.yml)
+- ✅ npthport - [![Bump Status](https://github.com/zopencommunity/npthport/actions/workflows/bump.yml/badge.svg)](https://github.com/zopencommunity/npthport/actions/workflows/bump.yml)
+- ✅ ntbtlsport - [![Bump Status](https://github.com/zopencommunity/ntbtlsport/actions/workflows/bump.yml/badge.svg)](https://github.com/zopencommunity/ntbtlsport/actions/workflows/bump.yml)
 - ❌ ollamaport - Workflow not configured
-- ❌ onigurumaport - Workflow not configured
-- ❌ openldapport - Workflow not configured
-- ❌ opensshport - Workflow not configured
-- ❌ opensslport - Workflow not configured
+- ✅ onigurumaport - [![Bump Status](https://github.com/zopencommunity/onigurumaport/actions/workflows/bump.yml/badge.svg)](https://github.com/zopencommunity/onigurumaport/actions/workflows/bump.yml)
+- ✅ openldapport - [![Bump Status](https://github.com/zopencommunity/openldapport/actions/workflows/bump.yml/badge.svg)](https://github.com/zopencommunity/openldapport/actions/workflows/bump.yml)
+- ✅ opensshport - [![Bump Status](https://github.com/zopencommunity/opensshport/actions/workflows/bump.yml/badge.svg)](https://github.com/zopencommunity/opensshport/actions/workflows/bump.yml)
+- ✅ opensslport - [![Bump Status](https://github.com/zopencommunity/opensslport/actions/workflows/bump.yml/badge.svg)](https://github.com/zopencommunity/opensslport/actions/workflows/bump.yml)
 - ❌ oqs-providerport - Workflow not configured
-- ❌ osv-scannerport - Workflow not configured
-- ❌ p7zipport - Workflow not configured
+- ✅ osv-scannerport - [![Bump Status](https://github.com/zopencommunity/osv-scannerport/actions/workflows/bump.yml/badge.svg)](https://github.com/zopencommunity/osv-scannerport/actions/workflows/bump.yml)
+- ✅ p7zipport - [![Bump Status](https://github.com/zopencommunity/p7zipport/actions/workflows/bump.yml/badge.svg)](https://github.com/zopencommunity/p7zipport/actions/workflows/bump.yml)
 - ❌ parse-gotest - Workflow not configured
 - ❌ parse-gotestport - Workflow not configured
-- ❌ patchport - Workflow not configured
-- ❌ perlport - Workflow not configured
-- ❌ phpport - Workflow not configured
-- ❌ pinentryport - Workflow not configured
-- ❌ pkgconfigport - Workflow not configured
-- ❌ pocoport - Workflow not configured
-- ❌ poptport - Workflow not configured
+- ✅ patchport - [![Bump Status](https://github.com/zopencommunity/patchport/actions/workflows/bump.yml/badge.svg)](https://github.com/zopencommunity/patchport/actions/workflows/bump.yml)
+- ✅ perlport - [![Bump Status](https://github.com/zopencommunity/perlport/actions/workflows/bump.yml/badge.svg)](https://github.com/zopencommunity/perlport/actions/workflows/bump.yml)
+- ✅ phpport - [![Bump Status](https://github.com/zopencommunity/phpport/actions/workflows/bump.yml/badge.svg)](https://github.com/zopencommunity/phpport/actions/workflows/bump.yml)
+- ✅ pinentryport - [![Bump Status](https://github.com/zopencommunity/pinentryport/actions/workflows/bump.yml/badge.svg)](https://github.com/zopencommunity/pinentryport/actions/workflows/bump.yml)
+- ✅ pkgconfigport - [![Bump Status](https://github.com/zopencommunity/pkgconfigport/actions/workflows/bump.yml/badge.svg)](https://github.com/zopencommunity/pkgconfigport/actions/workflows/bump.yml)
+- ✅ pocoport - [![Bump Status](https://github.com/zopencommunity/pocoport/actions/workflows/bump.yml/badge.svg)](https://github.com/zopencommunity/pocoport/actions/workflows/bump.yml)
+- ✅ poptport - [![Bump Status](https://github.com/zopencommunity/poptport/actions/workflows/bump.yml/badge.svg)](https://github.com/zopencommunity/poptport/actions/workflows/bump.yml)
 - ❌ postgresport - Workflow not configured
-- ❌ powerlinegoport - Workflow not configured
+- ✅ powerlinegoport - [![Bump Status](https://github.com/zopencommunity/powerlinegoport/actions/workflows/bump.yml/badge.svg)](https://github.com/zopencommunity/powerlinegoport/actions/workflows/bump.yml)
 - ❌ procpsport - Workflow not configured
 - ❌ prometheusport - Workflow not configured
-- ❌ promptersport - Workflow not configured
+- ✅ promptersport - [![Bump Status](https://github.com/zopencommunity/promptersport/actions/workflows/bump.yml/badge.svg)](https://github.com/zopencommunity/promptersport/actions/workflows/bump.yml)
 - ❌ protobuf - Workflow not configured
-- ❌ protobufport - Workflow not configured
-- ❌ pvport - Workflow not configured
-- ❌ quiltport - Workflow not configured
-- ❌ re2cport - Workflow not configured
-- ❌ readlineport - Workflow not configured
-- ❌ redisport - Workflow not configured
-- ❌ rpmport - Workflow not configured
-- ❌ rsyncport - Workflow not configured
-- ❌ rubyport - Workflow not configured
-- ❌ s5cmdport - Workflow not configured
-- ❌ sccport - Workflow not configured
-- ❌ scdocport - Workflow not configured
-- ❌ screenport - Workflow not configured
-- ❌ sedport - Workflow not configured
-- ❌ shdocport - Workflow not configured
-- ❌ shufport - Workflow not configured
-- ❌ snappy-cport - Workflow not configured
-- ❌ spdlogport - Workflow not configured
-- ❌ sqliteport - Workflow not configured
-- ❌ sqlite-vecport - Workflow not configured
-- ❌ sshpassport - Workflow not configured
-- ❌ stablediffusionport - Workflow not configured
-- ❌ stowport - Workflow not configured
-- ❌ sudoport - Workflow not configured
-- ❌ tarport - Workflow not configured
-- ❌ tclport - Workflow not configured
-- ❌ tcltlsport - Workflow not configured
+- ✅ protobufport - [![Bump Status](https://github.com/zopencommunity/protobufport/actions/workflows/bump.yml/badge.svg)](https://github.com/zopencommunity/protobufport/actions/workflows/bump.yml)
+- ✅ pvport - [![Bump Status](https://github.com/zopencommunity/pvport/actions/workflows/bump.yml/badge.svg)](https://github.com/zopencommunity/pvport/actions/workflows/bump.yml)
+- ✅ quiltport - [![Bump Status](https://github.com/zopencommunity/quiltport/actions/workflows/bump.yml/badge.svg)](https://github.com/zopencommunity/quiltport/actions/workflows/bump.yml)
+- ✅ re2cport - [![Bump Status](https://github.com/zopencommunity/re2cport/actions/workflows/bump.yml/badge.svg)](https://github.com/zopencommunity/re2cport/actions/workflows/bump.yml)
+- ✅ readlineport - [![Bump Status](https://github.com/zopencommunity/readlineport/actions/workflows/bump.yml/badge.svg)](https://github.com/zopencommunity/readlineport/actions/workflows/bump.yml)
+- ✅ redisport - [![Bump Status](https://github.com/zopencommunity/redisport/actions/workflows/bump.yml/badge.svg)](https://github.com/zopencommunity/redisport/actions/workflows/bump.yml)
+- ✅ rpmport - [![Bump Status](https://github.com/zopencommunity/rpmport/actions/workflows/bump.yml/badge.svg)](https://github.com/zopencommunity/rpmport/actions/workflows/bump.yml)
+- ✅ rsyncport - [![Bump Status](https://github.com/zopencommunity/rsyncport/actions/workflows/bump.yml/badge.svg)](https://github.com/zopencommunity/rsyncport/actions/workflows/bump.yml)
+- ✅ rubyport - [![Bump Status](https://github.com/zopencommunity/rubyport/actions/workflows/bump.yml/badge.svg)](https://github.com/zopencommunity/rubyport/actions/workflows/bump.yml)
+- ✅ s5cmdport - [![Bump Status](https://github.com/zopencommunity/s5cmdport/actions/workflows/bump.yml/badge.svg)](https://github.com/zopencommunity/s5cmdport/actions/workflows/bump.yml)
+- ✅ sccport - [![Bump Status](https://github.com/zopencommunity/sccport/actions/workflows/bump.yml/badge.svg)](https://github.com/zopencommunity/sccport/actions/workflows/bump.yml)
+- ✅ scdocport - [![Bump Status](https://github.com/zopencommunity/scdocport/actions/workflows/bump.yml/badge.svg)](https://github.com/zopencommunity/scdocport/actions/workflows/bump.yml)
+- ✅ screenport - [![Bump Status](https://github.com/zopencommunity/screenport/actions/workflows/bump.yml/badge.svg)](https://github.com/zopencommunity/screenport/actions/workflows/bump.yml)
+- ✅ sedport - [![Bump Status](https://github.com/zopencommunity/sedport/actions/workflows/bump.yml/badge.svg)](https://github.com/zopencommunity/sedport/actions/workflows/bump.yml)
+- ✅ shdocport - [![Bump Status](https://github.com/zopencommunity/shdocport/actions/workflows/bump.yml/badge.svg)](https://github.com/zopencommunity/shdocport/actions/workflows/bump.yml)
+- ✅ shufport - [![Bump Status](https://github.com/zopencommunity/shufport/actions/workflows/bump.yml/badge.svg)](https://github.com/zopencommunity/shufport/actions/workflows/bump.yml)
+- ✅ snappy-cport - [![Bump Status](https://github.com/zopencommunity/snappy-cport/actions/workflows/bump.yml/badge.svg)](https://github.com/zopencommunity/snappy-cport/actions/workflows/bump.yml)
+- ✅ spdlogport - [![Bump Status](https://github.com/zopencommunity/spdlogport/actions/workflows/bump.yml/badge.svg)](https://github.com/zopencommunity/spdlogport/actions/workflows/bump.yml)
+- ✅ sqliteport - [![Bump Status](https://github.com/zopencommunity/sqliteport/actions/workflows/bump.yml/badge.svg)](https://github.com/zopencommunity/sqliteport/actions/workflows/bump.yml)
+- ✅ sqlite-vecport - [![Bump Status](https://github.com/zopencommunity/sqlite-vecport/actions/workflows/bump.yml/badge.svg)](https://github.com/zopencommunity/sqlite-vecport/actions/workflows/bump.yml)
+- ✅ sshpassport - [![Bump Status](https://github.com/zopencommunity/sshpassport/actions/workflows/bump.yml/badge.svg)](https://github.com/zopencommunity/sshpassport/actions/workflows/bump.yml)
+- ✅ stablediffusionport - [![Bump Status](https://github.com/zopencommunity/stablediffusionport/actions/workflows/bump.yml/badge.svg)](https://github.com/zopencommunity/stablediffusionport/actions/workflows/bump.yml)
+- ✅ stowport - [![Bump Status](https://github.com/zopencommunity/stowport/actions/workflows/bump.yml/badge.svg)](https://github.com/zopencommunity/stowport/actions/workflows/bump.yml)
+- ✅ sudoport - [![Bump Status](https://github.com/zopencommunity/sudoport/actions/workflows/bump.yml/badge.svg)](https://github.com/zopencommunity/sudoport/actions/workflows/bump.yml)
+- ✅ tarport - [![Bump Status](https://github.com/zopencommunity/tarport/actions/workflows/bump.yml/badge.svg)](https://github.com/zopencommunity/tarport/actions/workflows/bump.yml)
+- ✅ tclport - [![Bump Status](https://github.com/zopencommunity/tclport/actions/workflows/bump.yml/badge.svg)](https://github.com/zopencommunity/tclport/actions/workflows/bump.yml)
+- ✅ tcltlsport - [![Bump Status](https://github.com/zopencommunity/tcltlsport/actions/workflows/bump.yml/badge.svg)](https://github.com/zopencommunity/tcltlsport/actions/workflows/bump.yml)
 - ❌ technical-steering-committee - Workflow not configured
-- ❌ termenvport - Workflow not configured
-- ❌ terraformport - Workflow not configured
-- ❌ texinfoport - Workflow not configured
-- ❌ thesilversearcherport - Workflow not configured
-- ❌ thriftport - Workflow not configured
-- ❌ tigport - Workflow not configured
-- ❌ tmuxport - Workflow not configured
-- ❌ toml11port - Workflow not configured
+- ✅ termenvport - [![Bump Status](https://github.com/zopencommunity/termenvport/actions/workflows/bump.yml/badge.svg)](https://github.com/zopencommunity/termenvport/actions/workflows/bump.yml)
+- ✅ terraformport - [![Bump Status](https://github.com/zopencommunity/terraformport/actions/workflows/bump.yml/badge.svg)](https://github.com/zopencommunity/terraformport/actions/workflows/bump.yml)
+- ✅ texinfoport - [![Bump Status](https://github.com/zopencommunity/texinfoport/actions/workflows/bump.yml/badge.svg)](https://github.com/zopencommunity/texinfoport/actions/workflows/bump.yml)
+- ✅ thesilversearcherport - [![Bump Status](https://github.com/zopencommunity/thesilversearcherport/actions/workflows/bump.yml/badge.svg)](https://github.com/zopencommunity/thesilversearcherport/actions/workflows/bump.yml)
+- ✅ thriftport - [![Bump Status](https://github.com/zopencommunity/thriftport/actions/workflows/bump.yml/badge.svg)](https://github.com/zopencommunity/thriftport/actions/workflows/bump.yml)
+- ✅ tigport - [![Bump Status](https://github.com/zopencommunity/tigport/actions/workflows/bump.yml/badge.svg)](https://github.com/zopencommunity/tigport/actions/workflows/bump.yml)
+- ✅ tmuxport - [![Bump Status](https://github.com/zopencommunity/tmuxport/actions/workflows/bump.yml/badge.svg)](https://github.com/zopencommunity/tmuxport/actions/workflows/bump.yml)
+- ✅ toml11port - [![Bump Status](https://github.com/zopencommunity/toml11port/actions/workflows/bump.yml/badge.svg)](https://github.com/zopencommunity/toml11port/actions/workflows/bump.yml)
 - ❌ toolsandtoysport - Workflow not configured
-- ❌ treeport - Workflow not configured
-- ❌ ttypeport - Workflow not configured
-- ❌ unzipport - Workflow not configured
+- ✅ treeport - [![Bump Status](https://github.com/zopencommunity/treeport/actions/workflows/bump.yml/badge.svg)](https://github.com/zopencommunity/treeport/actions/workflows/bump.yml)
+- ✅ ttypeport - [![Bump Status](https://github.com/zopencommunity/ttypeport/actions/workflows/bump.yml/badge.svg)](https://github.com/zopencommunity/ttypeport/actions/workflows/bump.yml)
+- ✅ unzipport - [![Bump Status](https://github.com/zopencommunity/unzipport/actions/workflows/bump.yml/badge.svg)](https://github.com/zopencommunity/unzipport/actions/workflows/bump.yml)
 - ❌ usearchport - Workflow not configured
-- ❌ util-linuxport - Workflow not configured
-- ❌ util-macrosport - Workflow not configured
+- ✅ util-linuxport - [![Bump Status](https://github.com/zopencommunity/util-linuxport/actions/workflows/bump.yml/badge.svg)](https://github.com/zopencommunity/util-linuxport/actions/workflows/bump.yml)
+- ✅ util-macrosport - [![Bump Status](https://github.com/zopencommunity/util-macrosport/actions/workflows/bump.yml/badge.svg)](https://github.com/zopencommunity/util-macrosport/actions/workflows/bump.yml)
 - ❌ utils - Workflow not configured
-- ❌ uucpport - Workflow not configured
-- ❌ v8port - Workflow not configured
+- ✅ uucpport - [![Bump Status](https://github.com/zopencommunity/uucpport/actions/workflows/bump.yml/badge.svg)](https://github.com/zopencommunity/uucpport/actions/workflows/bump.yml)
+- ✅ v8port - [![Bump Status](https://github.com/zopencommunity/v8port/actions/workflows/bump.yml/badge.svg)](https://github.com/zopencommunity/v8port/actions/workflows/bump.yml)
 - ❌ valgrindport - Workflow not configured
-- ❌ victoriametricsport - Workflow not configured
-- ❌ vimport - Workflow not configured
-- ❌ wgetport - Workflow not configured
+- ✅ victoriametricsport - [![Bump Status](https://github.com/zopencommunity/victoriametricsport/actions/workflows/bump.yml/badge.svg)](https://github.com/zopencommunity/victoriametricsport/actions/workflows/bump.yml)
+- ✅ vimport - [![Bump Status](https://github.com/zopencommunity/vimport/actions/workflows/bump.yml/badge.svg)](https://github.com/zopencommunity/vimport/actions/workflows/bump.yml)
+- ✅ wgetport - [![Bump Status](https://github.com/zopencommunity/wgetport/actions/workflows/bump.yml/badge.svg)](https://github.com/zopencommunity/wgetport/actions/workflows/bump.yml)
 - ❌ wharf - Workflow not configured
-- ❌ wharfport - Workflow not configured
-- ❌ whichport - Workflow not configured
+- ✅ wharfport - [![Bump Status](https://github.com/zopencommunity/wharfport/actions/workflows/bump.yml/badge.svg)](https://github.com/zopencommunity/wharfport/actions/workflows/bump.yml)
+- ✅ whichport - [![Bump Status](https://github.com/zopencommunity/whichport/actions/workflows/bump.yml/badge.svg)](https://github.com/zopencommunity/whichport/actions/workflows/bump.yml)
 - ❌ wrkport - Workflow not configured
-- ❌ xcb-protoport - Workflow not configured
-- ❌ xmltoport - Workflow not configured
-- ❌ xorgprotoport - Workflow not configured
-- ❌ xtransport - Workflow not configured
-- ❌ xxhashport - Workflow not configured
-- ❌ xzport - Workflow not configured
-- ❌ yamlcppport - Workflow not configured
-- ❌ yqport - Workflow not configured
-- ❌ z3port - Workflow not configured
+- ✅ xcb-protoport - [![Bump Status](https://github.com/zopencommunity/xcb-protoport/actions/workflows/bump.yml/badge.svg)](https://github.com/zopencommunity/xcb-protoport/actions/workflows/bump.yml)
+- ✅ xmltoport - [![Bump Status](https://github.com/zopencommunity/xmltoport/actions/workflows/bump.yml/badge.svg)](https://github.com/zopencommunity/xmltoport/actions/workflows/bump.yml)
+- ✅ xorgprotoport - [![Bump Status](https://github.com/zopencommunity/xorgprotoport/actions/workflows/bump.yml/badge.svg)](https://github.com/zopencommunity/xorgprotoport/actions/workflows/bump.yml)
+- ✅ xtransport - [![Bump Status](https://github.com/zopencommunity/xtransport/actions/workflows/bump.yml/badge.svg)](https://github.com/zopencommunity/xtransport/actions/workflows/bump.yml)
+- ✅ xxhashport - [![Bump Status](https://github.com/zopencommunity/xxhashport/actions/workflows/bump.yml/badge.svg)](https://github.com/zopencommunity/xxhashport/actions/workflows/bump.yml)
+- ✅ xzport - [![Bump Status](https://github.com/zopencommunity/xzport/actions/workflows/bump.yml/badge.svg)](https://github.com/zopencommunity/xzport/actions/workflows/bump.yml)
+- ✅ yamlcppport - [![Bump Status](https://github.com/zopencommunity/yamlcppport/actions/workflows/bump.yml/badge.svg)](https://github.com/zopencommunity/yamlcppport/actions/workflows/bump.yml)
+- ✅ yqport - [![Bump Status](https://github.com/zopencommunity/yqport/actions/workflows/bump.yml/badge.svg)](https://github.com/zopencommunity/yqport/actions/workflows/bump.yml)
+- ✅ z3port - [![Bump Status](https://github.com/zopencommunity/z3port/actions/workflows/bump.yml/badge.svg)](https://github.com/zopencommunity/z3port/actions/workflows/bump.yml)
 - ❌ zedc_ascii - Workflow not configured
-- ❌ zedc_asciiport - Workflow not configured
-- ❌ zigiport - Workflow not configured
-- ❌ zipport - Workflow not configured
-- ❌ zlib-ngport - Workflow not configured
-- ❌ zlibport - Workflow not configured
+- ✅ zedc_asciiport - [![Bump Status](https://github.com/zopencommunity/zedc_asciiport/actions/workflows/bump.yml/badge.svg)](https://github.com/zopencommunity/zedc_asciiport/actions/workflows/bump.yml)
+- ✅ zigiport - [![Bump Status](https://github.com/zopencommunity/zigiport/actions/workflows/bump.yml/badge.svg)](https://github.com/zopencommunity/zigiport/actions/workflows/bump.yml)
+- ✅ zipport - [![Bump Status](https://github.com/zopencommunity/zipport/actions/workflows/bump.yml/badge.svg)](https://github.com/zopencommunity/zipport/actions/workflows/bump.yml)
+- ✅ zlib-ngport - [![Bump Status](https://github.com/zopencommunity/zlib-ngport/actions/workflows/bump.yml/badge.svg)](https://github.com/zopencommunity/zlib-ngport/actions/workflows/bump.yml)
+- ✅ zlibport - [![Bump Status](https://github.com/zopencommunity/zlibport/actions/workflows/bump.yml/badge.svg)](https://github.com/zopencommunity/zlibport/actions/workflows/bump.yml)
 - ❌ zopen-mcp-server - Workflow not configured
-- ❌ zos-code-page-toolsport - Workflow not configured
+- ✅ zos-code-page-toolsport - [![Bump Status](https://github.com/zopencommunity/zos-code-page-toolsport/actions/workflows/bump.yml/badge.svg)](https://github.com/zopencommunity/zos-code-page-toolsport/actions/workflows/bump.yml)
 - ❌ zoslib - Workflow not configured
-- ❌ zoslibport - Workflow not configured
-- ❌ zosncport - Workflow not configured
-- ❌ zospstreeport - Workflow not configured
+- ✅ zoslibport - [![Bump Status](https://github.com/zopencommunity/zoslibport/actions/workflows/bump.yml/badge.svg)](https://github.com/zopencommunity/zoslibport/actions/workflows/bump.yml)
+- ✅ zosncport - [![Bump Status](https://github.com/zopencommunity/zosncport/actions/workflows/bump.yml/badge.svg)](https://github.com/zopencommunity/zosncport/actions/workflows/bump.yml)
+- ✅ zospstreeport - [![Bump Status](https://github.com/zopencommunity/zospstreeport/actions/workflows/bump.yml/badge.svg)](https://github.com/zopencommunity/zospstreeport/actions/workflows/bump.yml)
 - ❌ zotsample - Workflow not configured
-- ❌ zotsampleport - Workflow not configured
-- ❌ zstdport - Workflow not configured
+- ✅ zotsampleport - [![Bump Status](https://github.com/zopencommunity/zotsampleport/actions/workflows/bump.yml/badge.svg)](https://github.com/zopencommunity/zotsampleport/actions/workflows/bump.yml)
+- ✅ zstdport - [![Bump Status](https://github.com/zopencommunity/zstdport/actions/workflows/bump.yml/badge.svg)](https://github.com/zopencommunity/zstdport/actions/workflows/bump.yml)
 - ❌ zusage - Workflow not configured
-- ❌ zusageport - Workflow not configured
-- ❌ z-vector-searchport - Workflow not configured
+- ✅ zusageport - [![Bump Status](https://github.com/zopencommunity/zusageport/actions/workflows/bump.yml/badge.svg)](https://github.com/zopencommunity/zusageport/actions/workflows/bump.yml)
+- ✅ z-vector-searchport - [![Bump Status](https://github.com/zopencommunity/z-vector-searchport/actions/workflows/bump.yml/badge.svg)](https://github.com/zopencommunity/z-vector-searchport/actions/workflows/bump.yml)
 
 </details>
 
-**Summary:** 158 active | 163 missing
+**Summary:** 266 active | 55 missing
 
 ---
 
 
-> Last updated: 2026-04-17 06:11:09 EDT
+> Last updated: 2026-04-18 06:10:13 EDT
 

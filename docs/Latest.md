@@ -1962,12 +1962,12 @@ Note: to download the latest packages, use the [zopen package manager](/Guides/Q
   </div>
 </div>
 
-<div class="tool-item-filterable" data-package-name="zedc_ascii" data-searchable-text="zedc_ascii Green 100.0% DEV_zedc_ascii_3381 Modified version of zlib for HW optimization library port" style="padding: 8px 0; border-bottom: 1px solid #eee;">
+<div class="tool-item-filterable" data-package-name="zedc_ascii" data-searchable-text="zedc_ascii Green 100.0% STABLE_zedc_ascii_4216 Modified version of zlib for HW optimization library port" style="padding: 8px 0; border-bottom: 1px solid #eee;">
   <div class="tool-info-grid">
     <div class="tool-name"><strong><a href="https://github.com/zopencommunity/zedc_asciiport" target="_blank" rel="noopener noreferrer">zedc_ascii</a></strong></div>
     <div class="tool-status">Status: Green</div>
     <div class="tool-test">Test: 100.0%</div>
-    <div class="tool-release"><a href="https://github.com/zopencommunity/zedc_asciiport/releases/download/DEV_zedc_asciiport_3381/zedc_ascii-DEV.20250530_133223.zos.pax.Z" target="_blank" rel="noopener noreferrer">DEV_zedc_ascii_3381</a></div>
+    <div class="tool-release"><a href="https://github.com/zopencommunity/zedc_asciiport/releases/download/STABLE_zedc_asciiport_4216/zedc_ascii-v1.0.20260417_135327.zos.pax.Z" target="_blank" rel="noopener noreferrer">STABLE_zedc_ascii_4216</a></div>
     <div class="tool-desc" title="Modified version of zlib for HW optimization">Modified version of zlib for HW optimization</div>
   </div>
 </div>
@@ -2690,12 +2690,12 @@ Note: to download the latest packages, use the [zopen package manager](/Guides/Q
   </div>
 </div>
 
-<div class="tool-item-filterable" data-package-name="openssl" data-searchable-text="openssl Blue 99.7% STABLE_openssl_3950 A cryptographic library uncategorized port" style="padding: 8px 0; border-bottom: 1px solid #eee;">
+<div class="tool-item-filterable" data-package-name="openssl" data-searchable-text="openssl Blue 99.7% STABLE_openssl_4215 A cryptographic library uncategorized port" style="padding: 8px 0; border-bottom: 1px solid #eee;">
   <div class="tool-info-grid">
     <div class="tool-name"><strong><a href="https://github.com/zopencommunity/opensslport" target="_blank" rel="noopener noreferrer">openssl</a></strong></div>
     <div class="tool-status">Status: Blue</div>
     <div class="tool-test">Test: 99.7%</div>
-    <div class="tool-release"><a href="https://github.com/zopencommunity/opensslport/releases/download/STABLE_opensslport_3950/openssl-3.6.0.20260101_102819.zos.pax.Z" target="_blank" rel="noopener noreferrer">STABLE_openssl_3950</a></div>
+    <div class="tool-release"><a href="https://github.com/zopencommunity/opensslport/releases/download/STABLE_opensslport_4215/openssl-3.6.0.20260417_094432.zos.pax.Z" target="_blank" rel="noopener noreferrer">STABLE_openssl_4215</a></div>
     <div class="tool-desc" title="A cryptographic library">A cryptographic library</div>
   </div>
 </div>
@@ -3286,12 +3286,12 @@ Note: to download the latest packages, use the [zopen package manager](/Guides/Q
   </div>
 </div>
 
-<div class="tool-item-filterable" data-package-name="yq" data-searchable-text="yq Green 100.0% STABLE_yq_4179 A command-line JSON and YAML processor utilities port" style="padding: 8px 0; border-bottom: 1px solid #eee;">
+<div class="tool-item-filterable" data-package-name="yq" data-searchable-text="yq Green 100.0% STABLE_yq_4217 A command-line JSON and YAML processor utilities port" style="padding: 8px 0; border-bottom: 1px solid #eee;">
   <div class="tool-info-grid">
     <div class="tool-name"><strong><a href="https://github.com/zopencommunity/yqport" target="_blank" rel="noopener noreferrer">yq</a></strong></div>
     <div class="tool-status">Status: Green</div>
     <div class="tool-test">Test: 100.0%</div>
-    <div class="tool-release"><a href="https://github.com/zopencommunity/yqport/releases/download/STABLE_yqport_4179/yq-v4.52.5.20260331_140725.zos.pax.Z" target="_blank" rel="noopener noreferrer">STABLE_yq_4179</a></div>
+    <div class="tool-release"><a href="https://github.com/zopencommunity/yqport/releases/download/STABLE_yqport_4217/yq-v4.53.2.20260417_140109.zos.pax.Z" target="_blank" rel="noopener noreferrer">STABLE_yq_4217</a></div>
     <div class="tool-desc" title="A command-line JSON and YAML processor">A command-line JSON and YAML processor</div>
   </div>
 </div>
@@ -3369,4 +3369,4 @@ Note: to download the latest packages, use the [zopen package manager](/Guides/Q
 </div>
 
 
-Last updated:  2026-04-17 06:20:06 UTC
+Last updated:  2026-04-18 06:17:48 UTC
