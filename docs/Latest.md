@@ -1962,12 +1962,12 @@ Note: to download the latest packages, use the [zopen package manager](/Guides/Q
   </div>
 </div>
 
-<div class="tool-item-filterable" data-package-name="zedc_ascii" data-searchable-text="zedc_ascii Green 100.0% STABLE_zedc_ascii_4216 Modified version of zlib for HW optimization library port" style="padding: 8px 0; border-bottom: 1px solid #eee;">
+<div class="tool-item-filterable" data-package-name="zedc_ascii" data-searchable-text="zedc_ascii Green 100.0% STABLE_zedc_ascii_4218 Modified version of zlib for HW optimization library port" style="padding: 8px 0; border-bottom: 1px solid #eee;">
   <div class="tool-info-grid">
     <div class="tool-name"><strong><a href="https://github.com/zopencommunity/zedc_asciiport" target="_blank" rel="noopener noreferrer">zedc_ascii</a></strong></div>
     <div class="tool-status">Status: Green</div>
     <div class="tool-test">Test: 100.0%</div>
-    <div class="tool-release"><a href="https://github.com/zopencommunity/zedc_asciiport/releases/download/STABLE_zedc_asciiport_4216/zedc_ascii-v1.0.20260417_135327.zos.pax.Z" target="_blank" rel="noopener noreferrer">STABLE_zedc_ascii_4216</a></div>
+    <div class="tool-release"><a href="https://github.com/zopencommunity/zedc_asciiport/releases/download/STABLE_zedc_asciiport_4218/zedc_ascii-v1.1.20260418_112400.zos.pax.Z" target="_blank" rel="noopener noreferrer">STABLE_zedc_ascii_4218</a></div>
     <div class="tool-desc" title="Modified version of zlib for HW optimization">Modified version of zlib for HW optimization</div>
   </div>
 </div>
@@ -3369,4 +3369,4 @@ Note: to download the latest packages, use the [zopen package manager](/Guides/Q
 </div>
 
 
-Last updated:  2026-04-18 06:17:48 UTC
+Last updated:  2026-04-19 06:18:00 UTC
