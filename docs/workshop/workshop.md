@@ -42,9 +42,12 @@ On getting access, log in to the z/OS UNIX system using SSH, you'll need to foll
 ### Video guide: (Optional)
 
 * There is a video guide provided here. It can be used as reference as you work through the workshop.
-<video height="auto" width="100%" controls>
+
+<video height="1080" controls>
   <source src="https://github.com/zopencommunity/collateral/raw/main/ZOSOpenToolsIntroV2-cropped.mp4" type="video/mp4" />
+  Your browser does not support the video tag.
 </video>
+
 
 ## Module 3: Setting up your z/OS environment
 

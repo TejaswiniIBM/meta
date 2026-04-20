@@ -10,8 +10,8 @@ Badges are awarded based on evidence of contribution. We encourage both self-nom
 
 To submit a nomination, please complete our online nomination form:
 
-<a href="https://docs.google.com/forms/d/e/1FAIpQLSdsq902oSpRJPfxZrvE_b3EVKUzY0VMbYPd6CBvrUGSBNgOtQ/viewform?usp=sf_link" 
-   target="_blank" 
+<a href="https://docs.google.com/forms/d/e/1FAIpQLSdsq902oSpRJPfxZrvE_b3EVKUzY0VMbYPd6CBvrUGSBNgOtQ/viewform?usp=sf_link"
+   target="_blank"
    style="
      display: inline-block;
      padding: 10px 20px;
@@ -26,7 +26,7 @@ To submit a nomination, please complete our online nomination form:
    "
    onmouseover="this.style.backgroundColor='#0056b3'"
    onmouseout="this.style.backgroundColor='#007bff'">
-   📝 Submit a Nomination
+   ✍️ Submit a Nomination
 </a>
 
 You will be asked to provide the following information:
@@ -45,8 +45,8 @@ Once a nomination form is submitted, please allow **up to 1 month** for the revi
 
 <table style="width: 100%; display: table;">
   <tr>
-    <td width="280" align="center">
-      <img src="images/ZopenCommunity-Contributor-Color.png" width="240" alt="zopen community contributor" />
+    <td align="center" style="width: auto; max-width: 280px;">
+      <img src="./images/ZopenCommunity-Contributor-Color.png" alt="zopen community contributor" style="width: 100% !important; margin: 0; padding: 5px; display: block;" />
     </td>
     <td>
       <strong>zopen community contributor: Awarded for making a substantive, accepted contribution to the zopen community.</strong>
@@ -61,8 +61,8 @@ Once a nomination form is submitted, please allow **up to 1 month** for the revi
 * Submitting a substantial pull request that improves z/OS functionality for an existing tool. For example, a pull request that implements a significant new feature or resolves a critical performance bug (e.g., [Enable ccache support for clang builds to speed up recompilation #1061
 ](https://github.com/zopencommunity/meta/pull/1061))
 
-<a href="https://docs.google.com/forms/d/e/1FAIpQLSdsq902oSpRJPfxZrvE_b3EVKUzY0VMbYPd6CBvrUGSBNgOtQ/viewform?usp=sf_link" 
-   target="_blank" 
+<a href="https://docs.google.com/forms/d/e/1FAIpQLSdsq902oSpRJPfxZrvE_b3EVKUzY0VMbYPd6CBvrUGSBNgOtQ/viewform?usp=sf_link"
+   target="_blank"
    style="
      display: inline-block;
      padding: 10px 20px;
@@ -77,15 +77,15 @@ Once a nomination form is submitted, please allow **up to 1 month** for the revi
    "
    onmouseover="this.style.backgroundColor='#0056b3'"
    onmouseout="this.style.backgroundColor='#007bff'">
-   📝 Submit a Nomination
+   ✍️ Submit a Nomination
 </a>
 
 ---
 
 <table style="width: 100%; display: table;">
   <tr>
-    <td width="280" align="center">
-      <img src="images/ZopenCommunity-SignificantContributor-Color.png" width="240" alt="zopen community contributor" />
+    <td align="center" style="width: auto; max-width: 280px;">
+      <img src="./images/ZopenCommunity-SignificantContributor-Color.png" alt="zopen community contributor" style="width: 100% !important; margin: 0; padding: 5px; display: block;" />
     </td>
     <td>
       <strong>zopen community significant contributor: Awarded to individuals who demonstrate sustained and impactful contributions over time.</strong>
@@ -102,8 +102,8 @@ This includes maintaining critical packages, making a high volume of quality con
 * Introduced **improvements** such as automation, tooling, or design patterns used across multiple packages.
 * Maintained packages that serve as **critical dependencies** in the ecosystem over time.
 
-<a href="https://docs.google.com/forms/d/e/1FAIpQLSdsq902oSpRJPfxZrvE_b3EVKUzY0VMbYPd6CBvrUGSBNgOtQ/viewform?usp=sf_link" 
-   target="_blank" 
+<a href="https://docs.google.com/forms/d/e/1FAIpQLSdsq902oSpRJPfxZrvE_b3EVKUzY0VMbYPd6CBvrUGSBNgOtQ/viewform?usp=sf_link"
+   target="_blank"
    style="
      display: inline-block;
      padding: 10px 20px;
@@ -118,5 +118,5 @@ This includes maintaining critical packages, making a high volume of quality con
    "
    onmouseover="this.style.backgroundColor='#0056b3'"
    onmouseout="this.style.backgroundColor='#007bff'">
-   📝 Submit a Nomination
+   ✍️ Submit a Nomination
 </a>
