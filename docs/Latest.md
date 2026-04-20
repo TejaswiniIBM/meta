@@ -2140,12 +2140,12 @@ Note: to download the latest packages, use the [zopen package manager](/Guides/Q
   </div>
 </div>
 
-<div class="tool-item-filterable" data-package-name="nghttp2" data-searchable-text="nghttp2 Green 100.0% STABLE_nghttp2_4152 An HTTP/2 implementation networking port" style="padding: 8px 0; border-bottom: 1px solid #eee;">
+<div class="tool-item-filterable" data-package-name="nghttp2" data-searchable-text="nghttp2 Green 100.0% STABLE_nghttp2_4219 An HTTP/2 implementation networking port" style="padding: 8px 0; border-bottom: 1px solid #eee;">
   <div class="tool-info-grid">
     <div class="tool-name"><strong><a href="https://github.com/zopencommunity/nghttp2port" target="_blank" rel="noopener noreferrer">nghttp2</a></strong></div>
     <div class="tool-status">Status: Green</div>
     <div class="tool-test">Test: 100.0%</div>
-    <div class="tool-release"><a href="https://github.com/zopencommunity/nghttp2port/releases/download/STABLE_nghttp2port_4152/nghttp2-1.68.1.20260318_155212.zos.pax.Z" target="_blank" rel="noopener noreferrer">STABLE_nghttp2_4152</a></div>
+    <div class="tool-release"><a href="https://github.com/zopencommunity/nghttp2port/releases/download/STABLE_nghttp2port_4219/nghttp2-1.69.0.20260419_153615.zos.pax.Z" target="_blank" rel="noopener noreferrer">STABLE_nghttp2_4219</a></div>
     <div class="tool-desc" title="An HTTP/2 implementation">An HTTP/2 implementation</div>
   </div>
 </div>
@@ -3369,4 +3369,4 @@ Note: to download the latest packages, use the [zopen package manager](/Guides/Q
 </div>
 
 
-Last updated:  2026-04-19 06:18:00 UTC
+Last updated:  2026-04-20 06:19:36 UTC
