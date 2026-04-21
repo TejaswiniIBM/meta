@@ -1020,12 +1020,12 @@ Note: to download the latest packages, use the [zopen package manager](/Guides/Q
   </div>
 </div>
 
-<div class="tool-item-filterable" data-package-name="z-vector-search" data-searchable-text="z-vector-search Green 100.0% STABLE_z-vector-search_4167 A Port of z-vector-search development port" style="padding: 8px 0; border-bottom: 1px solid #eee;">
+<div class="tool-item-filterable" data-package-name="z-vector-search" data-searchable-text="z-vector-search Green 100.0% STABLE_z-vector-search_4223 A Port of z-vector-search development port" style="padding: 8px 0; border-bottom: 1px solid #eee;">
   <div class="tool-info-grid">
     <div class="tool-name"><strong><a href="https://github.com/zopencommunity/z-vector-searchport" target="_blank" rel="noopener noreferrer">z-vector-search</a></strong></div>
     <div class="tool-status">Status: Green</div>
     <div class="tool-test">Test: 100.0%</div>
-    <div class="tool-release"><a href="https://github.com/zopencommunity/z-vector-searchport/releases/download/STABLE_z-vector-searchport_4167/z-vector-search-main.20260326_162337.zos.pax.Z" target="_blank" rel="noopener noreferrer">STABLE_z-vector-search_4167</a></div>
+    <div class="tool-release"><a href="https://github.com/zopencommunity/z-vector-searchport/releases/download/STABLE_z-vector-searchport_4223/z-vector-search-main.20260420_164554.zos.pax.Z" target="_blank" rel="noopener noreferrer">STABLE_z-vector-search_4223</a></div>
     <div class="tool-desc" title="A Port of z-vector-search">A Port of z-vector-search</div>
   </div>
 </div>
@@ -1962,12 +1962,12 @@ Note: to download the latest packages, use the [zopen package manager](/Guides/Q
   </div>
 </div>
 
-<div class="tool-item-filterable" data-package-name="zedc_ascii" data-searchable-text="zedc_ascii Green 100.0% STABLE_zedc_ascii_4218 Modified version of zlib for HW optimization library port" style="padding: 8px 0; border-bottom: 1px solid #eee;">
+<div class="tool-item-filterable" data-package-name="zedc_ascii" data-searchable-text="zedc_ascii Green 100.0% STABLE_zedc_ascii_4222 Modified version of zlib for HW optimization library port" style="padding: 8px 0; border-bottom: 1px solid #eee;">
   <div class="tool-info-grid">
     <div class="tool-name"><strong><a href="https://github.com/zopencommunity/zedc_asciiport" target="_blank" rel="noopener noreferrer">zedc_ascii</a></strong></div>
     <div class="tool-status">Status: Green</div>
     <div class="tool-test">Test: 100.0%</div>
-    <div class="tool-release"><a href="https://github.com/zopencommunity/zedc_asciiport/releases/download/STABLE_zedc_asciiport_4218/zedc_ascii-v1.1.20260418_112400.zos.pax.Z" target="_blank" rel="noopener noreferrer">STABLE_zedc_ascii_4218</a></div>
+    <div class="tool-release"><a href="https://github.com/zopencommunity/zedc_asciiport/releases/download/STABLE_zedc_asciiport_4222/zedc_ascii-v1.2.20260420_154457.zos.pax.Z" target="_blank" rel="noopener noreferrer">STABLE_zedc_ascii_4222</a></div>
     <div class="tool-desc" title="Modified version of zlib for HW optimization">Modified version of zlib for HW optimization</div>
   </div>
 </div>
@@ -2470,16 +2470,6 @@ Note: to download the latest packages, use the [zopen package manager](/Guides/Q
 
 ## Uncategorized 
 
-<div class="tool-item-filterable" data-package-name="autoconf" data-searchable-text="autoconf Blue 98.0% STABLE_autoconf_1736 A configuration management tool uncategorized port" style="padding: 8px 0; border-bottom: 1px solid #eee;">
-  <div class="tool-info-grid">
-    <div class="tool-name"><strong><a href="https://github.com/zopencommunity/autoconfport" target="_blank" rel="noopener noreferrer">autoconf</a></strong></div>
-    <div class="tool-status">Status: Blue</div>
-    <div class="tool-test">Test: 98.0%</div>
-    <div class="tool-release"><a href="https://github.com/zopencommunity/autoconfport/releases/download/STABLE_autoconfport_1736/autoconf-2.71.20231114_002453.zos.pax.Z" target="_blank" rel="noopener noreferrer">STABLE_autoconf_1736</a></div>
-    <div class="tool-desc" title="A configuration management tool">A configuration management tool</div>
-  </div>
-</div>
-
 <div class="tool-item-filterable" data-package-name="automake" data-searchable-text="automake Blue 97.1% STABLE_automake_4058 Tool for managing dependencies in software projects using GNU Autotools uncategorized port" style="padding: 8px 0; border-bottom: 1px solid #eee;">
   <div class="tool-info-grid">
     <div class="tool-name"><strong><a href="https://github.com/zopencommunity/automakeport" target="_blank" rel="noopener noreferrer">automake</a></strong></div>
@@ -2700,12 +2690,12 @@ Note: to download the latest packages, use the [zopen package manager](/Guides/Q
   </div>
 </div>
 
-<div class="tool-item-filterable" data-package-name="perl" data-searchable-text="perl Blue 99.7% STABLE_perl_4155 Perl programming language uncategorized port" style="padding: 8px 0; border-bottom: 1px solid #eee;">
+<div class="tool-item-filterable" data-package-name="perl" data-searchable-text="perl Blue 99.7% STABLE_perl_4224 Perl programming language uncategorized port" style="padding: 8px 0; border-bottom: 1px solid #eee;">
   <div class="tool-info-grid">
     <div class="tool-name"><strong><a href="https://github.com/zopencommunity/perlport" target="_blank" rel="noopener noreferrer">perl</a></strong></div>
     <div class="tool-status">Status: Blue</div>
     <div class="tool-test">Test: 99.7%</div>
-    <div class="tool-release"><a href="https://github.com/zopencommunity/perlport/releases/download/STABLE_perlport_4155/perl5-v5.43.9.20260320_161119.zos.pax.Z" target="_blank" rel="noopener noreferrer">STABLE_perl_4155</a></div>
+    <div class="tool-release"><a href="https://github.com/zopencommunity/perlport/releases/download/STABLE_perlport_4224/perl5-v5.43.10.20260420_162724.zos.pax.Z" target="_blank" rel="noopener noreferrer">STABLE_perl_4224</a></div>
     <div class="tool-desc" title="Perl programming language">Perl programming language</div>
   </div>
 </div>
@@ -3369,4 +3359,4 @@ Note: to download the latest packages, use the [zopen package manager](/Guides/Q
 </div>
 
 
-Last updated:  2026-04-20 09:07:03 UTC
+Last updated:  2026-04-21 06:19:48 UTC
