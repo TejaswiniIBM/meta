@@ -41,22 +41,25 @@ UpdateDocs() {
 This page provides information about the zopen interface. Click on any of the zopen commands listed below to access the reference guide describing how to utilize that command.
 EOF
 
-  # Generate HTML and markdown pages
- for man in man/man1/*.1;
+  # Generate markdown pages only
+  for man in man/man1/*.1;
   do
     base=${man##*/};
     name=${base%%.1};
-    html="docs/reference/${name}.html";
     md="docs/reference/${name}.md";
     
-    # 1. Generate raw HTML from the man page
-    groff -m mandoc -Thtml -Wall "${man}" > "${html}";
+    # Generate temporary HTML from the man page
+    temp_html=$(mktemp)
+    groff -m mandoc -Thtml -Wall "${man}" > "${temp_html}";
     
-    # 2. Extract only the content between <body> and </body>
+    # Extract only the content between <body> and </body>
     # This avoids injecting full-document tags (<html>, <head>, <body>) into markdown
-    body_content=$(sed -n '/<body>/,/<\/body>/p' "${html}" | sed '1d;$d' | sed '/<a href="#/d' | sed '/<br>$/d' | sed '/<hr>/d')
+    body_content=$(sed -n '/<body>/,/<\/body>/p' "${temp_html}" | sed '1d;$d' | sed '/<a href="#/d' | sed '/<br>$/d' | sed '/<hr>/d')
     
-    # 3. Write the markdown file using raw HTML injection
+    # Clean up temporary HTML file
+    rm -f "${temp_html}"
+    
+    # Write the markdown file using raw HTML injection
     cat <<EOF > "${md}"
 <div v-pre class="man-page-content">
 
@@ -105,8 +108,6 @@ ${body_content}
 EOF
     
     echo "* [${name}](./${name})" >> docs/reference/zopen-reference.md
-    
-    # Keep the generated HTML artifact alongside the markdown reference page
   done
 
   # Commit it all back to the repo

@@ -40,7 +40,7 @@
 - [Meet the Team](/team.md)
 - [Success Stories](/SuccessStories.md)
 - **Links**
-- <a href="https://github.com/zopencommunity"><img src="/images/Octicons-mark-github.svg" width="20" height="20" alt="Github"> Github</a>
-- <a href="https://www.linkedin.com/groups/9588308/"><img src="/images/LinkedIn_icon.svg" width="20" height="20" alt="LinkedIn"> Linkedin</a>
-- <a href="https://discord.com/invite/sze"><img src="/images/discord-icon.svg" width="20" height="20" alt="Discord"> Discord</a>
-- <a href="https://openmainframeproject.org/projects/zopen-community/"><img src="/images/open-mainframe-project-icon-color.svg" width="20" height="20" alt="Open Mainframe Project"> Open Mainframe Project</a>
+- <a href="https://github.com/zopencommunity"><img src="images/Octicons-mark-github.svg" width="20" height="20" alt="Github"> Github</a>
+- <a href="https://www.linkedin.com/groups/9588308/"><img src="images/LinkedIn_icon.svg" width="20" height="20" alt="LinkedIn"> Linkedin</a>
+- <a href="https://discord.com/invite/sze"><img src="images/discord-icon.svg" width="20" height="20" alt="Discord"> Discord</a>
+- <a href="https://openmainframeproject.org/projects/zopen-community/"><img src="images/open-mainframe-project-icon-color.svg" width="20" height="20" alt="Open Mainframe Project"> Open Mainframe Project</a>
