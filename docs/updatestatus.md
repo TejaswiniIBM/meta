@@ -14,6 +14,7 @@
 - 2025-07-25: [Update AFLplusplus-version to 4.33 from 4.32c](https://github.com/zopencommunity/aflplusplusport/pull/1) ❌
 
 ### ansibleport
+- 2026-04-21: [Update ansible-version to 2.20.5 from 2.19.0](https://github.com/zopencommunity/ansibleport/pull/10) ❌
 - 2026-03-24: [Update ansible-version to 2.20.4 from 2.19.0](https://github.com/zopencommunity/ansibleport/pull/9) ❌
 - 2026-02-24: [Update ansible-version to 2.20.3 from 2.19.0](https://github.com/zopencommunity/ansibleport/pull/8) ❌
 - 2026-01-30: [Update ansible-version to 2.20.2 from 2.19.0](https://github.com/zopencommunity/ansibleport/pull/7) ❌
@@ -111,18 +112,21 @@
 - 2025-09-09: [Update cjson-version to 1.7.19 from 1.7.18](https://github.com/zopencommunity/cjsonport/pull/3) ❓
 
 ### clangdport
+- 2026-04-21: [Update clangd-version to 22.1.4 from 21.1.8](https://github.com/zopencommunity/clangdport/pull/9) ❌
 - 2026-04-07: [Update clangd-version to 22.1.3 from 21.1.8](https://github.com/zopencommunity/clangdport/pull/8) ❌
 - 2026-03-25: [Update clangd-version to 22.1.2 from 21.1.8](https://github.com/zopencommunity/clangdport/pull/7) ❌
 - 2026-03-11: [Update clangd-version to 22.1.1 from 21.1.8](https://github.com/zopencommunity/clangdport/pull/6) ❌
 - 2026-02-24: [Update clangd-version to 22.1.0 from 21.1.8](https://github.com/zopencommunity/clangdport/pull/5) ❌
 
 ### clang-formatport
+- 2026-04-21: [Update clang-format-version to 22.1.4 from 21.1.8](https://github.com/zopencommunity/clang-formatport/pull/14) ❌
 - 2026-04-07: [Update clang-format-version to 22.1.3 from 21.1.8](https://github.com/zopencommunity/clang-formatport/pull/13) ❌
 - 2026-03-25: [Update clang-format-version to 22.1.2 from 21.1.8](https://github.com/zopencommunity/clang-formatport/pull/12) ❌
 - 2026-03-11: [Update clang-format-version to 22.1.1 from 21.1.8](https://github.com/zopencommunity/clang-formatport/pull/11) ❌
 - 2026-02-24: [Update clang-format-version to 22.1.0 from 21.1.8](https://github.com/zopencommunity/clang-formatport/pull/10) ❌
 
 ### clang-tidyport
+- 2026-04-21: [Update clang-tidy-version to 22.1.4 from 21.1.8](https://github.com/zopencommunity/clang-tidyport/pull/7) ❌
 - 2026-04-07: [Update clang-tidy-version to 22.1.3 from 21.1.8](https://github.com/zopencommunity/clang-tidyport/pull/6) ❌
 - 2026-03-25: [Update clang-tidy-version to 22.1.2 from 21.1.8](https://github.com/zopencommunity/clang-tidyport/pull/5) ❌
 - 2026-03-11: [Update clang-tidy-version to 22.1.1 from 21.1.8](https://github.com/zopencommunity/clang-tidyport/pull/4) ❌
@@ -164,6 +168,7 @@
 - 2025-02-01: [Update creduce-version to 2.10.0 from V.R.M](https://github.com/zopencommunity/creduceport/pull/1) ❓
 
 ### crushport
+- 2026-04-21: [Update crush-version to 0.61.1 from 0.11.0](https://github.com/zopencommunity/crushport/pull/109) ❌
 - 2026-04-18: [Update crush-version to 0.60.0 from 0.11.0](https://github.com/zopencommunity/crushport/pull/108) ❌
 - 2026-04-17: [Update crush-version to 0.59.0 from 0.11.0](https://github.com/zopencommunity/crushport/pull/107) ❌
 - 2026-04-16: [Update crush-version to 0.58.0 from 0.11.0](https://github.com/zopencommunity/crushport/pull/106) ❌
@@ -193,7 +198,6 @@
 - 2026-02-21: [Update crush-version to 0.43.4 from 0.11.0](https://github.com/zopencommunity/crushport/pull/82) ❌
 - 2026-02-19: [Update crush-version to 0.43.2 from 0.11.0](https://github.com/zopencommunity/crushport/pull/81) ❌
 - 2026-02-14: [Update crush-version to 0.43.0 from 0.11.0](https://github.com/zopencommunity/crushport/pull/80) ❌
-- 2026-02-12: [Update crush-version to 0.42.0 from 0.11.0](https://github.com/zopencommunity/crushport/pull/79) ❌
 
 ### cunitport
 - 2026-01-20: [Update cunit-version to 3.5.4 from 3.2.7](https://github.com/zopencommunity/cunitport/pull/11) ❌
@@ -325,6 +329,9 @@
 - 2025-04-17: [Update gitlab-runner-version to 17.11.0 from 17.6.0](https://github.com/zopencommunity/gitlab-runnerport/pull/38) ❌
 - 2025-03-26: [Update gitlab-runner-version to 17.10.1 from 17.6.0](https://github.com/zopencommunity/gitlab-runnerport/pull/37) ❌
 
+### gitport
+- 2026-04-21: [Update git-version to 2.54.0 from 2.53.0](https://github.com/zopencommunity/gitport/pull/178) ❌
+
 ### git-sizerport
 - 2025-04-10: [Update git-sizer-version to 1.5.0 from V.R.M](https://github.com/zopencommunity/git-sizerport/pull/1) ✅
 
@@ -436,6 +443,7 @@
 - 2025-10-10: [Update libgpgme-version to 2.0.1 from 1.23.2](https://github.com/zopencommunity/libgpgmeport/pull/3) ❌
 
 ### libompport
+- 2026-04-21: [Update libomp-version to 22.1.4 from 21.1.8](https://github.com/zopencommunity/libompport/pull/8) ❌
 - 2026-04-07: [Update libomp-version to 22.1.3 from 21.1.8](https://github.com/zopencommunity/libompport/pull/7) ❌
 - 2026-03-25: [Update libomp-version to 22.1.2 from 21.1.8](https://github.com/zopencommunity/libompport/pull/6) ❌
 - 2026-03-11: [Update libomp-version to 22.1.1 from 21.1.8](https://github.com/zopencommunity/libompport/pull/5) ❌
@@ -474,6 +482,7 @@
 - 2026-03-06: [Update maven-version to 3.9.13 from 3.9.12](https://github.com/zopencommunity/mavenport/pull/15) ❌
 
 ### mesonport
+- 2026-04-21: [Update meson-version to 1.11.1 from 1.7.0](https://github.com/zopencommunity/mesonport/pull/14) ❌
 - 2026-04-13: [Update meson-version to 1.11.0 from 1.7.0](https://github.com/zopencommunity/mesonport/pull/13) ❌
 - 2026-03-15: [Update meson-version to 1.10.2 from 1.7.0](https://github.com/zopencommunity/mesonport/pull/12) ❌
 - 2026-02-24: [Update meson-version to 1.10.1 from 1.7.0](https://github.com/zopencommunity/mesonport/pull/11) ❌
@@ -482,6 +491,7 @@
 - 2025-12-31: [Update micro-version to 2.0.15 from 2.0.14](https://github.com/zopencommunity/microport/pull/1) ❌
 
 ### mimallocport
+- 2026-04-21: [Update mimalloc-version to 2.3.1 from 2.2.3](https://github.com/zopencommunity/mimallocport/pull/5) ❌
 - 2026-04-16: [Update mimalloc-version to 2.3.0 from 2.2.3](https://github.com/zopencommunity/mimallocport/pull/4) ❌
 - 2026-01-16: [Update mimalloc-version to 2.2.7 from 2.2.3](https://github.com/zopencommunity/mimallocport/pull/3) ❌
 - 2026-01-09: [Update mimalloc-version to 2.2.6 from 2.2.3](https://github.com/zopencommunity/mimallocport/pull/2) ❌
@@ -623,6 +633,7 @@
 - 2025-08-22: [Update redis-version to 8.2.1 from 8.2.0](https://github.com/zopencommunity/redisport/pull/16) ❌
 
 ### rubyport
+- 2026-04-21: [Update ruby-version to 4.0.3 from 3.4.8](https://github.com/zopencommunity/rubyport/pull/8) ❌
 - 2026-03-17: [Update ruby-version to 4.0.2 from 3.4.8](https://github.com/zopencommunity/rubyport/pull/7) ❌
 - 2026-01-13: [Update ruby-version to 4.0.1 from 3.4.8](https://github.com/zopencommunity/rubyport/pull/5) ❌
 - 2025-12-25: [Update ruby-version to 4.0.0 from 3.4.8](https://github.com/zopencommunity/rubyport/pull/4) ❌
@@ -669,6 +680,7 @@
 - 2025-11-04: [Update tcl-version to 9.0.3 from 9.0.2](https://github.com/zopencommunity/tclport/pull/22) ❌
 
 ### terraformport
+- 2026-04-21: [Update terraform-version to 1.14.9 from 1.7.4](https://github.com/zopencommunity/terraformport/pull/56) ❌
 - 2026-03-25: [Update terraform-version to 1.14.8 from 1.7.4](https://github.com/zopencommunity/terraformport/pull/55) ❌
 - 2026-03-11: [Update terraform-version to 1.14.7 from 1.7.4](https://github.com/zopencommunity/terraformport/pull/54) ❌
 - 2026-02-25: [Update terraform-version to 1.14.6 from 1.7.4](https://github.com/zopencommunity/terraformport/pull/53) ❌
@@ -698,7 +710,6 @@
 - 2024-12-11: [Update terraform-version to 1.10.2 from 1.7.4](https://github.com/zopencommunity/terraformport/pull/29) ❓
 - 2024-12-04: [Update terraform-version to 1.10.1 from 1.7.4](https://github.com/zopencommunity/terraformport/pull/27) ❓
 - 2024-11-27: [Update terraform-version to 1.10.0 from 1.7.4](https://github.com/zopencommunity/terraformport/pull/26) ❓
-- 2024-10-16: [Update terraform-version to 1.9.8 from 1.7.4](https://github.com/zopencommunity/terraformport/pull/25) ❓
 
 ### texinfoport
 - 2026-03-03: [Update texinfo-version to 7.3 from 7.2](https://github.com/zopencommunity/texinfoport/pull/24) ❌
@@ -1087,5 +1098,5 @@
 ---
 
 
-> Last updated: 2026-04-21 06:11:20 EDT
+> Last updated: 2026-04-22 06:11:11 EDT
 

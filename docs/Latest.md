@@ -1096,12 +1096,12 @@ Note: to download the latest packages, use the [zopen package manager](/Guides/Q
   </div>
 </div>
 
-<div class="tool-item-filterable" data-package-name="jenkins" data-searchable-text="jenkins Skipped N/A STABLE_jenkins_4194 A continuous integration server devops port" style="padding: 8px 0; border-bottom: 1px solid #eee;">
+<div class="tool-item-filterable" data-package-name="jenkins" data-searchable-text="jenkins Skipped N/A STABLE_jenkins_4225 A continuous integration server devops port" style="padding: 8px 0; border-bottom: 1px solid #eee;">
   <div class="tool-info-grid">
     <div class="tool-name"><strong><a href="https://github.com/zopencommunity/jenkinsport" target="_blank" rel="noopener noreferrer">jenkins</a></strong></div>
     <div class="tool-status">Status: Skipped</div>
     <div class="tool-test">Test: N/A</div>
-    <div class="tool-release"><a href="https://github.com/zopencommunity/jenkinsport/releases/download/STABLE_jenkinsport_4194/jenkins-2.558.20260408_060412.zos.pax.Z" target="_blank" rel="noopener noreferrer">STABLE_jenkins_4194</a></div>
+    <div class="tool-release"><a href="https://github.com/zopencommunity/jenkinsport/releases/download/STABLE_jenkinsport_4225/jenkins-2.560.20260421_154721.zos.pax.Z" target="_blank" rel="noopener noreferrer">STABLE_jenkins_4225</a></div>
     <div class="tool-desc" title="A continuous integration server">A continuous integration server</div>
   </div>
 </div>
@@ -2510,12 +2510,12 @@ Note: to download the latest packages, use the [zopen package manager](/Guides/Q
   </div>
 </div>
 
-<div class="tool-item-filterable" data-package-name="cmake" data-searchable-text="cmake Blue 82.7% STABLE_cmake_4171 A cross-platform build system uncategorized port" style="padding: 8px 0; border-bottom: 1px solid #eee;">
+<div class="tool-item-filterable" data-package-name="cmake" data-searchable-text="cmake Blue 82.7% STABLE_cmake_4226 A cross-platform build system uncategorized port" style="padding: 8px 0; border-bottom: 1px solid #eee;">
   <div class="tool-info-grid">
     <div class="tool-name"><strong><a href="https://github.com/zopencommunity/cmakeport" target="_blank" rel="noopener noreferrer">cmake</a></strong></div>
     <div class="tool-status">Status: Blue</div>
     <div class="tool-test">Test: 82.7%</div>
-    <div class="tool-release"><a href="https://github.com/zopencommunity/cmakeport/releases/download/STABLE_cmakeport_4171/cmake-4.3.1.20260327_185217.zos.pax.Z" target="_blank" rel="noopener noreferrer">STABLE_cmake_4171</a></div>
+    <div class="tool-release"><a href="https://github.com/zopencommunity/cmakeport/releases/download/STABLE_cmakeport_4226/cmake-4.3.2.20260421_191206.zos.pax.Z" target="_blank" rel="noopener noreferrer">STABLE_cmake_4226</a></div>
     <div class="tool-desc" title="A cross-platform build system">A cross-platform build system</div>
   </div>
 </div>
@@ -3359,4 +3359,4 @@ Note: to download the latest packages, use the [zopen package manager](/Guides/Q
 </div>
 
 
-Last updated:  2026-04-21 06:19:48 UTC
+Last updated:  2026-04-22 06:19:35 UTC

@@ -993,7 +993,7 @@ will be used, which include attempting to hard link the object files instead of 
 - Affected release URL: [cmake (Build 2795) - (STABLE)](https://github.com/zopencommunity/cmakeport/releases/tag/STABLE_cmakeport_2795)
 
 - **(LOW severity) CVE-2025-9301**: A vulnerability was determined in cmake 4.1.20250725-gb5cce23. This affects the function cmForEachFunctionBlocker::ReplayItems of the file cmForEachCommand.cxx. This manipulation causes reachable assertion. The attack needs to be launched locally. The exploit has been publicly disclosed and may be utilized. Patch name: 37e27f71bc356d880c908040cd0cb68fa2c371b8. It is suggested to install a patch to address this issue.
-  - **This vulnerability is resolved in the [latest release](https://github.com/zopencommunity/cmakeport/releases/tag/STABLE_cmakeport_4171)**.
+  - **This vulnerability is resolved in the [latest release](https://github.com/zopencommunity/cmakeport/releases/tag/STABLE_cmakeport_4226)**.
 
 </details>
 
@@ -1003,7 +1003,7 @@ will be used, which include attempting to hard link the object files instead of 
 - Affected release URL: [cmake (Build 2914) - (STABLE)](https://github.com/zopencommunity/cmakeport/releases/tag/STABLE_cmakeport_2914)
 
 - **(LOW severity) CVE-2025-9301**: A vulnerability was determined in cmake 4.1.20250725-gb5cce23. This affects the function cmForEachFunctionBlocker::ReplayItems of the file cmForEachCommand.cxx. This manipulation causes reachable assertion. The attack needs to be launched locally. The exploit has been publicly disclosed and may be utilized. Patch name: 37e27f71bc356d880c908040cd0cb68fa2c371b8. It is suggested to install a patch to address this issue.
-  - **This vulnerability is resolved in the [latest release](https://github.com/zopencommunity/cmakeport/releases/tag/STABLE_cmakeport_4171)**.
+  - **This vulnerability is resolved in the [latest release](https://github.com/zopencommunity/cmakeport/releases/tag/STABLE_cmakeport_4226)**.
 
 </details>
 
@@ -1013,7 +1013,7 @@ will be used, which include attempting to hard link the object files instead of 
 - Affected release URL: [cmake (Build 3201) - (STABLE)](https://github.com/zopencommunity/cmakeport/releases/tag/STABLE_cmakeport_3201)
 
 - **(LOW severity) CVE-2025-9301**: A vulnerability was determined in cmake 4.1.20250725-gb5cce23. This affects the function cmForEachFunctionBlocker::ReplayItems of the file cmForEachCommand.cxx. This manipulation causes reachable assertion. The attack needs to be launched locally. The exploit has been publicly disclosed and may be utilized. Patch name: 37e27f71bc356d880c908040cd0cb68fa2c371b8. It is suggested to install a patch to address this issue.
-  - **This vulnerability is resolved in the [latest release](https://github.com/zopencommunity/cmakeport/releases/tag/STABLE_cmakeport_4171)**.
+  - **This vulnerability is resolved in the [latest release](https://github.com/zopencommunity/cmakeport/releases/tag/STABLE_cmakeport_4226)**.
 
 </details>
 
