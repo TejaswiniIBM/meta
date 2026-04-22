@@ -6,7 +6,7 @@ hero:
   text: "Open Source for z/OS"
   tagline: "Bringing open-source tools to IBM z/OS, making mainframes modern, accessible, and developer-friendly"
   image:
-    src: /images/demo.gif
+    src: /meta/images/demo.gif
     alt: Installation demo
   actions:
     - theme: brand
