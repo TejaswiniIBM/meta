@@ -46,7 +46,9 @@
 /* Hero image styling - add border radius and make bigger */
 .VPImage.image-src {
   border-radius: 16px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow:
+    0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .vp-doc .VPHero .image {
@@ -61,7 +63,9 @@
 
 .VPHero .image-container img {
   border-radius: 16px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow:
+    0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
   width: 100%;
 }
 
@@ -180,7 +184,9 @@
   padding-left: 2rem !important;
   display: block !important;
   border-radius: 8px !important;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1) !important;
+  box-shadow:
+    0 4px 8px 0 rgba(0, 0, 0, 0.1),
+    0 6px 20px 0 rgba(0, 0, 0, 0.1) !important;
 }
 
 /* Images in layout sections - FORCE larger size */
@@ -225,11 +231,11 @@ img[alt*="Installation demo"] {
     margin: 1rem auto !important;
     padding-left: 0 !important;
   }
-  
+
   .layout img {
     min-width: auto !important;
   }
-  
+
   .VPHero .image-container {
     max-width: 100% !important;
     margin-left: 0 !important;
@@ -252,7 +258,10 @@ img[alt*="Installation demo"] {
 
 @media (min-width: 1440px) {
   .VPDocFooter .edit-link {
-    right: max(280px, calc((100vw - (var(--vp-layout-max-width) - 64px)) / 2 + 120px)) !important;
+    right: max(
+      280px,
+      calc((100vw - (var(--vp-layout-max-width) - 64px)) / 2 + 120px)
+    ) !important;
   }
 }
 
@@ -273,7 +282,10 @@ img[alt*="Installation demo"] {
   color: var(--vp-c-text-2) !important;
   border-radius: 8px !important;
   border: 1px solid var(--vp-c-divider) !important;
-  transition: background-color 0.25s, color 0.25s, border-color 0.25s !important;
+  transition:
+    background-color 0.25s,
+    color 0.25s,
+    border-color 0.25s !important;
   text-decoration: none !important;
   position: relative !important;
 }
@@ -301,8 +313,8 @@ img[alt*="Installation demo"] {
   position: absolute !important;
   top: calc(100% + 8px) !important;
   right: 0 !important;
-  background: #1F2328 !important;
-  color: #FFFFFF !important;
+  background: #1f2328 !important;
+  color: #ffffff !important;
   padding: 6px 12px !important;
   border-radius: 6px !important;
   font-size: 12px !important;
@@ -325,7 +337,7 @@ img[alt*="Installation demo"] {
   height: 0 !important;
   border-left: 6px solid transparent !important;
   border-right: 6px solid transparent !important;
-  border-bottom: 6px solid #1F2328 !important;
+  border-bottom: 6px solid #1f2328 !important;
   opacity: 0 !important;
   pointer-events: none !important;
   transition: opacity 150ms ease !important;
@@ -339,11 +351,11 @@ img[alt*="Installation demo"] {
 }
 
 .VPDocFooter .edit-link:hover .edit-link-button {
-  background-color: #2F363D !important;
+  background-color: #2f363d !important;
 }
 
 .VPDocFooter .edit-link:active .edit-link-button {
-  background-color: #1F2328 !important;
+  background-color: #1f2328 !important;
   box-shadow: 0 0 0 rgba(0, 0, 0, 0) !important;
 }
 
@@ -402,7 +414,7 @@ img[alt*="Installation demo"] {
 /* LinkedIn - Official Blue */
 .VPSocialLink[aria-label*="linkedin" i] svg,
 .VPSocialLink[href*="linkedin" i] svg {
-  fill: #0A66C2 !important;
+  fill: #0a66c2 !important;
 }
 
 .VPSocialLink[aria-label*="linkedin" i]:hover svg,
@@ -414,12 +426,12 @@ img[alt*="Installation demo"] {
 /* Discord - Blurple */
 .VPSocialLink[aria-label*="discord" i] svg,
 .VPSocialLink[href*="discord" i] svg {
-  fill: #5865F2 !important;
+  fill: #5865f2 !important;
 }
 
 .VPSocialLink[aria-label*="discord" i]:hover svg,
 .VPSocialLink[href*="discord" i]:hover svg {
-  fill: #4752C4 !important;
+  fill: #4752c4 !important;
   transform: scale(1.1);
 }
 
@@ -456,10 +468,13 @@ img[alt*="Installation demo"] {
 
 .VPDocAsideOutline {
   padding-top: 20px !important;
+}
 
 /* Fix tab/link highlighting in aside panel */
 .VPDocAsideOutline .outline-link {
-  transition: color 0.25s, opacity 0.25s;
+  transition:
+    color 0.25s,
+    opacity 0.25s;
 }
 
 .VPDocAsideOutline .outline-link:hover {
@@ -477,6 +492,4 @@ img[alt*="Installation demo"] {
 .VPDocAsideOutline .outline-marker {
   opacity: 1 !important;
   background-color: var(--vp-c-brand-1) !important;
-}
-
 }
