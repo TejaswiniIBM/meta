@@ -1,13 +1,13 @@
 # Upstream Patch Status Report
 
-*Report generated on: 2026-04-22 06:17:16 EDT.*
+*Report generated on: 2026-04-23 06:17:45 EDT.*
 
 ## Overall Summary
 
 - **Total Projects Analyzed:** 304
-- **Total Current Lines of Code (LOC) in Patches:** 57,964
-- **Total Number of Current Patch Files:** 1,044
-- **Average Current Patch LOC per Project:** 190.67
+- **Total Current Lines of Code (LOC) in Patches:** 57,910
+- **Total Number of Current Patch Files:** 1,042
+- **Average Current Patch LOC per Project:** 190.49
 - **Average Current Patch Count per Project:** 3.43
 
 ### Historical Trends (All Projects)
@@ -103,7 +103,6 @@
 | [p7zipport](#repo-p7zipport) | 126 | +0 | 1 |
 | [pinentryport](#repo-pinentryport) | 124 | +0 | 5 |
 | [ncursesport](#repo-ncursesport) | 121 | +0 | 3 |
-| [m4port](#repo-m4port) | 120 | +0 | 5 |
 | [thesilversearcherport](#repo-thesilversearcherport) | 118 | +0 | 4 |
 | [gas2asmport](#repo-gas2asmport) | 116 | +0 | 4 |
 | [grepport](#repo-grepport) | 115 | +0 | 3 |
@@ -133,6 +132,7 @@
 | [cppcheckport](#repo-cppcheckport) | 72 | +0 | 4 |
 | [libtoolport](#repo-libtoolport) | 71 | +0 | 3 |
 | [gradleport](#repo-gradleport) | 67 | +0 | 1 |
+| [m4port](#repo-m4port) | 66 | +0 | 3 |
 | [getoptport](#repo-getoptport) | 66 | +0 | 1 |
 | [lazygitport](#repo-lazygitport) | 66 | +0 | 1 |
 | [librepoport](#repo-librepoport) | 66 | +0 | 1 |
@@ -2678,30 +2678,6 @@
 
 ---
 
-<a id="repo-m4port"></a>
-## m4port
-
-- **Origin Date (First Commit):** 2021-08-11
-- **Current Patch LOC:** 120
-- **Current Patch Count:** 5
-
-### Historical Trends
-
-![LOC Trend for m4port](images/upstream/m4port_current_loc_trend.png)
-![Count Trend for m4port](images/upstream/m4port_current_count_trend.png)
-
-### Current Patch Details
-
-| Patch File (Repo Relative Path) | Source | LOC |
-|---|---|:---|
-| `dev-patches/PR4/doc/m4.texi.patch` | `dev-patches` | 17 |
-| `dev-patches/PR4/src/format.c.patch` | `dev-patches` | 13 |
-| `stable-patches/PR2/builtin.c.patch` | `stable-patches` | 55 |
-| `stable-patches/PR2/canonicalize-lgpl.c.patch` | `stable-patches` | 22 |
-| `stable-patches/PR2/configure.patch` | `stable-patches` | 13 |
-
----
-
 <a id="repo-thesilversearcherport"></a>
 ## thesilversearcherport
 
@@ -3331,6 +3307,28 @@
 | Patch File (Repo Relative Path) | Source | LOC |
 |---|---|:---|
 | `patches/gradle_on_zos.patch` | `patches` | 67 |
+
+---
+
+<a id="repo-m4port"></a>
+## m4port
+
+- **Origin Date (First Commit):** 2021-08-11
+- **Current Patch LOC:** 66
+- **Current Patch Count:** 3
+
+### Historical Trends
+
+![LOC Trend for m4port](images/upstream/m4port_current_loc_trend.png)
+![Count Trend for m4port](images/upstream/m4port_current_count_trend.png)
+
+### Current Patch Details
+
+| Patch File (Repo Relative Path) | Source | LOC |
+|---|---|:---|
+| `dev-patches/PR4/doc/m4.texi.patch` | `dev-patches` | 17 |
+| `dev-patches/PR4/src/format.c.patch` | `dev-patches` | 13 |
+| `stable-patches/builtin.c.patch` | `stable-patches` | 36 |
 
 ---
 

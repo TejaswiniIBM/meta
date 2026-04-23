@@ -67,6 +67,13 @@ java python. The default is clang.</p>
 <p style="margin-left:22%;">source ENV_FILE instead of
 buildenv to establish build environment.</p>
 
+<p style="margin-left:11%;"><b>&minus;E</b>,
+<b>&minus;&minus;editable</b></p>
+
+<p style="margin-left:22%;">enable editing of the
+executable (adds <b>&minus;Wl</b>,&minus;bedit=yes to
+LDFLAGS).</p>
+
 
 <p style="margin-left:11%;"><b>&minus;&minus;instrument</b></p>
 

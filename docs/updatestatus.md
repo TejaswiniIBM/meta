@@ -216,6 +216,7 @@
 - 2025-04-11: [Update direnv-version to 2.36.0 from 2.35.0](https://github.com/zopencommunity/direnvport/pull/11) ❌
 
 ### dnf5port
+- 2026-04-22: [Update dnf5-version to 5.4.2.0 from 5.3.0.0](https://github.com/zopencommunity/dnf5port/pull/10) ❌
 - 2026-04-17: [Update dnf5-version to 5.4.1.0 from 5.3.0.0](https://github.com/zopencommunity/dnf5port/pull/9) ❌
 - 2026-02-17: [Update dnf5-version to 5.4.0.0 from 5.3.0.0](https://github.com/zopencommunity/dnf5port/pull/8) ❌
 
@@ -262,6 +263,7 @@
 - 2024-06-08: [Update gin-version to 1.10.0 from 1.9.1](https://github.com/zopencommunity/ginport/pull/2) ❌
 
 ### githubcliport
+- 2026-04-22: [Update ghcli-version to 2.91.0 from 2.86.0](https://github.com/zopencommunity/githubcliport/pull/81) ❌
 - 2026-04-17: [Update ghcli-version to 2.90.0 from 2.86.0](https://github.com/zopencommunity/githubcliport/pull/80) ❌
 - 2026-03-26: [Update ghcli-version to 2.89.0 from 2.86.0](https://github.com/zopencommunity/githubcliport/pull/79) ❌
 
@@ -434,7 +436,7 @@
 
 ### lazygitport
 - 2026-04-14: [Update lazygit-version to 0.61.1 from 0.60.0](https://github.com/zopencommunity/lazygitport/pull/38) ❌
-- 2026-04-07: [Update lazygit-version to 0.61.0 from 0.60.0](https://github.com/zopencommunity/lazygitport/pull/37) ❌
+- 2026-04-07: [Update lazygit-version to 0.61.0 from 0.60.0](https://github.com/zopencommunity/lazygitport/pull/37) ❓
 
 ### libgdbmport
 - 2025-03-22: [Update libgdbm-version to 1.25 from 1.24](https://github.com/zopencommunity/libgdbmport/pull/10) ❌
@@ -472,10 +474,6 @@
 
 ### luarocksport
 - 2025-12-29: [Update luarocks-version to 3.13.0 from 3.12.2](https://github.com/zopencommunity/luarocksport/pull/10) ❌
-
-### m4port
-- 2026-02-07: [Update m4-version to 1.4.21 from 1.4.19](https://github.com/zopencommunity/m4port/pull/45) ❌
-- 2025-05-11: [Update m4-version to 1.4.20 from 1.4.19](https://github.com/zopencommunity/m4port/pull/44) ❌
 
 ### mavenport
 - 2026-04-17: [Update maven-version to 3.9.15 from 3.9.14](https://github.com/zopencommunity/mavenport/pull/17) ❌
@@ -521,6 +519,7 @@
 - 2024-11-19: [Update ncdu-1-version to 1.21 from 1.20](https://github.com/zopencommunity/ncduport/pull/11) ❓
 
 ### neovimport
+- 2026-04-22: [Update neovim-version to 0.12.2 from 0.11.7](https://github.com/zopencommunity/neovimport/pull/32) ❌
 - 2026-04-06: [Update neovim-version to 0.12.1 from 0.11.7](https://github.com/zopencommunity/neovimport/pull/31) ❌
 - 2026-03-30: [Update neovim-version to 0.12.0 from 0.11.7](https://github.com/zopencommunity/neovimport/pull/30) ❌
 
@@ -647,6 +646,9 @@
 ### screenport
 - 2025-05-15: [Update screen-version to 5.0.1 from 4.9.1](https://github.com/zopencommunity/screenport/pull/11) ❌
 - 2024-08-29: [Update screen-version to 5.0.0 from 4.9.1](https://github.com/zopencommunity/screenport/pull/8) ❌
+
+### sedport
+- 2026-04-22: [Update sed-version to 4.10 from 4.9](https://github.com/zopencommunity/sedport/pull/18) ❌
 
 ### sqliteport
 - 2026-04-09: [Update sqlite-version to 2026-3530000 from 2025-3480000](https://github.com/zopencommunity/sqliteport/pull/36) ❌
@@ -1098,5 +1100,5 @@
 ---
 
 
-> Last updated: 2026-04-22 06:11:11 EDT
+> Last updated: 2026-04-23 06:11:51 EDT
 

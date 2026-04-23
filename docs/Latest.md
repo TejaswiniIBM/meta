@@ -2640,12 +2640,12 @@ Note: to download the latest packages, use the [zopen package manager](/Guides/Q
   </div>
 </div>
 
-<div class="tool-item-filterable" data-package-name="m4" data-searchable-text="m4 Blue 98.3% STABLE_m4_4046 A macro processor uncategorized port" style="padding: 8px 0; border-bottom: 1px solid #eee;">
+<div class="tool-item-filterable" data-package-name="m4" data-searchable-text="m4 Blue 98.4% STABLE_m4_4227 A macro processor uncategorized port" style="padding: 8px 0; border-bottom: 1px solid #eee;">
   <div class="tool-info-grid">
     <div class="tool-name"><strong><a href="https://github.com/zopencommunity/m4port" target="_blank" rel="noopener noreferrer">m4</a></strong></div>
     <div class="tool-status">Status: Blue</div>
-    <div class="tool-test">Test: 98.3%</div>
-    <div class="tool-release"><a href="https://github.com/zopencommunity/m4port/releases/download/STABLE_m4port_4046/m4-1.4.19.20260211_025818.zos.pax.Z" target="_blank" rel="noopener noreferrer">STABLE_m4_4046</a></div>
+    <div class="tool-test">Test: 98.4%</div>
+    <div class="tool-release"><a href="https://github.com/zopencommunity/m4port/releases/download/STABLE_m4port_4227/m4-1.4.21.20260423_064626.zos.pax.Z" target="_blank" rel="noopener noreferrer">STABLE_m4_4227</a></div>
     <div class="tool-desc" title="A macro processor">A macro processor</div>
   </div>
 </div>
@@ -3359,4 +3359,4 @@ Note: to download the latest packages, use the [zopen package manager](/Guides/Q
 </div>
 
 
-Last updated:  2026-04-22 06:19:35 UTC
+Last updated:  2026-04-23 06:20:04 UTC

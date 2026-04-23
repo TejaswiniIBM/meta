@@ -114,18 +114,18 @@
 <div class="tool-item-filterable" style="padding: 8px 0; border-bottom: 1px solid #eee;">
   <div class="tool-info-grid">
     <div class="tool-name"><strong><a href="https://github.com/zopencommunity/coreutilsport" target="_blank" rel="noopener noreferrer">coreutilsport</a></strong></div>
-    <div class="tool-status">127</div>
+    <div class="tool-status">128</div>
     <div class="tool-test">92.5%</div>
-    <div class="tool-release">alternatives, apr, automake, avro-c-lib, bash, bash-completion, bc, bison, blis, boost, byacc, c3270, ccache, check, cppcheck, cppunit, cronie, crush, curl, diffutils, direnv, doom-ascii, dos2unix, doxygen, ed, expat, findutils, flex, fq, getopt, gettext, git, git-extras, git-lfs, githubcli, gitlabcli, glib, glow, gnulib, grep, groff, gzip, hello, htop, jansson, jd, jemalloc, jq, less, libarchive, libbsd, libdio, libevent, libgdbm, libgpgerror, libiconv, libkqueue, libmd, liboqs, libpcre, libpcre2, libpsl, librdkafka, libsasl2, libserdes, libtool, libxml2, logrotate, lua, luarocks, lz4, lzip, man-db, meta, metaldio, moreutils, multitail, ncurses, neovim, netpbm, nnn, ntbtls, oniguruma, openldap, openssh, oqs-provider, p7zip, patch, perl, php, pkgconfig, procps, protobuf, quilt, re2c, readline, redis, rpm, rsync, ruby, scc, scdoc, sed, shdoc, spdlog, sqlite-vec, sudo, texinfo, thesilversearcher, tig, tmux, tree, util-linux, util-macros, vim, which, xorgproto, xxhash, z3, zedc_ascii, zlib-ng, zos-code-page-tools, zoslib, zosnc, zospstree, zstd, zusage</div>
+    <div class="tool-release">alternatives, apr, automake, avro-c-lib, bash, bash-completion, bc, bison, blis, boost, byacc, c3270, ccache, check, cppcheck, cppunit, cronie, crush, curl, diffutils, direnv, doom-ascii, dos2unix, doxygen, ed, expat, findutils, flex, fq, getopt, gettext, git, git-extras, git-lfs, githubcli, gitlabcli, glib, glow, gnulib, grep, groff, gzip, hello, htop, jansson, jd, jemalloc, jq, less, libarchive, libbsd, libdio, libevent, libgdbm, libgpgerror, libiconv, libkqueue, libmd, liboqs, libpcre, libpcre2, libpsl, librdkafka, libsasl2, libserdes, libtool, libxml2, logrotate, lua, luarocks, lz4, lzip, m4, man-db, meta, metaldio, moreutils, multitail, ncurses, neovim, netpbm, nnn, ntbtls, oniguruma, openldap, openssh, oqs-provider, p7zip, patch, perl, php, pkgconfig, procps, protobuf, quilt, re2c, readline, redis, rpm, rsync, ruby, scc, scdoc, sed, shdoc, spdlog, sqlite-vec, sudo, texinfo, thesilversearcher, tig, tmux, tree, util-linux, util-macros, vim, which, xorgproto, xxhash, z3, zedc_ascii, zlib-ng, zos-code-page-tools, zoslib, zosnc, zospstree, zstd, zusage</div>
     <div class="tool-desc"></div>
   </div>
 </div>
 <div class="tool-item-filterable" style="padding: 8px 0; border-bottom: 1px solid #eee;">
   <div class="tool-info-grid">
     <div class="tool-name"><strong><a href="https://github.com/zopencommunity/curlport" target="_blank" rel="noopener noreferrer">curlport</a></strong></div>
-    <div class="tool-status">85</div>
+    <div class="tool-status">83</div>
     <div class="tool-test">99.7%</div>
-    <div class="tool-release">automake, avro-c-lib, bash, bison, buildkite, bzip2, c3270, cmake, coreutils, createrepo_c, cronie, cscope, curl, diffutils, dnf5, dos2unix, doxygen, expat, findutils, frp, gawk, gettext, gin, git, gitlab-runner, gn, gnulib, gperf, gpg, grep, groff, gzip, hello, help2man, jq, less, libassuan, libgcrypt, libgpgerror, libgpgme, libksba, liboqs, libpipeline, librdkafka, libserdes, libtool, libyaml, llamacpp, luarocks, lz4, m4, make, man-db, maven, meta, moreutils, ncdu, ncurses, neovim, ninja, npth, ntbtls, oniguruma, openssl, oqs-provider, patch, perl, php, pinentry, procps, rsync, screen, sed, snappy-c, tar, tcl, terraform, texinfo, unzip, uucp, wget, which, xxhash, xz, zstd</div>
+    <div class="tool-release">automake, avro-c-lib, bash, bison, buildkite, bzip2, c3270, cmake, coreutils, createrepo_c, cronie, cscope, curl, diffutils, dnf5, dos2unix, doxygen, expat, findutils, frp, gawk, gettext, gin, git, gitlab-runner, gn, gnulib, gperf, gpg, grep, groff, gzip, hello, help2man, less, libassuan, libgcrypt, libgpgerror, libgpgme, libksba, liboqs, libpipeline, librdkafka, libserdes, libtool, libyaml, llamacpp, luarocks, lz4, make, man-db, maven, meta, moreutils, ncdu, ncurses, neovim, ninja, npth, ntbtls, oniguruma, openssl, oqs-provider, patch, perl, php, pinentry, procps, rsync, screen, sed, snappy-c, tar, tcl, terraform, texinfo, unzip, uucp, wget, which, xxhash, xz, zstd</div>
     <div class="tool-desc"></div>
   </div>
 </div>
@@ -151,7 +151,7 @@
   <div class="tool-info-grid">
     <div class="tool-name"><strong><a href="https://github.com/zopencommunity/m4port" target="_blank" rel="noopener noreferrer">m4port</a></strong></div>
     <div class="tool-status">72</div>
-    <div class="tool-test">98.3%</div>
+    <div class="tool-test">98.4%</div>
     <div class="tool-release">apr, asio, automake, bash, bash-completion, bison, check, coreutils, cronie, cscope, ctags, curl, doxygen, expat, flex, gettext, git, gn, gnulib, gpg, groff, gzip, hello, help2man, hexcurse, htop, jansson, jemalloc, jq, less, libassuan, libbsd, libgcrypt, libgpgerror, libgpgme, libiconv, libksba, libmd, liboqs, libpsl, libsasl2, libtool, libyaml, logrotate, m4, make, man-db, mc, mpfr, netpbm, npth, ntbtls, oniguruma, openssl, php, pinentry, procps, re2c, readline, rsync, screen, sed, sshpass, tar, texinfo, thesilversearcher, tmux, util-linux, uucp, wget, which, zlib-ng</div>
     <div class="tool-desc"></div>
   </div>
@@ -168,27 +168,27 @@
 <div class="tool-item-filterable" style="padding: 8px 0; border-bottom: 1px solid #eee;">
   <div class="tool-info-grid">
     <div class="tool-name"><strong><a href="https://github.com/zopencommunity/perlport" target="_blank" rel="noopener noreferrer">perlport</a></strong></div>
-    <div class="tool-status">71</div>
+    <div class="tool-status">70</div>
     <div class="tool-test">99.7%</div>
-    <div class="tool-release">asio, automake, bash, bash-completion, bc, bison, blis, check, coreutils, cronie, ctags, curl, diffutils, doxygen, expat, gettext, git, gnulib, gpg, groff, gzip, hello, help2man, hexcurse, htop, jansson, jemalloc, jq, less, libassuan, libgcrypt, libgpgerror, libgpgme, libiconv, libksba, libmd, libpsl, libsasl2, libtool, libyaml, logrotate, m4, make, man-db, mc, meta, mpfr, netpbm, nginx, npth, ntbtls, openssl, oqs-provider, php, pinentry, procps, quilt, re2c, rsync, screen, sed, stow, tar, texinfo, thesilversearcher, tmux, util-linux, uucp, wget, which, zlib-ng</div>
+    <div class="tool-release">asio, automake, bash, bash-completion, bc, bison, blis, check, coreutils, cronie, ctags, curl, diffutils, doxygen, expat, gettext, git, gnulib, gpg, groff, gzip, hello, help2man, hexcurse, htop, jansson, jemalloc, less, libassuan, libgcrypt, libgpgerror, libgpgme, libiconv, libksba, libmd, libpsl, libsasl2, libtool, libyaml, logrotate, m4, make, man-db, mc, meta, mpfr, netpbm, nginx, npth, ntbtls, openssl, oqs-provider, php, pinentry, procps, quilt, re2c, rsync, screen, sed, stow, tar, texinfo, thesilversearcher, tmux, util-linux, uucp, wget, which, zlib-ng</div>
     <div class="tool-desc"></div>
   </div>
 </div>
 <div class="tool-item-filterable" style="padding: 8px 0; border-bottom: 1px solid #eee;">
   <div class="tool-info-grid">
     <div class="tool-name"><strong><a href="https://github.com/zopencommunity/gzipport" target="_blank" rel="noopener noreferrer">gzipport</a></strong></div>
-    <div class="tool-status">63</div>
+    <div class="tool-status">62</div>
     <div class="tool-test">100.0%</div>
-    <div class="tool-release">automake, bash, bison, bzip2, ccache, coreutils, cscope, curl, direnv, dos2unix, findutils, flex, gawk, gettext, git, git-lfs, gn, gperf, hello, htop, jq, less, libpsl, libtool, logrotate, lpeg, lz4, m4, make, man-db, mc, meta, moreutils, multitail, ncdu, neovim, ninja, oniguruma, openssh, openssl, p7zip, patch, perl, php, procps, prometheus, rpm, rsync, screen, sed, sqlite, sshpass, tar, tcl, texinfo, thesilversearcher, util-linux, uucp, wget, which, xxhash, xz, zstd</div>
+    <div class="tool-release">automake, bash, bison, bzip2, ccache, coreutils, cscope, curl, direnv, dos2unix, findutils, flex, gawk, gettext, git, git-lfs, gn, gperf, hello, htop, less, libpsl, libtool, logrotate, lpeg, lz4, m4, make, man-db, mc, meta, moreutils, multitail, ncdu, neovim, ninja, oniguruma, openssh, openssl, p7zip, patch, perl, php, procps, prometheus, rpm, rsync, screen, sed, sqlite, sshpass, tar, tcl, texinfo, thesilversearcher, util-linux, uucp, wget, which, xxhash, xz, zstd</div>
     <div class="tool-desc"></div>
   </div>
 </div>
 <div class="tool-item-filterable" style="padding: 8px 0; border-bottom: 1px solid #eee;">
   <div class="tool-info-grid">
     <div class="tool-name"><strong><a href="https://github.com/zopencommunity/tarport" target="_blank" rel="noopener noreferrer">tarport</a></strong></div>
-    <div class="tool-status">61</div>
+    <div class="tool-status">60</div>
     <div class="tool-test">88.6%</div>
-    <div class="tool-release">apr, automake, bash, bzip2, ccache, check, coreutils, cscope, curl, direnv, ed, findutils, flex, gawk, gettext, git, git-lfs, gpg, grep, hello, htop, jansson, jq, less, libassuan, libbsd, libgcrypt, libgpgerror, libgpgme, libksba, libmd, libsasl2, libtool, libyaml, lpeg, m4, make, man-db, mc, meta, multitail, ncdu, neovim, ninja, npth, ntbtls, oniguruma, openssh, openssl, pinentry, procps, prometheus, re2c, rpm, screen, sqlite, sshpass, thesilversearcher, unzip, util-linux, uucp</div>
+    <div class="tool-release">apr, automake, bash, bzip2, ccache, check, coreutils, cscope, curl, direnv, ed, findutils, flex, gawk, gettext, git, git-lfs, gpg, grep, hello, htop, jansson, less, libassuan, libbsd, libgcrypt, libgpgerror, libgpgme, libksba, libmd, libsasl2, libtool, libyaml, lpeg, m4, make, man-db, mc, meta, multitail, ncdu, neovim, ninja, npth, ntbtls, oniguruma, openssh, openssl, pinentry, procps, prometheus, re2c, rpm, screen, sqlite, sshpass, thesilversearcher, unzip, util-linux, uucp</div>
     <div class="tool-desc"></div>
   </div>
 </div>
@@ -239,15 +239,6 @@
 </div>
 <div class="tool-item-filterable" style="padding: 8px 0; border-bottom: 1px solid #eee;">
   <div class="tool-info-grid">
-    <div class="tool-name"><strong><a href="https://github.com/zopencommunity/opensslport" target="_blank" rel="noopener noreferrer">opensslport</a></strong></div>
-    <div class="tool-status">46</div>
-    <div class="tool-test">99.7%</div>
-    <div class="tool-release">apr, c3270, cmake, createrepo_c, cronie, curl, expat, git, gpg, grpc, jq, libarchive, libassuan, libbsd, libevent, libgcrypt, libgpgerror, libksba, liboqs, librabbitmq, librdkafka, librepo, libsasl2, libserdes, libssh2, llamacpp, lynx, meta, nghttp2, nginx, ninja, npth, ntbtls, openldap, openssh, oqs-provider, pinentry, pv, redis, rsync, ruby, sudo, tcl, tcltls, thrift, wget</div>
-    <div class="tool-desc"></div>
-  </div>
-</div>
-<div class="tool-item-filterable" style="padding: 8px 0; border-bottom: 1px solid #eee;">
-  <div class="tool-info-grid">
     <div class="tool-name"><strong><a href="https://github.com/zopencommunity/gettextport" target="_blank" rel="noopener noreferrer">gettextport</a></strong></div>
     <div class="tool-status">45</div>
     <div class="tool-test">97.5%</div>
@@ -257,10 +248,19 @@
 </div>
 <div class="tool-item-filterable" style="padding: 8px 0; border-bottom: 1px solid #eee;">
   <div class="tool-info-grid">
+    <div class="tool-name"><strong><a href="https://github.com/zopencommunity/opensslport" target="_blank" rel="noopener noreferrer">opensslport</a></strong></div>
+    <div class="tool-status">45</div>
+    <div class="tool-test">99.7%</div>
+    <div class="tool-release">apr, c3270, cmake, createrepo_c, cronie, curl, expat, git, gpg, grpc, libarchive, libassuan, libbsd, libevent, libgcrypt, libgpgerror, libksba, liboqs, librabbitmq, librdkafka, librepo, libsasl2, libserdes, libssh2, llamacpp, lynx, meta, nghttp2, nginx, ninja, npth, ntbtls, openldap, openssh, oqs-provider, pinentry, pv, redis, rsync, ruby, sudo, tcl, tcltls, thrift, wget</div>
+    <div class="tool-desc"></div>
+  </div>
+</div>
+<div class="tool-item-filterable" style="padding: 8px 0; border-bottom: 1px solid #eee;">
+  <div class="tool-info-grid">
     <div class="tool-name"><strong><a href="https://github.com/zopencommunity/zlibport" target="_blank" rel="noopener noreferrer">zlibport</a></strong></div>
-    <div class="tool-status">44</div>
+    <div class="tool-status">43</div>
     <div class="tool-test">100.0%</div>
-    <div class="tool-release">avro-c-lib, boost, botan, clang-format, clang-tidy, clangd, cmake, createrepo_c, cronie, curl, dnf5, expat, file, fish, git, glib, gpg, grpc, jq, libarchive, libevent, libgpgerror, libgpgme, libiconv, librdkafka, librepo, libsasl2, libserdes, libsolv, libssh2, llamacpp, lynx, netpbm, nghttp2, nginx, openssh, perl, rpm, rsync, ruby, sudo, thesilversearcher, tig, wget</div>
+    <div class="tool-release">avro-c-lib, boost, botan, clang-format, clang-tidy, clangd, cmake, createrepo_c, cronie, curl, dnf5, expat, file, fish, git, glib, gpg, grpc, libarchive, libevent, libgpgerror, libgpgme, libiconv, librdkafka, librepo, libsasl2, libserdes, libsolv, libssh2, llamacpp, lynx, netpbm, nghttp2, nginx, openssh, perl, rpm, rsync, ruby, sudo, thesilversearcher, tig, wget</div>
     <div class="tool-desc"></div>
   </div>
 </div>
@@ -419,15 +419,6 @@
 </div>
 <div class="tool-item-filterable" style="padding: 8px 0; border-bottom: 1px solid #eee;">
   <div class="tool-info-grid">
-    <div class="tool-name"><strong><a href="https://github.com/zopencommunity/flexport" target="_blank" rel="noopener noreferrer">flexport</a></strong></div>
-    <div class="tool-status">10</div>
-    <div class="tool-test">100.0%</div>
-    <div class="tool-release">bison, cscope, doxygen, groff, jq, man-db, netpbm, tmux, util-linux, xmlto</div>
-    <div class="tool-desc"></div>
-  </div>
-</div>
-<div class="tool-item-filterable" style="padding: 8px 0; border-bottom: 1px solid #eee;">
-  <div class="tool-info-grid">
     <div class="tool-name"><strong><a href="https://github.com/zopencommunity/zstdport" target="_blank" rel="noopener noreferrer">zstdport</a></strong></div>
     <div class="tool-status">10</div>
     <div class="tool-test">100.0%</div>
@@ -441,6 +432,15 @@
     <div class="tool-status">10</div>
     <div class="tool-test">Skipped</div>
     <div class="tool-release">bash, cmake, curl, git, jq, less, make, neovim, ninja, vim</div>
+    <div class="tool-desc"></div>
+  </div>
+</div>
+<div class="tool-item-filterable" style="padding: 8px 0; border-bottom: 1px solid #eee;">
+  <div class="tool-info-grid">
+    <div class="tool-name"><strong><a href="https://github.com/zopencommunity/flexport" target="_blank" rel="noopener noreferrer">flexport</a></strong></div>
+    <div class="tool-status">9</div>
+    <div class="tool-test">100.0%</div>
+    <div class="tool-release">bison, cscope, doxygen, groff, man-db, netpbm, tmux, util-linux, xmlto</div>
     <div class="tool-desc"></div>
   </div>
 </div>
@@ -635,15 +635,6 @@
 </div>
 <div class="tool-item-filterable" style="padding: 8px 0; border-bottom: 1px solid #eee;">
   <div class="tool-info-grid">
-    <div class="tool-name"><strong><a href="https://github.com/zopencommunity/util-linuxport" target="_blank" rel="noopener noreferrer">util-linuxport</a></strong></div>
-    <div class="tool-status">4</div>
-    <div class="tool-test">Skipped</div>
-    <div class="tool-release">bash, dnf5, jq, openldap</div>
-    <div class="tool-desc"></div>
-  </div>
-</div>
-<div class="tool-item-filterable" style="padding: 8px 0; border-bottom: 1px solid #eee;">
-  <div class="tool-info-grid">
     <div class="tool-name"><strong><a href="https://github.com/zopencommunity/wgetport" target="_blank" rel="noopener noreferrer">wgetport</a></strong></div>
     <div class="tool-status">4</div>
     <div class="tool-test">20.3%</div>
@@ -720,6 +711,15 @@
     <div class="tool-status">3</div>
     <div class="tool-test">100.0%</div>
     <div class="tool-release">createrepo_c, dnf5, libsolv</div>
+    <div class="tool-desc"></div>
+  </div>
+</div>
+<div class="tool-item-filterable" style="padding: 8px 0; border-bottom: 1px solid #eee;">
+  <div class="tool-info-grid">
+    <div class="tool-name"><strong><a href="https://github.com/zopencommunity/util-linuxport" target="_blank" rel="noopener noreferrer">util-linuxport</a></strong></div>
+    <div class="tool-status">3</div>
+    <div class="tool-test">Skipped</div>
+    <div class="tool-release">bash, dnf5, openldap</div>
     <div class="tool-desc"></div>
   </div>
 </div>
@@ -1305,6 +1305,15 @@
     <div class="tool-status">1</div>
     <div class="tool-test">90.5%</div>
     <div class="tool-release">dnf5</div>
+    <div class="tool-desc"></div>
+  </div>
+</div>
+<div class="tool-item-filterable" style="padding: 8px 0; border-bottom: 1px solid #eee;">
+  <div class="tool-info-grid">
+    <div class="tool-name"><strong><a href="https://github.com/zopencommunity/util-linux:binport" target="_blank" rel="noopener noreferrer">util-linux:binport</a></strong></div>
+    <div class="tool-status">1</div>
+    <div class="tool-test">Unknown</div>
+    <div class="tool-release">jq</div>
     <div class="tool-desc"></div>
   </div>
 </div>
@@ -2497,4 +2506,4 @@
   </div>
 </div>
 
-Last updated:  2026-04-22 06:19:35 UTC
+Last updated:  2026-04-23 06:20:04 UTC
