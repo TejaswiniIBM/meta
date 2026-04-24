@@ -760,16 +760,6 @@ Note: to download the latest packages, use the [zopen package manager](/Guides/Q
   </div>
 </div>
 
-<div class="tool-item-filterable" data-package-name="hlasm-language-server" data-searchable-text="hlasm-language-server Green 100.0% STABLE_hlasm-language-server_4185 development port" style="padding: 8px 0; border-bottom: 1px solid #eee;">
-  <div class="tool-info-grid">
-    <div class="tool-name"><strong><a href="https://github.com/zopencommunity/hlasm-language-serverport" target="_blank" rel="noopener noreferrer">hlasm-language-server</a></strong></div>
-    <div class="tool-status">Status: Green</div>
-    <div class="tool-test">Test: 100.0%</div>
-    <div class="tool-release"><a href="https://github.com/zopencommunity/hlasm-language-serverport/releases/download/STABLE_hlasm-language-serverport_4185/HLASM_LANGUAGE_SERVER_VERSION-DEV.20260401_155120.zos.pax.Z" target="_blank" rel="noopener noreferrer">STABLE_hlasm-language-server_4185</a></div>
-    <div class="tool-desc" title=""></div>
-  </div>
-</div>
-
 <div class="tool-item-filterable" data-package-name="jsonc" data-searchable-text="jsonc Blue 96.0% STABLE_jsonc_3590 development port" style="padding: 8px 0; border-bottom: 1px solid #eee;">
   <div class="tool-info-grid">
     <div class="tool-name"><strong><a href="https://github.com/zopencommunity/jsoncport" target="_blank" rel="noopener noreferrer">jsonc</a></strong></div>
@@ -1762,12 +1752,12 @@ Note: to download the latest packages, use the [zopen package manager](/Guides/Q
   </div>
 </div>
 
-<div class="tool-item-filterable" data-package-name="libsolv" data-searchable-text="libsolv Green 100.0% STABLE_libsolv_4133 Library for solving packages and reading repositories library port" style="padding: 8px 0; border-bottom: 1px solid #eee;">
+<div class="tool-item-filterable" data-package-name="libsolv" data-searchable-text="libsolv Green 100.0% STABLE_libsolv_4229 Library for solving packages and reading repositories library port" style="padding: 8px 0; border-bottom: 1px solid #eee;">
   <div class="tool-info-grid">
     <div class="tool-name"><strong><a href="https://github.com/zopencommunity/libsolvport" target="_blank" rel="noopener noreferrer">libsolv</a></strong></div>
     <div class="tool-status">Status: Green</div>
     <div class="tool-test">Test: 100.0%</div>
-    <div class="tool-release"><a href="https://github.com/zopencommunity/libsolvport/releases/download/STABLE_libsolvport_4133/libsolv-0.7.36.20260312_153724.zos.pax.Z" target="_blank" rel="noopener noreferrer">STABLE_libsolv_4133</a></div>
+    <div class="tool-release"><a href="https://github.com/zopencommunity/libsolvport/releases/download/STABLE_libsolvport_4229/libsolv-0.7.37.20260423_155338.zos.pax.Z" target="_blank" rel="noopener noreferrer">STABLE_libsolv_4229</a></div>
     <div class="tool-desc" title="Library for solving packages and reading repositories">Library for solving packages and reading repositories</div>
   </div>
 </div>
@@ -2470,6 +2460,16 @@ Note: to download the latest packages, use the [zopen package manager](/Guides/Q
 
 ## Uncategorized 
 
+<div class="tool-item-filterable" data-package-name="autoconf" data-searchable-text="autoconf Blue 98.0% STABLE_autoconf_1736 A configuration management tool uncategorized port" style="padding: 8px 0; border-bottom: 1px solid #eee;">
+  <div class="tool-info-grid">
+    <div class="tool-name"><strong><a href="https://github.com/zopencommunity/autoconfport" target="_blank" rel="noopener noreferrer">autoconf</a></strong></div>
+    <div class="tool-status">Status: Blue</div>
+    <div class="tool-test">Test: 98.0%</div>
+    <div class="tool-release"><a href="https://github.com/zopencommunity/autoconfport/releases/download/STABLE_autoconfport_1736/autoconf-2.71.20231114_002453.zos.pax.Z" target="_blank" rel="noopener noreferrer">STABLE_autoconf_1736</a></div>
+    <div class="tool-desc" title="A configuration management tool">A configuration management tool</div>
+  </div>
+</div>
+
 <div class="tool-item-filterable" data-package-name="automake" data-searchable-text="automake Blue 97.1% STABLE_automake_4058 Tool for managing dependencies in software projects using GNU Autotools uncategorized port" style="padding: 8px 0; border-bottom: 1px solid #eee;">
   <div class="tool-info-grid">
     <div class="tool-name"><strong><a href="https://github.com/zopencommunity/automakeport" target="_blank" rel="noopener noreferrer">automake</a></strong></div>
@@ -3006,12 +3006,12 @@ Note: to download the latest packages, use the [zopen package manager](/Guides/Q
   </div>
 </div>
 
-<div class="tool-item-filterable" data-package-name="meta" data-searchable-text="meta Green 100.0% STABLE_meta_4220 zopen package manager utilities port" style="padding: 8px 0; border-bottom: 1px solid #eee;">
+<div class="tool-item-filterable" data-package-name="meta" data-searchable-text="meta Green 100.0% STABLE_meta_4228 zopen package manager utilities port" style="padding: 8px 0; border-bottom: 1px solid #eee;">
   <div class="tool-info-grid">
     <div class="tool-name"><strong><a href="https://github.com/zopencommunity/metaport" target="_blank" rel="noopener noreferrer">meta</a></strong></div>
     <div class="tool-status">Status: Green</div>
     <div class="tool-test">Test: 100.0%</div>
-    <div class="tool-release"><a href="https://github.com/zopencommunity/metaport/releases/download/STABLE_metaport_4220/meta-main.20260420_122143.zos.pax.Z" target="_blank" rel="noopener noreferrer">STABLE_meta_4220</a></div>
+    <div class="tool-release"><a href="https://github.com/zopencommunity/metaport/releases/download/STABLE_metaport_4228/meta-main.20260423_133700.zos.pax.Z" target="_blank" rel="noopener noreferrer">STABLE_meta_4228</a></div>
     <div class="tool-desc" title="zopen package manager">zopen package manager</div>
   </div>
 </div>
@@ -3359,4 +3359,4 @@ Note: to download the latest packages, use the [zopen package manager](/Guides/Q
 </div>
 
 
-Last updated:  2026-04-23 06:20:04 UTC
+Last updated:  2026-04-24 06:18:24 UTC

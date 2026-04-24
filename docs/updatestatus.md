@@ -168,6 +168,7 @@
 - 2025-02-01: [Update creduce-version to 2.10.0 from V.R.M](https://github.com/zopencommunity/creduceport/pull/1) ❓
 
 ### crushport
+- 2026-04-23: [Update crush-version to 0.62.0 from 0.11.0](https://github.com/zopencommunity/crushport/pull/110) ❌
 - 2026-04-21: [Update crush-version to 0.61.1 from 0.11.0](https://github.com/zopencommunity/crushport/pull/109) ❌
 - 2026-04-18: [Update crush-version to 0.60.0 from 0.11.0](https://github.com/zopencommunity/crushport/pull/108) ❌
 - 2026-04-17: [Update crush-version to 0.59.0 from 0.11.0](https://github.com/zopencommunity/crushport/pull/107) ❌
@@ -197,7 +198,6 @@
 - 2026-02-23: [Update crush-version to 0.44.0 from 0.11.0](https://github.com/zopencommunity/crushport/pull/83) ❌
 - 2026-02-21: [Update crush-version to 0.43.4 from 0.11.0](https://github.com/zopencommunity/crushport/pull/82) ❌
 - 2026-02-19: [Update crush-version to 0.43.2 from 0.11.0](https://github.com/zopencommunity/crushport/pull/81) ❌
-- 2026-02-14: [Update crush-version to 0.43.0 from 0.11.0](https://github.com/zopencommunity/crushport/pull/80) ❌
 
 ### cunitport
 - 2026-01-20: [Update cunit-version to 3.5.4 from 3.2.7](https://github.com/zopencommunity/cunitport/pull/11) ❌
@@ -268,6 +268,7 @@
 - 2026-03-26: [Update ghcli-version to 2.89.0 from 2.86.0](https://github.com/zopencommunity/githubcliport/pull/79) ❌
 
 ### gitlabcliport
+- 2026-04-23: [Update glab-version to 1.93.0 from 1.57.0](https://github.com/zopencommunity/gitlabcliport/pull/69) ❌
 - 2026-04-11: [Update glab-version to 1.92.1 from 1.57.0](https://github.com/zopencommunity/gitlabcliport/pull/68) ❌
 - 2026-04-10: [Update glab-version to 1.92.0 from 1.57.0](https://github.com/zopencommunity/gitlabcliport/pull/67) ❌
 - 2026-04-02: [Update glab-version to 1.91.0 from 1.57.0](https://github.com/zopencommunity/gitlabcliport/pull/66) ❌
@@ -297,7 +298,6 @@
 - 2025-09-17: [Update glab-version to 1.72.0 from 1.57.0](https://github.com/zopencommunity/gitlabcliport/pull/42) ❓
 - 2025-09-16: [Update glab-version to 1.71.2 from 1.57.0](https://github.com/zopencommunity/gitlabcliport/pull/41) ❌
 - 2025-09-15: [Update glab-version to 1.69.0 from 1.57.0](https://github.com/zopencommunity/gitlabcliport/pull/40) ❌
-- 2025-09-05: [Update glab-version to 1.68.0 from 1.57.0](https://github.com/zopencommunity/gitlabcliport/pull/39) ❌
 
 ### gitlab-runnerport
 - 2026-04-20: [Update gitlab-runner-version to 18.11.1 from 17.6.0](https://github.com/zopencommunity/gitlab-runnerport/pull/67) ❌
@@ -436,7 +436,7 @@
 
 ### lazygitport
 - 2026-04-14: [Update lazygit-version to 0.61.1 from 0.60.0](https://github.com/zopencommunity/lazygitport/pull/38) ❌
-- 2026-04-07: [Update lazygit-version to 0.61.0 from 0.60.0](https://github.com/zopencommunity/lazygitport/pull/37) ❓
+- 2026-04-07: [Update lazygit-version to 0.61.0 from 0.60.0](https://github.com/zopencommunity/lazygitport/pull/37) ❌
 
 ### libgdbmport
 - 2025-03-22: [Update libgdbm-version to 1.25 from 1.24](https://github.com/zopencommunity/libgdbmport/pull/10) ❌
@@ -1100,5 +1100,5 @@
 ---
 
 
-> Last updated: 2026-04-23 06:11:51 EDT
+> Last updated: 2026-04-24 06:11:03 EDT
 
