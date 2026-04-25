@@ -760,6 +760,16 @@ Note: to download the latest packages, use the [zopen package manager](/Guides/Q
   </div>
 </div>
 
+<div class="tool-item-filterable" data-package-name="hlasm-language-server" data-searchable-text="hlasm-language-server Green 100.0% STABLE_hlasm-language-server_4185 development port" style="padding: 8px 0; border-bottom: 1px solid #eee;">
+  <div class="tool-info-grid">
+    <div class="tool-name"><strong><a href="https://github.com/zopencommunity/hlasm-language-serverport" target="_blank" rel="noopener noreferrer">hlasm-language-server</a></strong></div>
+    <div class="tool-status">Status: Green</div>
+    <div class="tool-test">Test: 100.0%</div>
+    <div class="tool-release"><a href="https://github.com/zopencommunity/hlasm-language-serverport/releases/download/STABLE_hlasm-language-serverport_4185/HLASM_LANGUAGE_SERVER_VERSION-DEV.20260401_155120.zos.pax.Z" target="_blank" rel="noopener noreferrer">STABLE_hlasm-language-server_4185</a></div>
+    <div class="tool-desc" title=""></div>
+  </div>
+</div>
+
 <div class="tool-item-filterable" data-package-name="jsonc" data-searchable-text="jsonc Blue 96.0% STABLE_jsonc_3590 development port" style="padding: 8px 0; border-bottom: 1px solid #eee;">
   <div class="tool-info-grid">
     <div class="tool-name"><strong><a href="https://github.com/zopencommunity/jsoncport" target="_blank" rel="noopener noreferrer">jsonc</a></strong></div>
@@ -2186,12 +2196,12 @@ Note: to download the latest packages, use the [zopen package manager](/Guides/Q
   </div>
 </div>
 
-<div class="tool-item-filterable" data-package-name="gpg" data-searchable-text="gpg Blue 94.0% STABLE_gpg_4178 A free software implementation of the GNU Privacy Guard security port" style="padding: 8px 0; border-bottom: 1px solid #eee;">
+<div class="tool-item-filterable" data-package-name="gpg" data-searchable-text="gpg Blue 94.0% STABLE_gpg_4230 A free software implementation of the GNU Privacy Guard security port" style="padding: 8px 0; border-bottom: 1px solid #eee;">
   <div class="tool-info-grid">
     <div class="tool-name"><strong><a href="https://github.com/zopencommunity/gpgport" target="_blank" rel="noopener noreferrer">gpg</a></strong></div>
     <div class="tool-status">Status: Blue</div>
     <div class="tool-test">Test: 94.0%</div>
-    <div class="tool-release"><a href="https://github.com/zopencommunity/gpgport/releases/download/STABLE_gpgport_4178/gnupg-2.5.18.20260331_123949.zos.pax.Z" target="_blank" rel="noopener noreferrer">STABLE_gpg_4178</a></div>
+    <div class="tool-release"><a href="https://github.com/zopencommunity/gpgport/releases/download/STABLE_gpgport_4230/gnupg-2.5.19.20260424_160344.zos.pax.Z" target="_blank" rel="noopener noreferrer">STABLE_gpg_4230</a></div>
     <div class="tool-desc" title="A free software implementation of the GNU Privacy Guard">A free software implementation of the GNU Privacy Guard</div>
   </div>
 </div>
@@ -3359,4 +3369,4 @@ Note: to download the latest packages, use the [zopen package manager](/Guides/Q
 </div>
 
 
-Last updated:  2026-04-24 06:18:24 UTC
+Last updated:  2026-04-25 06:18:03 UTC

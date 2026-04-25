@@ -24,9 +24,6 @@
 - 2025-09-09: [Update ansible-version to 2.19.2 from 2.19.0](https://github.com/zopencommunity/ansibleport/pull/3) ❌
 - 2025-08-26: [Update ansible-version to 2.19.1 from 2.19.0](https://github.com/zopencommunity/ansibleport/pull/2) ❌
 
-### autoconfport
-- 2026-03-21: [Update autoconf-version to 2.73 from 2.72](https://github.com/zopencommunity/autoconfport/pull/53) ❌
-
 ### buildkiteport
 - 2026-04-17: [Update buildkite-version to 3.123.1 from 3.61.0](https://github.com/zopencommunity/buildkiteport/pull/103) ❌
 - 2026-04-14: [Update buildkite-version to 3.123.0 from 3.61.0](https://github.com/zopencommunity/buildkiteport/pull/102) ❌
@@ -260,7 +257,7 @@
 
 ### ginport
 - 2025-09-20: [Update gin-version to 1.11.0 from 1.10.1](https://github.com/zopencommunity/ginport/pull/7) ❌
-- 2024-06-08: [Update gin-version to 1.10.0 from 1.9.1](https://github.com/zopencommunity/ginport/pull/2) ❌
+- 2024-06-08: [Update gin-version to 1.10.0 from 1.9.1](https://github.com/zopencommunity/ginport/pull/2) ❓
 
 ### githubcliport
 - 2026-04-22: [Update ghcli-version to 2.91.0 from 2.86.0](https://github.com/zopencommunity/githubcliport/pull/81) ❌
@@ -440,6 +437,9 @@
 
 ### libgdbmport
 - 2025-03-22: [Update libgdbm-version to 1.25 from 1.24](https://github.com/zopencommunity/libgdbmport/pull/10) ❌
+
+### libgpgerrorport
+- 2026-04-24: [Update libgpgerror-version to 1.60 from 1.59](https://github.com/zopencommunity/libgpgerrorport/pull/25) ❌
 
 ### libgpgmeport
 - 2025-10-10: [Update libgpgme-version to 2.0.1 from 1.23.2](https://github.com/zopencommunity/libgpgmeport/pull/3) ❌
@@ -1100,5 +1100,5 @@
 ---
 
 
-> Last updated: 2026-04-24 06:11:03 EDT
+> Last updated: 2026-04-25 06:10:16 EDT
 

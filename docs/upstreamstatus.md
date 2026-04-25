@@ -1,13 +1,13 @@
 # Upstream Patch Status Report
 
-*Report generated on: 2026-04-24 06:16:14 EDT.*
+*Report generated on: 2026-04-25 06:15:36 EDT.*
 
 ## Overall Summary
 
 - **Total Projects Analyzed:** 304
-- **Total Current Lines of Code (LOC) in Patches:** 57,910
+- **Total Current Lines of Code (LOC) in Patches:** 57,921
 - **Total Number of Current Patch Files:** 1,042
-- **Average Current Patch LOC per Project:** 190.49
+- **Average Current Patch LOC per Project:** 190.53
 - **Average Current Patch Count per Project:** 3.43
 
 ### Historical Trends (All Projects)
@@ -95,8 +95,8 @@
 | [tclport](#repo-tclport) | 180 | +0 | 2 |
 | [jemallocport](#repo-jemallocport) | 166 | +0 | 1 |
 | [groffport](#repo-groffport) | 165 | +0 | 13 |
+| [autoconfport](#repo-autoconfport) | 162 | +11 | 6 |
 | [mcport](#repo-mcport) | 155 | +0 | 1 |
-| [autoconfport](#repo-autoconfport) | 151 | +0 | 6 |
 | [moreutilsport](#repo-moreutilsport) | 151 | +0 | 1 |
 | [libserdesport](#repo-libserdesport) | 142 | +0 | 4 |
 | [multitailport](#repo-multitailport) | 130 | +0 | 1 |
@@ -2504,6 +2504,31 @@
 
 ---
 
+<a id="repo-autoconfport"></a>
+## autoconfport
+
+- **Origin Date (First Commit):** 2021-08-13
+- **Current Patch LOC:** 162
+- **Current Patch Count:** 6
+
+### Historical Trends
+
+![LOC Trend for autoconfport](images/upstream/autoconfport_current_loc_trend.png)
+![Count Trend for autoconfport](images/upstream/autoconfport_current_count_trend.png)
+
+### Current Patch Details
+
+| Patch File (Repo Relative Path) | Source | LOC |
+|---|---|:---|
+| `patches/PR1/config.guess.patch` | `patches` | 14 |
+| `patches/PR1/configure.patch` | `patches` | 22 |
+| `patches/PR1/general.m4.patch` | `patches` | 87 |
+| `patches/PR1/local.at.patch` | `patches` | 13 |
+| `patches/PR1/status.m4.patch` | `patches` | 13 |
+| `patches/m4sh.m4.patch` | `patches` | 13 |
+
+---
+
 <a id="repo-mcport"></a>
 ## mcport
 
@@ -2521,31 +2546,6 @@
 | Patch File (Repo Relative Path) | Source | LOC |
 |---|---|:---|
 | `patches/PR1.patch` | `patches` | 155 |
-
----
-
-<a id="repo-autoconfport"></a>
-## autoconfport
-
-- **Origin Date (First Commit):** 2021-08-13
-- **Current Patch LOC:** 151
-- **Current Patch Count:** 6
-
-### Historical Trends
-
-![LOC Trend for autoconfport](images/upstream/autoconfport_current_loc_trend.png)
-![Count Trend for autoconfport](images/upstream/autoconfport_current_count_trend.png)
-
-### Current Patch Details
-
-| Patch File (Repo Relative Path) | Source | LOC |
-|---|---|:---|
-| `patches/PR1/config.guess.patch` | `patches` | 14 |
-| `patches/PR1/configure.patch` | `patches` | 22 |
-| `patches/PR1/general.m4.patch` | `patches` | 76 |
-| `patches/PR1/local.at.patch` | `patches` | 13 |
-| `patches/PR1/status.m4.patch` | `patches` | 13 |
-| `patches/m4sh.m4.patch` | `patches` | 13 |
 
 ---
 
