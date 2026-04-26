@@ -165,6 +165,7 @@
 - 2025-02-01: [Update creduce-version to 2.10.0 from V.R.M](https://github.com/zopencommunity/creduceport/pull/1) ❓
 
 ### crushport
+- 2026-04-25: [Update crush-version to 0.62.1 from 0.11.0](https://github.com/zopencommunity/crushport/pull/111) ❌
 - 2026-04-23: [Update crush-version to 0.62.0 from 0.11.0](https://github.com/zopencommunity/crushport/pull/110) ❌
 - 2026-04-21: [Update crush-version to 0.61.1 from 0.11.0](https://github.com/zopencommunity/crushport/pull/109) ❌
 - 2026-04-18: [Update crush-version to 0.60.0 from 0.11.0](https://github.com/zopencommunity/crushport/pull/108) ❌
@@ -194,7 +195,6 @@
 - 2026-02-25: [Update crush-version to 0.45.0 from 0.11.0](https://github.com/zopencommunity/crushport/pull/84) ❌
 - 2026-02-23: [Update crush-version to 0.44.0 from 0.11.0](https://github.com/zopencommunity/crushport/pull/83) ❌
 - 2026-02-21: [Update crush-version to 0.43.4 from 0.11.0](https://github.com/zopencommunity/crushport/pull/82) ❌
-- 2026-02-19: [Update crush-version to 0.43.2 from 0.11.0](https://github.com/zopencommunity/crushport/pull/81) ❌
 
 ### cunitport
 - 2026-01-20: [Update cunit-version to 3.5.4 from 3.2.7](https://github.com/zopencommunity/cunitport/pull/11) ❌
@@ -1100,5 +1100,5 @@
 ---
 
 
-> Last updated: 2026-04-25 06:10:16 EDT
+> Last updated: 2026-04-26 06:10:11 EDT
 

@@ -142,7 +142,7 @@
   <div class="tool-info-grid">
     <div class="tool-name"><strong><a href="https://github.com/zopencommunity/autoconfport" target="_blank" rel="noopener noreferrer">autoconfport</a></strong></div>
     <div class="tool-status">75</div>
-    <div class="tool-test">98.0%</div>
+    <div class="tool-test">99.0%</div>
     <div class="tool-release">apr, asio, autoconf, automake, bash, bash-completion, bison, check, coreutils, cpio, cronie, ctags, curl, doxygen, expat, file, gettext, git, gnulib, gpg, groff, grpc, gzip, hello, help2man, hexcurse, htop, jansson, jemalloc, jq, less, libarchive, libassuan, libbsd, libgcrypt, libgpgerror, libgpgme, libiconv, libksba, libmd, liboqs, libpsl, libsasl2, libtool, libyaml, logrotate, m4, make, man-db, mc, mpfr, nano, npth, ntbtls, oniguruma, oqs-provider, php, pinentry, procps, re2c, rsync, screen, sed, shdoc, sshpass, tar, texinfo, thesilversearcher, tmux, util-linux, uucp, wget, which, xtrans, zlib-ng</div>
     <div class="tool-desc"></div>
   </div>
@@ -2506,4 +2506,4 @@
   </div>
 </div>
 
-Last updated:  2026-04-25 06:18:03 UTC
+Last updated:  2026-04-26 06:18:16 UTC
