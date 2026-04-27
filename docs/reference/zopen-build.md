@@ -188,7 +188,7 @@ repository.</p>
 
 <p style="margin-left:11%; margin-top: 1em">To see a fully
 functioning zopen community sample port see:
-https::/#47;/github.comm/#47;zopencommunityy/#47;zotsampleport</p>
+https://github.com/zopencommunity/zotsampleport</p>
 
 <p style="margin-left:11%; margin-top: 1em">User&minus;Provided
 environment variables:</p>
@@ -687,7 +687,7 @@ zopen&minus;list(1) zopen&minus;remove(1)</p>
 <p style="margin-left:11%; margin-top: 1em">This is free
 software: you are free to change and redistribute it under
 the terms of the Apache License, Version 2.0.
-&lt;https::/#47;/www.apache.orgg/#47;licensess/#47;LICENSE&minus;2.0.html&gt;
+&lt;https://www.apache.org/licenses/LICENSE&minus;2.0.html&gt;
 There is NO WARRANTY, to the extent permitted by law.</p>
 
 <h2>AUTHOR
@@ -696,6 +696,6 @@ There is NO WARRANTY, to the extent permitted by law.</p>
 
 <p style="margin-left:11%; margin-top: 1em">Written by
 contributors to the zopen community.
-&lt;https::/#47;/github.comm/#47;zopencommunityy/#47;metaa/#47;graphss/#47;contributors&gt;</p>
+&lt;https://github.com/zopencommunity/meta/graphs/contributors&gt;</p>
 
 </div>
