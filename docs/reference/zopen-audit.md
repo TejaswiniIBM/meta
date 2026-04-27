@@ -1,15 +1,15 @@
 <div v-pre class="man-page-content">
-
+<div class="header-with-back">
+  <div class="back-link">
+    <a href="./zopen-reference">← Back</a>
+  </div>
+</div>
 
 <h1 align="center">ZOPEN-AUDIT</h1>
-
-
-
 
 <h2>NAME
 <a name="NAME"></a>
 </h2>
-
 
 <p style="margin-left:11%; margin-top: 1em">zopen-audit
 &minus; manual page for zopen-audit 0.8.4</p>
@@ -18,16 +18,12 @@
 <a name="SYNOPSIS"></a>
 </h2>
 
-
-
 <p style="margin-left:11%; margin-top: 1em"><b>zopen-audit</b>
 [<i>OPTION</i>]</p>
 
 <h2>DESCRIPTION
 <a name="DESCRIPTION"></a>
 </h2>
-
-
 
 <p style="margin-left:11%; margin-top: 1em">zopen&minus;audit
 is a utility for zopen community to check for
@@ -37,13 +33,10 @@ vulnerabilities in your installed packages.</p>
 <a name="OPTIONS"></a>
 </h2>
 
-
-
 <p style="margin-left:11%; margin-top: 1em"><b>&minus;v</b>,
 <b>&minus;&minus;verbose</b></p>
 
 <p style="margin-left:22%;">run in verbose mode.</p>
-
 
 <p style="margin-left:11%;"><b>&minus;&minus;version</b></p>
 
@@ -66,7 +59,6 @@ vulnerabilities.</p>
 <a name="EXAMPLES"></a>
 </h2>
 
-
 <p style="margin-left:11%; margin-top: 1em">zopen audit</p>
 
 <p style="margin-left:22%;">check for vulnerabilities in
@@ -76,7 +68,6 @@ all installed packages</p>
 <a name="AUTHOR"></a>
 </h2>
 
-
 <p style="margin-left:11%; margin-top: 1em">Written by
 contributors to the zopen community.
 &lt;https://github.com/zopencommunity/meta/graphs/contributors&gt;</p>
@@ -84,7 +75,6 @@ contributors to the zopen community.
 <h2>REPORTING BUGS
 <a name="REPORTING BUGS"></a>
 </h2>
-
 
 <p style="margin-left:11%; margin-top: 1em">Report bugs at
 https://github.com/zopencommunity/meta/issues.</p>
@@ -96,42 +86,3 @@ the terms of the Apache License, Version 2.0.
 There is NO WARRANTY, to the extent permitted by law.</p>
 
 </div>
-
-<style scoped>
-.man-page-content {
-  padding: 20px;
-  line-height: 1.6;
-  overflow-x: auto;
-  background: var(--vp-c-bg-soft);
-}
-
-.man-page-content :deep(h1) {
-  text-align: left;
-}
-
-.man-page-content :deep(h2) {
-  margin-top: 1.5rem;
-}
-
-.man-page-content :deep(table) {
-  width: 100%;
-  border-collapse: collapse;
-  margin: 1rem 0;
-}
-
-.man-page-content :deep(pre) {
-  background: var(--vp-c-bg-soft);
-  padding: 1rem;
-  border-radius: 8px;
-  overflow-x: auto;
-  white-space: pre-wrap;
-}
-
-.man-page-content :deep(p) {
-  margin: 0.5rem 0;
-}
-
-.man-page-content :deep(a) {
-  color: var(--vp-c-brand-1);
-}
-</style>

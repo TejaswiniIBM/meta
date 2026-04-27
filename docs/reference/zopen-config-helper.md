@@ -1,16 +1,15 @@
 <div v-pre class="man-page-content">
-
+<div class="header-with-back">
+  <div class="back-link">
+    <a href="./zopen-reference">← Back</a>
+  </div>
+</div>
 
 <h1 align="center">ZOPEN-CONFIG-HELPER</h1>
-
-
-
 
 <h2>NAME
 <a name="NAME"></a>
 </h2>
-
-
 
 <p style="margin-left:11%; margin-top: 1em">zopen-config-helper
 &minus; manual page for zopen-config-helper 0.8.4</p>
@@ -19,16 +18,12 @@
 <a name="SYNOPSIS"></a>
 </h2>
 
-
-
 <p style="margin-left:11%; margin-top: 1em"><b>zopen-config-helper</b>
 [<i>OPTION</i>] [<i>KEY</i>]</p>
 
 <h2>DESCRIPTION
 <a name="DESCRIPTION"></a>
 </h2>
-
-
 
 <p style="margin-left:11%; margin-top: 1em">zopen&minus;config&minus;helper
 is a utility for zopen community to change the zopen runtime
@@ -38,8 +33,6 @@ environment.</p>
 <a name="OPTIONS"></a>
 </h2>
 
-
-
 <p style="margin-left:11%; margin-top: 1em"><b>&minus;&minus;delete</b></p>
 
 <p style="margin-left:22%;">unset and remove the named KEY
@@ -48,38 +41,32 @@ property from the store</p>
 <table width="100%" border="0" rules="none" frame="void"
        cellspacing="0" cellpadding="0">
 <tr valign="top" align="left">
-<td width="11%"></td>
-<td width="9%">
-
+<td width="9%"></td>
+<td width="11%">
 
 <p><b>&minus;&minus;get</b></p></td>
 <td width="2%"></td>
 <td width="78%">
 
-
 <p>display the current value for the named KEY property or
 the empty string if the property is not found/set</p></td></tr>
 <tr valign="top" align="left">
-<td width="11%"></td>
-<td width="9%">
-
+<td width="9%"></td>
+<td width="11%">
 
 <p><b>&minus;&minus;set</b></p></td>
 <td width="2%"></td>
 <td width="78%">
 
-
 <p>set the configuration value for the named KEY
 property</p> </td></tr>
 <tr valign="top" align="left">
-<td width="11%"></td>
-<td width="9%">
-
+<td width="9%"></td>
+<td width="11%">
 
 <p><b>&minus;&minus;list</b></p></td>
 <td width="2%"></td>
 <td width="78%">
-
 
 <p>list all current configuration values</p></td></tr>
 </table>
@@ -94,7 +81,6 @@ property</p> </td></tr>
 
 <p style="margin-left:22%;">run in verbose mode.</p>
 
-
 <p style="margin-left:11%;"><b>&minus;&minus;version</b></p>
 
 <p style="margin-left:22%;">print version.</p>
@@ -102,7 +88,6 @@ property</p> </td></tr>
 <h2>EXAMPLES
 <a name="EXAMPLES"></a>
 </h2>
-
 
 <p style="margin-left:11%; margin-top: 1em">zopen config
 &minus;&minus;get autocacheclean</p>
@@ -115,7 +100,6 @@ is_collecting_stats false</p>
 
 <p style="margin-left:22%;">disable the is_collecting_stats
 functionality</p>
-
 
 <p style="margin-left:11%; margin-top: 1em"><b>Notes:</b></p>
 
@@ -137,7 +121,6 @@ underscore, &rsquo;_&rsquo;</p>
 non&minus;relocatable global configuration file,
 config.json, can be found at:</p>
 
-
 <p style="margin-left:22%; margin-top: 1em">&lt;$ZOPEN_ROOTFS&gt;/etc/zopen/config.json</p>
 
 <p style="margin-left:22%; margin-top: 1em">Manual editing
@@ -149,7 +132,6 @@ misconfigured.</p>
 <a name="AUTHOR"></a>
 </h2>
 
-
 <p style="margin-left:11%; margin-top: 1em">Written by
 contributors to the zopen community.
 &lt;https://github.com/zopencommunity/meta/graphs/contributors&gt;</p>
@@ -157,7 +139,6 @@ contributors to the zopen community.
 <h2>REPORTING BUGS
 <a name="REPORTING BUGS"></a>
 </h2>
-
 
 <p style="margin-left:11%; margin-top: 1em">Report bugs at
 https://github.com/zopencommunity/meta/issues.</p>
@@ -169,42 +150,3 @@ the terms of the Apache License, Version 2.0.
 There is NO WARRANTY, to the extent permitted by law.</p>
 
 </div>
-
-<style scoped>
-.man-page-content {
-  padding: 20px;
-  line-height: 1.6;
-  overflow-x: auto;
-  background: var(--vp-c-bg-soft);
-}
-
-.man-page-content :deep(h1) {
-  text-align: left;
-}
-
-.man-page-content :deep(h2) {
-  margin-top: 1.5rem;
-}
-
-.man-page-content :deep(table) {
-  width: 100%;
-  border-collapse: collapse;
-  margin: 1rem 0;
-}
-
-.man-page-content :deep(pre) {
-  background: var(--vp-c-bg-soft);
-  padding: 1rem;
-  border-radius: 8px;
-  overflow-x: auto;
-  white-space: pre-wrap;
-}
-
-.man-page-content :deep(p) {
-  margin: 0.5rem 0;
-}
-
-.man-page-content :deep(a) {
-  color: var(--vp-c-brand-1);
-}
-</style>

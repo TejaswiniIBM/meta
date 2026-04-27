@@ -1,15 +1,16 @@
 <div v-pre class="man-page-content">
 
+<div class="header-with-back">
+  <div class="back-link">
+    <a href="./zopen-reference">← Back</a>
+  </div>
+</div>
 
 <h1 align="center">ZOPEN-VERSION</h1>
-
-
-
 
 <h2>NAME
 <a name="NAME"></a>
 </h2>
-
 
 <p style="margin-left:11%; margin-top: 1em">zopen-version
 &minus; manual page for zopen-version 0.8.4</p>
@@ -18,7 +19,6 @@
 <a name="SYNOPSIS"></a>
 </h2>
 
-
 <p style="margin-left:11%; margin-top: 1em"><b>zopen</b>
 [<i>COMMAND</i>] [<i>OPTION</i>] [<i>PARAMETERS</i>]...</p>
 
@@ -26,71 +26,59 @@
 <a name="DESCRIPTION"></a>
 </h2>
 
-
 <p style="margin-left:11%; margin-top: 1em">zopen is a
 utility for managing a zopen community environment.</p>
-
 
 <p style="margin-left:11%; margin-top: 1em"><b>Command:</b></p>
 
 <table width="100%" border="0" rules="none" frame="void"
        cellspacing="0" cellpadding="0">
 <tr valign="top" align="left">
-<td width="11%"></td>
-<td width="9%">
-
+<td width="9%"></td>
+<td width="11%">
 
 <p>alt</p></td>
 <td width="2%"></td>
 <td width="78%">
 
-
 <p>manage alternate versions of zopen community
 packages</p> </td></tr>
 <tr valign="top" align="left">
-<td width="11%"></td>
-<td width="9%">
-
+<td width="9%"></td>
+<td width="11%">
 
 <p>audit</p></td>
 <td width="2%"></td>
 <td width="78%">
 
-
 <p>(beta) reports known vulnerabilities for the installed
 packages</p> </td></tr>
 <tr valign="top" align="left">
-<td width="11%"></td>
-<td width="9%">
-
+<td width="9%"></td>
+<td width="11%">
 
 <p>build</p></td>
 <td width="2%"></td>
 <td width="78%">
 
-
 <p>builds the enclosing zopen community git&minus;cloned
 package</p> </td></tr>
 <tr valign="top" align="left">
-<td width="11%"></td>
-<td width="9%">
-
+<td width="9%"></td>
+<td width="11%">
 
 <p>clean</p></td>
 <td width="2%"></td>
 <td width="78%">
 
-
 <p>cleans up your zopen environment</p></td></tr>
 <tr valign="top" align="left">
-<td width="11%"></td>
-<td width="9%">
-
+<td width="9%"></td>
+<td width="11%">
 
 <p>config</p></td>
 <td width="2%"></td>
 <td width="78%">
-
 
 <p>change zopen runtime environment settings</p></td></tr>
 </table>
@@ -111,11 +99,9 @@ project</p>
 <td width="11%"></td>
 <td width="6%">
 
-
 <p>init</p></td>
 <td width="5%"></td>
 <td width="78%">
-
 
 <p>initializes a zopen environment at the specified
 location</p> </td></tr>
@@ -137,11 +123,9 @@ community packages</p>
 <td width="11%"></td>
 <td width="6%">
 
-
 <p>info</p></td>
 <td width="5%"></td>
 <td width="73%">
-
 
 <p>displays detailed information about a package</p></td>
 <td width="5%">
@@ -150,11 +134,9 @@ community packages</p>
 <td width="11%"></td>
 <td width="6%">
 
-
 <p>list</p></td>
 <td width="5%"></td>
 <td width="73%">
-
 
 <p>lists information about zopen community packages</p></td>
 <td width="5%">
@@ -169,26 +151,22 @@ to github</p>
 <table width="100%" border="0" rules="none" frame="void"
        cellspacing="0" cellpadding="0">
 <tr valign="top" align="left">
-<td width="11%"></td>
-<td width="9%">
-
+<td width="9%"></td>
+<td width="11%">
 
 <p>query</p></td>
 <td width="2%"></td>
 <td width="78%">
 
-
 <p>list local or remote info about zopen community
 packages</p> </td></tr>
 <tr valign="top" align="left">
-<td width="11%"></td>
-<td width="9%">
-
+<td width="9%"></td>
+<td width="11%">
 
 <p>remove</p></td>
 <td width="2%"></td>
 <td width="78%">
-
 
 <p>removes installed zopen community packages</p></td></tr>
 </table>
@@ -209,11 +187,9 @@ community packages</p>
 <td width="11%"></td>
 <td width="7%">
 
-
 <p>usage</p></td>
 <td width="4%"></td>
 <td width="78%">
-
 
 <p>output details about the file system usage for your
 zopen environment</p></td></tr>
@@ -228,8 +204,6 @@ or library belongs to</p>
 <a name="OPTIONS"></a>
 </h2>
 
-
-
 <p style="margin-left:11%; margin-top: 1em"><b>&minus;h</b>,
 <b>&minus;&minus;help</b>, &minus;?</p>
 
@@ -243,7 +217,6 @@ or library belongs to</p>
 <h2>EXAMPLES
 <a name="EXAMPLES"></a>
 </h2>
-
 
 <p style="margin-left:11%; margin-top: 1em">zopen
 &minus;&minus;help</p>
@@ -294,7 +267,6 @@ zopen&minus;version(1)</p>
 <a name="AUTHOR"></a>
 </h2>
 
-
 <p style="margin-left:11%; margin-top: 1em">Written by
 contributors to the zopen community.
 &lt;https://github.com/zopencommunity/meta/graphs/contributors&gt;</p>
@@ -302,7 +274,6 @@ contributors to the zopen community.
 <h2>REPORTING BUGS
 <a name="REPORTING BUGS"></a>
 </h2>
-
 
 <p style="margin-left:11%; margin-top: 1em">Report bugs at
 https://github.com/zopencommunity/meta/issues</p>
@@ -314,42 +285,3 @@ the terms of the Apache License, Version 2.0.
 There is NO WARRANTY, to the extent permitted by law.</p>
 
 </div>
-
-<style scoped>
-.man-page-content {
-  padding: 20px;
-  line-height: 1.6;
-  overflow-x: auto;
-  background: var(--vp-c-bg-soft);
-}
-
-.man-page-content :deep(h1) {
-  text-align: left;
-}
-
-.man-page-content :deep(h2) {
-  margin-top: 1.5rem;
-}
-
-.man-page-content :deep(table) {
-  width: 100%;
-  border-collapse: collapse;
-  margin: 1rem 0;
-}
-
-.man-page-content :deep(pre) {
-  background: var(--vp-c-bg-soft);
-  padding: 1rem;
-  border-radius: 8px;
-  overflow-x: auto;
-  white-space: pre-wrap;
-}
-
-.man-page-content :deep(p) {
-  margin: 0.5rem 0;
-}
-
-.man-page-content :deep(a) {
-  color: var(--vp-c-brand-1);
-}
-</style>
