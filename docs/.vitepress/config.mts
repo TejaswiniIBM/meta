@@ -2,7 +2,7 @@ import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: "/meta/",
+  base: "/",
   title: "zopen community",
   titleTemplate: false,
   description:
