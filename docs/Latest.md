@@ -1106,12 +1106,12 @@ Note: to download the latest packages, use the [zopen package manager](/Guides/Q
   </div>
 </div>
 
-<div class="tool-item-filterable" data-package-name="lazygit" data-searchable-text="lazygit Skipped N/A STABLE_lazygit_2148 A Git client devops port" style="padding: 8px 0; border-bottom: 1px solid #eee;">
+<div class="tool-item-filterable" data-package-name="lazygit" data-searchable-text="lazygit Skipped N/A STABLE_lazygit_4135 A Git client devops port" style="padding: 8px 0; border-bottom: 1px solid #eee;">
   <div class="tool-info-grid">
     <div class="tool-name"><strong><a href="https://github.com/zopencommunity/lazygitport" target="_blank" rel="noopener noreferrer">lazygit</a></strong></div>
     <div class="tool-status">Status: Skipped</div>
     <div class="tool-test">Test: N/A</div>
-    <div class="tool-release"><a href="https://github.com/zopencommunity/lazygitport/releases/download/STABLE_lazygitport_2148/lazygit-master.20240221_041017.zos.pax.Z" target="_blank" rel="noopener noreferrer">STABLE_lazygit_2148</a></div>
+    <div class="tool-release"><a href="https://github.com/zopencommunity/lazygitport/releases/download/STABLE_lazygitport_4135/lazygit-v0.60.0.20260313_105825.zos.pax.Z" target="_blank" rel="noopener noreferrer">STABLE_lazygit_4135</a></div>
     <div class="tool-desc" title="A Git client">A Git client</div>
   </div>
 </div>
@@ -1288,12 +1288,12 @@ Note: to download the latest packages, use the [zopen package manager](/Guides/Q
   </div>
 </div>
 
-<div class="tool-item-filterable" data-package-name="lazygit" data-searchable-text="lazygit Skipped N/A STABLE_lazygit_2148 A Git client editor port" style="padding: 8px 0; border-bottom: 1px solid #eee;">
+<div class="tool-item-filterable" data-package-name="lazygit" data-searchable-text="lazygit Skipped N/A STABLE_lazygit_4135 A Git client editor port" style="padding: 8px 0; border-bottom: 1px solid #eee;">
   <div class="tool-info-grid">
     <div class="tool-name"><strong><a href="https://github.com/zopencommunity/lazygitport" target="_blank" rel="noopener noreferrer">lazygit</a></strong></div>
     <div class="tool-status">Status: Skipped</div>
     <div class="tool-test">Test: N/A</div>
-    <div class="tool-release"><a href="https://github.com/zopencommunity/lazygitport/releases/download/STABLE_lazygitport_2148/lazygit-master.20240221_041017.zos.pax.Z" target="_blank" rel="noopener noreferrer">STABLE_lazygit_2148</a></div>
+    <div class="tool-release"><a href="https://github.com/zopencommunity/lazygitport/releases/download/STABLE_lazygitport_4135/lazygit-v0.60.0.20260313_105825.zos.pax.Z" target="_blank" rel="noopener noreferrer">STABLE_lazygit_4135</a></div>
     <div class="tool-desc" title="A Git client">A Git client</div>
   </div>
 </div>
@@ -1456,12 +1456,12 @@ Note: to download the latest packages, use the [zopen package manager](/Guides/Q
   </div>
 </div>
 
-<div class="tool-item-filterable" data-package-name="my_basic" data-searchable-text="my_basic Green 100.0% DEV_my_basic_2881 A BASIC interpreter language port" style="padding: 8px 0; border-bottom: 1px solid #eee;">
+<div class="tool-item-filterable" data-package-name="my_basic" data-searchable-text="my_basic Green 100.0% DEV_my_basic_3030 A BASIC interpreter language port" style="padding: 8px 0; border-bottom: 1px solid #eee;">
   <div class="tool-info-grid">
     <div class="tool-name"><strong><a href="https://github.com/zopencommunity/my_basicport" target="_blank" rel="noopener noreferrer">my_basic</a></strong></div>
     <div class="tool-status">Status: Green</div>
     <div class="tool-test">Test: 100.0%</div>
-    <div class="tool-release"><a href="https://github.com/zopencommunity/my_basicport/releases/download/DEV_my_basicport_2881/my_basic-master.20250129_162430.zos.pax.Z" target="_blank" rel="noopener noreferrer">DEV_my_basic_2881</a></div>
+    <div class="tool-release"><a href="https://github.com/zopencommunity/my_basicport/releases/download/DEV_my_basicport_3030/my_basic-master.20250131_100320.zos.pax.Z" target="_blank" rel="noopener noreferrer">DEV_my_basic_3030</a></div>
     <div class="tool-desc" title="A BASIC interpreter">A BASIC interpreter</div>
   </div>
 </div>
@@ -1732,11 +1732,11 @@ Note: to download the latest packages, use the [zopen package manager](/Guides/Q
   </div>
 </div>
 
-<div class="tool-item-filterable" data-package-name="librabbitmq" data-searchable-text="librabbitmq Green 100.0% STABLE_librabbitmq_3162 library port" style="padding: 8px 0; border-bottom: 1px solid #eee;">
+<div class="tool-item-filterable" data-package-name="librabbitmq" data-searchable-text="librabbitmq Green N/A STABLE_librabbitmq_3162 library port" style="padding: 8px 0; border-bottom: 1px solid #eee;">
   <div class="tool-info-grid">
     <div class="tool-name"><strong><a href="https://github.com/zopencommunity/librabbitmqport" target="_blank" rel="noopener noreferrer">librabbitmq</a></strong></div>
     <div class="tool-status">Status: Green</div>
-    <div class="tool-test">Test: 100.0%</div>
+    <div class="tool-test">Test: N/A</div>
     <div class="tool-release"><a href="https://github.com/zopencommunity/librabbitmqport/releases/download/STABLE_librabbitmqport_3162/librabbitmq-DEV.20250311_121219.zos.pax.Z" target="_blank" rel="noopener noreferrer">STABLE_librabbitmq_3162</a></div>
     <div class="tool-desc" title=""></div>
   </div>
@@ -1752,12 +1752,12 @@ Note: to download the latest packages, use the [zopen package manager](/Guides/Q
   </div>
 </div>
 
-<div class="tool-item-filterable" data-package-name="librepo" data-searchable-text="librepo Green 100.0% STABLE_librepo_3668 library port" style="padding: 8px 0; border-bottom: 1px solid #eee;">
+<div class="tool-item-filterable" data-package-name="librepo" data-searchable-text="librepo Green 100.0% STABLE_librepo_3669 library port" style="padding: 8px 0; border-bottom: 1px solid #eee;">
   <div class="tool-info-grid">
     <div class="tool-name"><strong><a href="https://github.com/zopencommunity/librepoport" target="_blank" rel="noopener noreferrer">librepo</a></strong></div>
     <div class="tool-status">Status: Green</div>
     <div class="tool-test">Test: 100.0%</div>
-    <div class="tool-release"><a href="https://github.com/zopencommunity/librepoport/releases/download/STABLE_librepoport_3668/librepo-1.20.0.20250820_065339.zos.pax.Z" target="_blank" rel="noopener noreferrer">STABLE_librepo_3668</a></div>
+    <div class="tool-release"><a href="https://github.com/zopencommunity/librepoport/releases/download/STABLE_librepoport_3669/librepo-1.20.0.20250820_080359.zos.pax.Z" target="_blank" rel="noopener noreferrer">STABLE_librepo_3669</a></div>
     <div class="tool-desc" title=""></div>
   </div>
 </div>
@@ -2100,11 +2100,11 @@ Note: to download the latest packages, use the [zopen package manager](/Guides/Q
   </div>
 </div>
 
-<div class="tool-item-filterable" data-package-name="librabbitmq" data-searchable-text="librabbitmq Green 100.0% STABLE_librabbitmq_3162 networking port" style="padding: 8px 0; border-bottom: 1px solid #eee;">
+<div class="tool-item-filterable" data-package-name="librabbitmq" data-searchable-text="librabbitmq Green N/A STABLE_librabbitmq_3162 networking port" style="padding: 8px 0; border-bottom: 1px solid #eee;">
   <div class="tool-info-grid">
     <div class="tool-name"><strong><a href="https://github.com/zopencommunity/librabbitmqport" target="_blank" rel="noopener noreferrer">librabbitmq</a></strong></div>
     <div class="tool-status">Status: Green</div>
-    <div class="tool-test">Test: 100.0%</div>
+    <div class="tool-test">Test: N/A</div>
     <div class="tool-release"><a href="https://github.com/zopencommunity/librabbitmqport/releases/download/STABLE_librabbitmqport_3162/librabbitmq-DEV.20250311_121219.zos.pax.Z" target="_blank" rel="noopener noreferrer">STABLE_librabbitmq_3162</a></div>
     <div class="tool-desc" title=""></div>
   </div>
@@ -2866,12 +2866,12 @@ Note: to download the latest packages, use the [zopen package manager](/Guides/Q
   </div>
 </div>
 
-<div class="tool-item-filterable" data-package-name="fzf" data-searchable-text="fzf Blue 99.2% STABLE_fzf_4187 A fuzzy finder tool utilities port" style="padding: 8px 0; border-bottom: 1px solid #eee;">
+<div class="tool-item-filterable" data-package-name="fzf" data-searchable-text="fzf Blue 99.2% STABLE_fzf_4232 A fuzzy finder tool utilities port" style="padding: 8px 0; border-bottom: 1px solid #eee;">
   <div class="tool-info-grid">
     <div class="tool-name"><strong><a href="https://github.com/zopencommunity/fzfport" target="_blank" rel="noopener noreferrer">fzf</a></strong></div>
     <div class="tool-status">Status: Blue</div>
     <div class="tool-test">Test: 99.2%</div>
-    <div class="tool-release"><a href="https://github.com/zopencommunity/fzfport/releases/download/STABLE_fzfport_4187/fzf-v0.71.0.20260404_152510.zos.pax.Z" target="_blank" rel="noopener noreferrer">STABLE_fzf_4187</a></div>
+    <div class="tool-release"><a href="https://github.com/zopencommunity/fzfport/releases/download/STABLE_fzfport_4232/fzf-v0.72.0.20260426_195706.zos.pax.Z" target="_blank" rel="noopener noreferrer">STABLE_fzf_4232</a></div>
     <div class="tool-desc" title="A fuzzy finder tool">A fuzzy finder tool</div>
   </div>
 </div>
@@ -2986,12 +2986,12 @@ Note: to download the latest packages, use the [zopen package manager](/Guides/Q
   </div>
 </div>
 
-<div class="tool-item-filterable" data-package-name="lazygit" data-searchable-text="lazygit Skipped N/A STABLE_lazygit_2148 A Git client utilities port" style="padding: 8px 0; border-bottom: 1px solid #eee;">
+<div class="tool-item-filterable" data-package-name="lazygit" data-searchable-text="lazygit Skipped N/A STABLE_lazygit_4135 A Git client utilities port" style="padding: 8px 0; border-bottom: 1px solid #eee;">
   <div class="tool-info-grid">
     <div class="tool-name"><strong><a href="https://github.com/zopencommunity/lazygitport" target="_blank" rel="noopener noreferrer">lazygit</a></strong></div>
     <div class="tool-status">Status: Skipped</div>
     <div class="tool-test">Test: N/A</div>
-    <div class="tool-release"><a href="https://github.com/zopencommunity/lazygitport/releases/download/STABLE_lazygitport_2148/lazygit-master.20240221_041017.zos.pax.Z" target="_blank" rel="noopener noreferrer">STABLE_lazygit_2148</a></div>
+    <div class="tool-release"><a href="https://github.com/zopencommunity/lazygitport/releases/download/STABLE_lazygitport_4135/lazygit-v0.60.0.20260313_105825.zos.pax.Z" target="_blank" rel="noopener noreferrer">STABLE_lazygit_4135</a></div>
     <div class="tool-desc" title="A Git client">A Git client</div>
   </div>
 </div>
@@ -3369,4 +3369,4 @@ Note: to download the latest packages, use the [zopen package manager](/Guides/Q
 </div>
 
 
-Last updated:  2026-04-26 06:18:16 UTC
+Last updated:  2026-04-27 06:18:55 UTC
