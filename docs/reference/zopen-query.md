@@ -6,16 +6,11 @@
   </div>
 </div>
 
-
 <h1 align="center">ZOPEN-QUERY</h1>
-
-
-
 
 <h2>NAME
 <a name="NAME"></a>
 </h2>
-
 
 <p style="margin-left:11%; margin-top: 1em">zopen-query
 &minus; manual page for zopen-query 0.8.4</p>
@@ -24,16 +19,12 @@
 <a name="SYNOPSIS"></a>
 </h2>
 
-
-
 <p style="margin-left:11%; margin-top: 1em"><b>zopen-query</b>
 [OPTION] [VERB] [PACKAGE]</p>
 
 <h2>DESCRIPTION
 <a name="DESCRIPTION"></a>
 </h2>
-
-
 
 <p style="margin-left:11%; margin-top: 1em">zopen&minus;query
 &minus; a utility for zopen community to query packages and
@@ -48,7 +39,6 @@ action to take, which is one of</p>
 <td width="11%"></td>
 <td width="55%">
 
-
 <p style="margin-top: 1em"><b>&minus;&minus;list</b>,
 <b>&minus;&minus;remote&minus;search</b>,
 <b>&minus;&minus;installed</b></p> </td>
@@ -60,7 +50,7 @@ action to take, which is one of</p>
 package, specified for
 <b>&minus;&minus;remote&minus;search</b></p>
 
-<p><b>Verbs:</b></p></table>
+<p><b>Verbs:</b></p>
 
 <p style="margin-left:11%;"><b>&minus;i</b>,
 <b>&minus;&minus;installed</b></p>
@@ -74,17 +64,14 @@ community.</p>
 <td width="11%"></td>
 <td width="9%">
 
-
 <p><b>&minus;&minus;list</b></p></td>
 <td width="2%"></td>
 <td width="53%">
-
 
 <p>list all available zopen community.</p></td>
 <td width="25%">
 </td></tr>
 </table>
-
 
 <p style="margin-left:11%;"><b>&minus;&minus;remote&minus;search</b></p>
 
@@ -94,8 +81,6 @@ available zopen community</p>
 <h2>OPTIONS
 <a name="OPTIONS"></a>
 </h2>
-
-
 
 <p style="margin-left:11%; margin-top: 1em"><b>&minus;d</b>,
 <b>&minus;&minus;details</b></p>
@@ -109,23 +94,20 @@ listings.</p>
 <td width="11%"></td>
 <td width="71%">
 
-
 <p style="margin-top: 1em"><b>&minus;&minus;category</b>
 &lt;category&gt; apply a category filter.</p></td>
 <td width="18%">
 </td></tr>
 </table>
 
-<p><b>&minus;&minus;help</b></p></table>
+<p><b>&minus;&minus;help</b></p>
 
 <p style="margin-left:22%;">print this help</p>
-
 
 <p style="margin-left:11%;"><b>&minus;&minus;no&minus;header</b>,</p>
 
 <p style="margin-left:22%;">suppress the header for the
 output.</p>
-
 
 <p style="margin-left:11%;"><b>&minus;&minus;no&minus;version</b>,</p>
 
@@ -138,17 +120,14 @@ return package names.</p>
 <td width="11%"></td>
 <td width="3%">
 
-
 <p><b>&minus;v</b></p></td>
 <td width="8%"></td>
 <td width="30%">
-
 
 <p>run in verbose mode.</p></td>
 <td width="48%">
 </td></tr>
 </table>
-
 
 <p style="margin-left:11%;"><b>&minus;&minus;version</b></p>
 
@@ -163,7 +142,6 @@ There is NO WARRANTY, to the extent permitted by law.</p>
 <h2>AUTHOR
 <a name="AUTHOR"></a>
 </h2>
-
 
 <p style="margin-left:11%; margin-top: 1em">Written by
 contributors to the zopen community.
