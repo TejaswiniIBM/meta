@@ -238,9 +238,9 @@ Now that you've gained some experience with using the zopen community, let's att
     (As mentioned in Module 3, ensure the path to the compiler is set.)
 
 Now, let's attempt to build gitport:
-`
-	zopen build –vv
-	`
+```bash
+zopen build -vv
+```
 
     It completes build and installation as shown below:
 
