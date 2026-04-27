@@ -70,6 +70,7 @@
 - 2024-05-30: [Update caddy-version to 2.8.1 from 2.7.6](https://github.com/zopencommunity/caddyport/pull/1) ❓
 
 ### ccacheport
+- 2026-04-26: [Update ccache-version to 4.13.5 from 4.11.3](https://github.com/zopencommunity/ccacheport/pull/11) ❌
 - 2026-04-19: [Update ccache-version to 4.13.4 from 4.11.3](https://github.com/zopencommunity/ccacheport/pull/10) ❌
 - 2026-04-12: [Update ccache-version to 4.13.3 from 4.11.3](https://github.com/zopencommunity/ccacheport/pull/9) ❌
 - 2026-03-22: [Update ccache-version to 4.13.2 from 4.11.3](https://github.com/zopencommunity/ccacheport/pull/8) ❌
@@ -1100,5 +1101,5 @@
 ---
 
 
-> Last updated: 2026-04-26 06:10:11 EDT
+> Last updated: 2026-04-27 06:11:20 EDT
 
