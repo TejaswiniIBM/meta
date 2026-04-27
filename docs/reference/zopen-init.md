@@ -1,15 +1,16 @@
 <div v-pre class="man-page-content">
 
+<div class="header-with-back">
+  <div class="back-link">
+    <a href="./zopen-reference">← Back</a>
+  </div>
+</div>
 
 <h1 align="center">ZOPEN-INIT</h1>
-
-
-
 
 <h2>NAME
 <a name="NAME"></a>
 </h2>
-
 
 <p style="margin-left:11%; margin-top: 1em">zopen-init
 &minus; manual page for zopen-init 0.8.4</p>
@@ -18,14 +19,12 @@
 <a name="SYNOPSIS"></a>
 </h2>
 
-
 <p style="margin-left:11%; margin-top: 1em"><b>zopen</b>
 <i>init</i> [<i>OPTION</i>] [<i>PARAMETERS</i>]...</p>
 
 <h2>DESCRIPTION
 <a name="DESCRIPTION"></a>
 </h2>
-
 
 <p style="margin-left:11%; margin-top: 1em">zopen init is a
 utility for zopen community to generate a zopen environment,
@@ -36,14 +35,11 @@ file</p>
 <a name="OPTIONS"></a>
 </h2>
 
-
 <table width="100%" border="0" rules="none" frame="void"
        cellspacing="0" cellpadding="0">
 <tr valign="top" align="left">
 <td width="11%"></td>
 <td width="29%">
-
-
 
 <p style="margin-top: 1em"><b>&minus;&minus;append&minus;to&minus;profile</b></p> </td>
 <td width="60%">
@@ -60,8 +56,6 @@ sourcing of zopen&minus;config to current user&rsquo;s
 <td width="11%"></td>
 <td width="27%">
 
-
-
 <p style="margin-top: 1em"><b>&minus;&minus;[no]enable&minus;stats</b></p> </td>
 <td width="62%">
 </td></tr>
@@ -75,8 +69,6 @@ collection of usage statistics</p>
 <tr valign="top" align="left">
 <td width="11%"></td>
 <td width="37%">
-
-
 
 <p style="margin-top: 1em"><b>&minus;&minus;[no]override&minus;zos&minus;tools</b></p> </td>
 <td width="52%">
@@ -94,8 +86,6 @@ zopen&minus;config. Default is
 <td width="11%"></td>
 <td width="34%">
 
-
-
 <p style="margin-top: 1em"><b>&minus;&minus;bypass&minus;prereq&minus;checks</b></p> </td>
 <td width="55%">
 </td></tr>
@@ -109,7 +99,6 @@ pre&minus;requisite checks</p>
 <tr valign="top" align="left">
 <td width="11%"></td>
 <td width="37%">
-
 
 <p style="margin-top: 1em"><b>&minus;f</b>,
 <b>&minus;&minus;fs&minus;layout</b> &lt;LAYOUT&gt;</p></td>
@@ -137,7 +126,6 @@ usr/local</p>
 <td width="11%"></td>
 <td width="21%">
 
-
 <p style="margin-top: 1em"><b>&minus;h</b>, &minus;?,
 <b>&minus;&minus;help</b></p> </td>
 <td width="68%">
@@ -153,13 +141,10 @@ help and exit</p>
 <td width="11%"></td>
 <td width="14%">
 
-
-
 <p style="margin-top: 1em"><b>&minus;&minus;re&minus;init</b></p> </td>
 <td width="75%">
 </td></tr>
 </table>
-
 
 <p style="margin-left:22%; margin-top: 1em">Re&minus;initializes
 a previous zopen environment or create a new environment
@@ -174,8 +159,6 @@ the active version for PACKAGE from a list</p>
 <td width="11%"></td>
 <td width="14%">
 
-
-
 <p style="margin-top: 1em"><b>&minus;&minus;refresh</b></p> </td>
 <td width="75%">
 </td></tr>
@@ -189,8 +172,6 @@ zopen&minus;config file</p>
 <tr valign="top" align="left">
 <td width="11%"></td>
 <td width="26%">
-
-
 
 <p style="margin-top: 1em"><b>&minus;&minus;releaseline&minus;dev</b></p> </td>
 <td width="63%">
@@ -208,7 +189,6 @@ use STABLE packages</p>
 <td width="11%"></td>
 <td width="20%">
 
-
 <p style="margin-top: 1em"><b>&minus;v</b>,
 <b>&minus;&minus;verbose</b></p> </td>
 <td width="69%">
@@ -224,7 +204,6 @@ mode</p>
 <td width="11%"></td>
 <td width="14%">
 
-
 <p style="margin-top: 1em"><b>&minus;y</b>,
 <b>&minus;&minus;yes</b></p> </td>
 <td width="75%">
@@ -237,7 +216,6 @@ answer &rsquo;yes&rsquo; to prompts</p>
 <h2>EXAMPLES
 <a name="EXAMPLES"></a>
 </h2>
-
 
 <p style="margin-left:22%; margin-top: 1em">zopen init</p>
 
@@ -256,7 +234,6 @@ Releaseline packages</p>
 &minus;&minus;append&minus;to&minus;profile
 &minus;&minus;fs&minus;layout fhs /zopen</p>
 
-
 <p style="margin-left:22%; margin-top: 1em">non&minus;interactively
 create a zopen environment at location &rsquo;/zopen&rsquo;
 on disk, with packages installed to
@@ -269,7 +246,6 @@ terminal sessions start</p>
 <a name="AUTHOR"></a>
 </h2>
 
-
 <p style="margin-left:11%; margin-top: 1em">Written by
 contributors to the zopen community.
 &lt;https://github.com/zopencommunity/meta/graphs/contributors&gt;</p>
@@ -277,7 +253,6 @@ contributors to the zopen community.
 <h2>REPORTING BUGS
 <a name="REPORTING BUGS"></a>
 </h2>
-
 
 <p style="margin-left:11%; margin-top: 1em">Report bugs at
 https://github.com/zopencommunity/meta/issues</p>
@@ -289,42 +264,3 @@ the terms of the Apache License, Version 2.0.
 There is NO WARRANTY, to the extent permitted by law.</p>
 
 </div>
-
-<style scoped>
-.man-page-content {
-  padding: 20px;
-  line-height: 1.6;
-  overflow-x: auto;
-  background: var(--vp-c-bg-soft);
-}
-
-.man-page-content :deep(h1) {
-  text-align: left;
-}
-
-.man-page-content :deep(h2) {
-  margin-top: 1.5rem;
-}
-
-.man-page-content :deep(table) {
-  width: 100%;
-  border-collapse: collapse;
-  margin: 1rem 0;
-}
-
-.man-page-content :deep(pre) {
-  background: var(--vp-c-bg-soft);
-  padding: 1rem;
-  border-radius: 8px;
-  overflow-x: auto;
-  white-space: pre-wrap;
-}
-
-.man-page-content :deep(p) {
-  margin: 0.5rem 0;
-}
-
-.man-page-content :deep(a) {
-  color: var(--vp-c-brand-1);
-}
-</style>

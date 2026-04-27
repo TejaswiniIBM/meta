@@ -3,7 +3,12 @@
     <div class="filters-row">
       <div class="category-filter">
         <label for="category-filter">Category: </label>
-        <select id="category-filter" v-model="selectedCategory" @change="applyFilters" class="category-select">
+        <select
+          id="category-filter"
+          v-model="selectedCategory"
+          @change="applyFilters"
+          class="category-select"
+        >
           <option value="All">All</option>
           <option value="ai">Ai</option>
           <option value="build_system">Build_System</option>
@@ -30,7 +35,7 @@
           <option value="webframework">Webframework</option>
         </select>
       </div>
-      
+
       <div class="search-filter">
         <input
           id="toolSearchInput"
@@ -42,7 +47,7 @@
         />
       </div>
     </div>
-    
+
     <div v-if="searchText && visibleCount === 0" class="no-results">
       No tools found matching your search.
     </div>
@@ -50,110 +55,120 @@
 </template>
 
 <script setup lang="ts">
-import { ref, onMounted } from 'vue'
+import { ref, onMounted } from "vue";
 
-const searchText = ref('')
-const selectedCategory = ref('All')
-const visibleCount = ref(0)
+const searchText = ref("");
+const selectedCategory = ref("All");
+const visibleCount = ref(0);
 
 const applyFilters = () => {
-  const filterText = searchText.value.toLowerCase().trim()
-  const categoryValue = selectedCategory.value.toLowerCase()
-  const allToolItems = document.querySelectorAll('.tool-item-filterable')
-  const categoryContainers = document.querySelectorAll('.table-category')
-  
-  let count = 0
+  const filterText = searchText.value.toLowerCase().trim();
+  const categoryValue = selectedCategory.value.toLowerCase();
+  const allToolItems = document.querySelectorAll(".tool-item-filterable");
+  const categoryContainers = document.querySelectorAll(".table-category");
+
+  let count = 0;
 
   // First pass: determine which categories are visible based on category filter
-  const visibleCategories = new Set<string>()
+  const visibleCategories = new Set<string>();
   categoryContainers.forEach((container) => {
-    const element = container as HTMLElement
-    const containerCategory = element.dataset.category || ''
-    if (categoryValue === 'all' || containerCategory === categoryValue) {
-      visibleCategories.add(containerCategory)
+    const element = container as HTMLElement;
+    const containerCategory = element.dataset.category || "";
+    if (
+      categoryValue === "all" ||
+      containerCategory.toLowerCase() === categoryValue
+    ) {
+      visibleCategories.add(containerCategory);
     }
-  })
+  });
 
   // Second pass: apply search filter with category-aware de-duplication
-  if (filterText !== '') {
+  if (filterText !== "") {
     // Track displayed packages per category
-    const displayedPackagesPerCategory = new Map<string, Set<string>>()
-    
+    const displayedPackagesPerCategory = new Map<string, Set<string>>();
+
     allToolItems.forEach((item) => {
-      const element = item as HTMLElement
-      const packageName = element.dataset.packageName || 'N/A_PKG_NAME'
-      const rawSearchableAttr = element.dataset.searchableText
-      const processedSearchableText = rawSearchableAttr ? rawSearchableAttr.toLowerCase().trim() : ''
-      
+      const element = item as HTMLElement;
+      const packageName = element.dataset.packageName || "N/A_PKG_NAME";
+      const rawSearchableAttr = element.dataset.searchableText;
+      const processedSearchableText = rawSearchableAttr
+        ? rawSearchableAttr.toLowerCase().trim()
+        : "";
+
       // Find the parent category container
-      const parentCategory = element.closest('.table-category') as HTMLElement
-      const itemCategory = parentCategory?.dataset.category || ''
-      
-      let isMatch = false
+      const parentCategory = element.closest(".table-category") as HTMLElement;
+      const itemCategory = parentCategory?.dataset.category || "";
+
+      let isMatch = false;
       if (processedSearchableText && filterText) {
-        isMatch = processedSearchableText.includes(filterText)
+        isMatch = processedSearchableText.includes(filterText);
       }
 
       if (isMatch && visibleCategories.has(itemCategory)) {
         // Only apply de-duplication within visible categories
-        if (packageName !== 'N/A_PKG_NAME') {
+        if (packageName !== "N/A_PKG_NAME") {
           if (!displayedPackagesPerCategory.has(itemCategory)) {
-            displayedPackagesPerCategory.set(itemCategory, new Set<string>())
+            displayedPackagesPerCategory.set(itemCategory, new Set<string>());
           }
-          const categorySet = displayedPackagesPerCategory.get(itemCategory)!
-          
+          const categorySet = displayedPackagesPerCategory.get(itemCategory)!;
+
           if (!categorySet.has(packageName)) {
-            element.style.display = ''
-            categorySet.add(packageName)
-            count++
+            element.style.display = "";
+            categorySet.add(packageName);
+            count++;
           } else {
-            element.style.display = 'none'
+            element.style.display = "none";
           }
         } else {
-          element.style.display = ''
-          count++
+          element.style.display = "";
+          count++;
         }
       } else {
-        element.style.display = 'none'
+        element.style.display = "none";
       }
-    })
+    });
   } else {
     // No search text - show all items
     allToolItems.forEach((item) => {
-      (item as HTMLElement).style.display = ''
-    })
+      (item as HTMLElement).style.display = "";
+    });
   }
 
   // Third pass: show/hide category containers based on visibility and content
   categoryContainers.forEach((container) => {
-    const element = container as HTMLElement
-    const containerCategory = element.dataset.category || ''
-    
-    if (filterText !== '') {
+    const element = container as HTMLElement;
+    const containerCategory = element.dataset.category || "";
+
+    if (filterText !== "") {
       // When searching, only show categories that have visible items
-      const visibleChildrenInContainer = element.querySelectorAll('.tool-item-filterable:not([style*="display: none"])')
-      
-      if (visibleChildrenInContainer.length > 0 && visibleCategories.has(containerCategory)) {
-        element.style.display = ''
+      const visibleChildrenInContainer = element.querySelectorAll(
+        '.tool-item-filterable:not([style*="display: none"])',
+      );
+
+      if (
+        visibleChildrenInContainer.length > 0 &&
+        visibleCategories.has(containerCategory)
+      ) {
+        element.style.display = "";
       } else {
-        element.style.display = 'none'
+        element.style.display = "none";
       }
     } else {
       // No search text - respect category filter only
       if (visibleCategories.has(containerCategory)) {
-        element.style.display = ''
+        element.style.display = "";
       } else {
-        element.style.display = 'none'
+        element.style.display = "none";
       }
     }
-  })
+  });
 
-  visibleCount.value = count
-}
+  visibleCount.value = count;
+};
 
 onMounted(() => {
-  applyFilters()
-})
+  applyFilters();
+});
 </script>
 
 <style scoped>
@@ -235,19 +250,19 @@ onMounted(() => {
     flex-direction: column;
     align-items: stretch;
   }
-  
+
   .category-filter {
     width: 100%;
   }
-  
+
   .category-select {
     flex: 1;
   }
-  
+
   .search-filter {
     width: 100%;
   }
-  
+
   .tool-search-input {
     max-width: 100%;
   }

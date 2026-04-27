@@ -41,72 +41,50 @@ UpdateDocs() {
 This page provides information about the zopen interface. Click on any of the zopen commands listed below to access the reference guide describing how to utilize that command.
 EOF
 
-  # Generate HTML and markdown pages
- for man in man/man1/*.1;
+  # Generate markdown pages only
+  for man in man/man1/*.1;
   do
     base=${man##*/};
     name=${base%%.1};
-    html="docs/reference/${name}.html";
     md="docs/reference/${name}.md";
     
-    # 1. Generate raw HTML from the man page
-    groff -m mandoc -Thtml -Wall "${man}" > "${html}";
+    # Generate temporary HTML from the man page
+    temp_html=$(mktemp)
+    groff -m mandoc -Thtml -Wall "${man}" > "${temp_html}";
     
-    # 2. Extract only the content between <body> and </body>
+    # Extract only the content between <body> and </body>
     # This avoids injecting full-document tags (<html>, <head>, <body>) into markdown
-    body_content=$(sed -n '/<body>/,/<\/body>/p' "${html}" | sed '1d;$d' | sed '/<a href="#/d' | sed '/<br>$/d' | sed '/<hr>/d')
+    body_content=$(sed -n '/<body>/,/<\/body>/p' "${temp_html}" | sed '1d;$d' | sed '/<a href="#/d' | sed '/<br>$/d' | sed '/<hr>/d')
     
-    # 3. Write the markdown file using raw HTML injection
+    # Remove <i> and <em> tags to avoid Vue parsing issues
+    body_content=$(echo "${body_content}" | sed 's|<i>||g' | sed 's|</i>||g' | sed 's|<em>||g' | sed 's|</em>||g')
+    
+    # Escape forward slashes in file paths (but not in HTML tags)
+    # This regex matches forward slashes that are NOT preceded by < (to avoid breaking </tag>)
+    body_content=$(echo "${body_content}" | sed 's|\([^<]\)/|\1&#47;|g')
+    
+    # Escape angle brackets in URLs to prevent Vue from parsing them as tags
+    body_content=$(echo "${body_content}" | sed 's|<http|<http|g' | sed 's|<ftp|<ftp|g' | sed 's|contributors>|contributors>|g' | sed 's|\.0>|\.0>|g')
+    
+    # Clean up temporary HTML file
+    rm -f "${temp_html}"
+    
+    # Write the markdown file using raw HTML injection
     cat <<EOF > "${md}"
 <div v-pre class="man-page-content">
+
+<div class="header-with-back">
+  <div class="back-link">
+    <a href="./zopen-reference">← Back</a>
+  </div>
+</div>
 
 ${body_content}
 
 </div>
-
-<style scoped>
-.man-page-content {
-  padding: 20px;
-  line-height: 1.6;
-  overflow-x: auto;
-  background: var(--vp-c-bg-soft);
-}
-
-.man-page-content :deep(h1) {
-  text-align: left;
-}
-
-.man-page-content :deep(h2) {
-  margin-top: 1.5rem;
-}
-
-.man-page-content :deep(table) {
-  width: 100%;
-  border-collapse: collapse;
-  margin: 1rem 0;
-}
-
-.man-page-content :deep(pre) {
-  background: var(--vp-c-bg-soft);
-  padding: 1rem;
-  border-radius: 8px;
-  overflow-x: auto;
-  white-space: pre-wrap;
-}
-
-.man-page-content :deep(p) {
-  margin: 0.5rem 0;
-}
-
-.man-page-content :deep(a) {
-  color: var(--vp-c-brand-1);
-}
-</style>
 EOF
     
     echo "* [${name}](./${name})" >> docs/reference/zopen-reference.md
-    
-    # Keep the generated HTML artifact alongside the markdown reference page
   done
 
   # Commit it all back to the repo

@@ -1,15 +1,16 @@
 <div v-pre class="man-page-content">
 
+<div class="header-with-back">
+  <div class="back-link">
+    <a href="./zopen-reference">← Back</a>
+  </div>
+</div>
 
 <h1 align="center">ZOPEN-VERSION</h1>
-
-
-
 
 <h2>NAME
 <a name="NAME"></a>
 </h2>
-
 
 <p style="margin-left:11%; margin-top: 1em">zopen-version
 &minus; manual page for zopen-version 0.8.4</p>
@@ -18,16 +19,12 @@
 <a name="SYNOPSIS"></a>
 </h2>
 
-
-
 <p style="margin-left:11%; margin-top: 1em"><b>zopen-version</b>
 [<i>OPTION</i>] <i>tool</i></p>
 
 <h2>DESCRIPTION
 <a name="DESCRIPTION"></a>
 </h2>
-
-
 
 <p style="margin-left:11%; margin-top: 1em">zopen&minus;version
 prints version information for zopen tools.</p>
@@ -36,24 +33,20 @@ prints version information for zopen tools.</p>
 <a name="OPTIONS"></a>
 </h2>
 
-
 <table width="100%" border="0" rules="none" frame="void"
        cellspacing="0" cellpadding="0">
 <tr valign="top" align="left">
-<td width="11%"></td>
-<td width="9%">
-
+<td width="9%"></td>
+<td width="11%">
 
 <p style="margin-top: 1em"><b>&minus;&minus;help</b></p></td>
 <td width="2%"></td>
 <td width="41%">
 
-
 <p style="margin-top: 1em">display this help and exit.</p></td>
 <td width="37%">
 </td></tr>
 </table>
-
 
 <p style="margin-left:11%;"><b>&minus;&minus;version</b></p>
 
@@ -69,48 +62,8 @@ There is NO WARRANTY, to the extent permitted by law.</p>
 <a name="AUTHOR"></a>
 </h2>
 
-
 <p style="margin-left:11%; margin-top: 1em">Written by
 contributors to the zopen community.
 &lt;https://github.com/zopencommunity/meta/graphs/contributors&gt;</p>
 
 </div>
-
-<style scoped>
-.man-page-content {
-  padding: 20px;
-  line-height: 1.6;
-  overflow-x: auto;
-  background: var(--vp-c-bg-soft);
-}
-
-.man-page-content :deep(h1) {
-  text-align: left;
-}
-
-.man-page-content :deep(h2) {
-  margin-top: 1.5rem;
-}
-
-.man-page-content :deep(table) {
-  width: 100%;
-  border-collapse: collapse;
-  margin: 1rem 0;
-}
-
-.man-page-content :deep(pre) {
-  background: var(--vp-c-bg-soft);
-  padding: 1rem;
-  border-radius: 8px;
-  overflow-x: auto;
-  white-space: pre-wrap;
-}
-
-.man-page-content :deep(p) {
-  margin: 0.5rem 0;
-}
-
-.man-page-content :deep(a) {
-  color: var(--vp-c-brand-1);
-}
-</style>
