@@ -2,11 +2,43 @@
 
 Note: to download the latest packages, use the [zopen package manager](/Guides/QuickStart)
 
-<ToolFilters />
+<div>
+  <label for="category-filter">Filter by Category: </label>
+  <select id="category-filter" onchange="filterTable()">
+    <option value="All">All</option>
+    <option value="ai">Ai</option>
+    <option value="build_system">Build_System</option>
+    <option value="compression">Compression</option>
+    <option value="core">Core</option>
+    <option value="database">Database</option>
+    <option value="development">Development</option>
+    <option value="devops">Devops</option>
+    <option value="documentation">Documentation</option>
+    <option value="editor">Editor</option>
+    <option value="graphics">Graphics</option>
+    <option value="json">Json</option>
+    <option value="language">Language</option>
+    <option value="library">Library</option>
+    <option value="math">Math</option>
+    <option value="monitoring">Monitoring</option>
+    <option value="networking">Networking</option>
+    <option value="security">Security</option>
+    <option value="shell">Shell</option>
+    <option value="source_control">Source_Control</option>
+    <option value="testing">Testing</option>
+    <option value="uncategorized">Uncategorized</option>
+    <option value="utilities">Utilities</option>
+    <option value="webframework">Webframework</option>
+  </select>
+</div>
+
+<div class="tool-search-container" style="margin-top: 15px; margin-bottom: 20px;">
+  <input type="text" id="toolSearchInput" placeholder="Type to search tools by name, description, release, status, etc..." style="width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 4px; box-sizing: border-box;">
+</div>
 
 <div class="table-category" data-category="ai">
 
-## Ai
+## Ai 
 
 <div class="tool-item-filterable" data-package-name="blis" data-searchable-text="blis Green 100.0% STABLE_blis_3689 BLAS-like Library Instantiation Software Framework for z/OS ai port" style="padding: 8px 0; border-bottom: 1px solid #eee;">
   <div class="tool-info-grid">
@@ -52,7 +84,7 @@ Note: to download the latest packages, use the [zopen package manager](/Guides/Q
 
 <div class="table-category" data-category="build_system">
 
-## Build_System
+## Build_System 
 
 <div class="tool-item-filterable" data-package-name="dnf5" data-searchable-text="dnf5 Blue 80.0% STABLE_dnf5_4008 Next-generation RPM package management system build_system port" style="padding: 8px 0; border-bottom: 1px solid #eee;">
   <div class="tool-info-grid">
@@ -98,7 +130,7 @@ Note: to download the latest packages, use the [zopen package manager](/Guides/Q
 
 <div class="table-category" data-category="compression">
 
-## Compression
+## Compression 
 
 <div class="tool-item-filterable" data-package-name="bzip2" data-searchable-text="bzip2 Green 100.0% STABLE_bzip2_3657 A compression utility compression port" style="padding: 8px 0; border-bottom: 1px solid #eee;">
   <div class="tool-info-grid">
@@ -184,7 +216,7 @@ Note: to download the latest packages, use the [zopen package manager](/Guides/Q
 
 <div class="table-category" data-category="core">
 
-## Core
+## Core 
 
 <div class="tool-item-filterable" data-package-name="frp" data-searchable-text="frp Green 100.0% STABLE_frp_3806 A reverse proxy core port" style="padding: 8px 0; border-bottom: 1px solid #eee;">
   <div class="tool-info-grid">
@@ -310,7 +342,7 @@ Note: to download the latest packages, use the [zopen package manager](/Guides/Q
 
 <div class="table-category" data-category="database">
 
-## Database
+## Database 
 
 <div class="tool-item-filterable" data-package-name="grafana" data-searchable-text="grafana Skipped N/A STABLE_grafana_2268 An open-source observability and data visualization platform database port" style="padding: 8px 0; border-bottom: 1px solid #eee;">
   <div class="tool-info-grid">
@@ -376,7 +408,7 @@ Note: to download the latest packages, use the [zopen package manager](/Guides/Q
 
 <div class="table-category" data-category="development">
 
-## Development
+## Development 
 
 <div class="tool-item-filterable" data-package-name="ant" data-searchable-text="ant Skipped N/A STABLE_ant_4200 A build automation tool development port" style="padding: 8px 0; border-bottom: 1px solid #eee;">
   <div class="tool-info-grid">
@@ -1012,7 +1044,7 @@ Note: to download the latest packages, use the [zopen package manager](/Guides/Q
 
 <div class="table-category" data-category="devops">
 
-## Devops
+## Devops 
 
 <div class="tool-item-filterable" data-package-name="conan" data-searchable-text="conan Yellow 54.0% STABLE_conan_3047 C/C++ Package Manager tool devops port" style="padding: 8px 0; border-bottom: 1px solid #eee;">
   <div class="tool-info-grid">
@@ -1138,7 +1170,7 @@ Note: to download the latest packages, use the [zopen package manager](/Guides/Q
 
 <div class="table-category" data-category="documentation">
 
-## Documentation
+## Documentation 
 
 <div class="tool-item-filterable" data-package-name="doxygen" data-searchable-text="doxygen Blue 98.1% STABLE_doxygen_3651 A documentation generator documentation port" style="padding: 8px 0; border-bottom: 1px solid #eee;">
   <div class="tool-info-grid">
@@ -1204,7 +1236,7 @@ Note: to download the latest packages, use the [zopen package manager](/Guides/Q
 
 <div class="table-category" data-category="editor">
 
-## Editor
+## Editor 
 
 <div class="tool-item-filterable" data-package-name="ctags" data-searchable-text="ctags Green 100.0% STABLE_ctags_4112 A code indexing tool editor port" style="padding: 8px 0; border-bottom: 1px solid #eee;">
   <div class="tool-info-grid">
@@ -1320,7 +1352,7 @@ Note: to download the latest packages, use the [zopen package manager](/Guides/Q
 
 <div class="table-category" data-category="graphics">
 
-## Graphics
+## Graphics 
 
 <div class="tool-item-filterable" data-package-name="dialog" data-searchable-text="dialog Green 100.0% STABLE_dialog_3045 A library for creating dialog boxes graphics port" style="padding: 8px 0; border-bottom: 1px solid #eee;">
   <div class="tool-info-grid">
@@ -1366,7 +1398,7 @@ Note: to download the latest packages, use the [zopen package manager](/Guides/Q
 
 <div class="table-category" data-category="json">
 
-## Json
+## Json 
 
 <div class="tool-item-filterable" data-package-name="jd" data-searchable-text="jd Skipped N/A STABLE_jd_4085 JSON diff and patch json port" style="padding: 8px 0; border-bottom: 1px solid #eee;">
   <div class="tool-info-grid">
@@ -1382,7 +1414,7 @@ Note: to download the latest packages, use the [zopen package manager](/Guides/Q
 
 <div class="table-category" data-category="language">
 
-## Language
+## Language 
 
 <div class="tool-item-filterable" data-package-name="check_java" data-searchable-text="check_java Green 100.0% STABLE_check_java_3044 A script to check for the existence of Java language port" style="padding: 8px 0; border-bottom: 1px solid #eee;">
   <div class="tool-info-grid">
@@ -1478,7 +1510,7 @@ Note: to download the latest packages, use the [zopen package manager](/Guides/Q
 
 <div class="table-category" data-category="library">
 
-## Library
+## Library 
 
 <div class="tool-item-filterable" data-package-name="avro-c-lib" data-searchable-text="avro-c-lib Green 100.0% STABLE_avro-c-lib_3003 A data serialization framework library port" style="padding: 8px 0; border-bottom: 1px solid #eee;">
   <div class="tool-info-grid">
@@ -1700,11 +1732,11 @@ Note: to download the latest packages, use the [zopen package manager](/Guides/Q
   </div>
 </div>
 
-<div class="tool-item-filterable" data-package-name="librabbitmq" data-searchable-text="librabbitmq Green N/A STABLE_librabbitmq_3162 library port" style="padding: 8px 0; border-bottom: 1px solid #eee;">
+<div class="tool-item-filterable" data-package-name="librabbitmq" data-searchable-text="librabbitmq Green 100.0% STABLE_librabbitmq_3162 library port" style="padding: 8px 0; border-bottom: 1px solid #eee;">
   <div class="tool-info-grid">
     <div class="tool-name"><strong><a href="https://github.com/zopencommunity/librabbitmqport" target="_blank" rel="noopener noreferrer">librabbitmq</a></strong></div>
     <div class="tool-status">Status: Green</div>
-    <div class="tool-test">Test: N/A</div>
+    <div class="tool-test">Test: 100.0%</div>
     <div class="tool-release"><a href="https://github.com/zopencommunity/librabbitmqport/releases/download/STABLE_librabbitmqport_3162/librabbitmq-DEV.20250311_121219.zos.pax.Z" target="_blank" rel="noopener noreferrer">STABLE_librabbitmq_3162</a></div>
     <div class="tool-desc" title=""></div>
   </div>
@@ -1974,7 +2006,7 @@ Note: to download the latest packages, use the [zopen package manager](/Guides/Q
 
 <div class="table-category" data-category="math">
 
-## Math
+## Math 
 
 <div class="tool-item-filterable" data-package-name="blis" data-searchable-text="blis Green 100.0% STABLE_blis_3689 BLAS-like Library Instantiation Software Framework for z/OS math port" style="padding: 8px 0; border-bottom: 1px solid #eee;">
   <div class="tool-info-grid">
@@ -2010,7 +2042,7 @@ Note: to download the latest packages, use the [zopen package manager](/Guides/Q
 
 <div class="table-category" data-category="monitoring">
 
-## Monitoring
+## Monitoring 
 
 <div class="tool-item-filterable" data-package-name="pv" data-searchable-text="pv Skipped N/A STABLE_pv_3795 Pipe Viewer - monitor data through a pipeline monitoring port" style="padding: 8px 0; border-bottom: 1px solid #eee;">
   <div class="tool-info-grid">
@@ -2026,7 +2058,7 @@ Note: to download the latest packages, use the [zopen package manager](/Guides/Q
 
 <div class="table-category" data-category="networking">
 
-## Networking
+## Networking 
 
 <div class="tool-item-filterable" data-package-name="caddy" data-searchable-text="caddy Skipped N/A STABLE_caddy_2215 A web server networking port" style="padding: 8px 0; border-bottom: 1px solid #eee;">
   <div class="tool-info-grid">
@@ -2068,11 +2100,11 @@ Note: to download the latest packages, use the [zopen package manager](/Guides/Q
   </div>
 </div>
 
-<div class="tool-item-filterable" data-package-name="librabbitmq" data-searchable-text="librabbitmq Green N/A STABLE_librabbitmq_3162 networking port" style="padding: 8px 0; border-bottom: 1px solid #eee;">
+<div class="tool-item-filterable" data-package-name="librabbitmq" data-searchable-text="librabbitmq Green 100.0% STABLE_librabbitmq_3162 networking port" style="padding: 8px 0; border-bottom: 1px solid #eee;">
   <div class="tool-info-grid">
     <div class="tool-name"><strong><a href="https://github.com/zopencommunity/librabbitmqport" target="_blank" rel="noopener noreferrer">librabbitmq</a></strong></div>
     <div class="tool-status">Status: Green</div>
-    <div class="tool-test">Test: N/A</div>
+    <div class="tool-test">Test: 100.0%</div>
     <div class="tool-release"><a href="https://github.com/zopencommunity/librabbitmqport/releases/download/STABLE_librabbitmqport_3162/librabbitmq-DEV.20250311_121219.zos.pax.Z" target="_blank" rel="noopener noreferrer">STABLE_librabbitmq_3162</a></div>
     <div class="tool-desc" title=""></div>
   </div>
@@ -2132,7 +2164,7 @@ Note: to download the latest packages, use the [zopen package manager](/Guides/Q
 
 <div class="table-category" data-category="security">
 
-## Security
+## Security 
 
 <div class="tool-item-filterable" data-package-name="botan" data-searchable-text="botan Green 100.0% STABLE_botan_4005 Botan is a C++ cryptography library released under the permissive BSD-2-Clause license security port" style="padding: 8px 0; border-bottom: 1px solid #eee;">
   <div class="tool-info-grid">
@@ -2308,7 +2340,7 @@ Note: to download the latest packages, use the [zopen package manager](/Guides/Q
 
 <div class="table-category" data-category="shell">
 
-## Shell
+## Shell 
 
 <div class="tool-item-filterable" data-package-name="bash" data-searchable-text="bash Blue 85.5% STABLE_bash_4031 The Bourne Again shell shell port" style="padding: 8px 0; border-bottom: 1px solid #eee;">
   <div class="tool-info-grid">
@@ -2364,7 +2396,7 @@ Note: to download the latest packages, use the [zopen package manager](/Guides/Q
 
 <div class="table-category" data-category="source_control">
 
-## Source_Control
+## Source_Control 
 
 <div class="tool-item-filterable" data-package-name="git" data-searchable-text="git Blue 96.7% STABLE_git_4050 The Git version control system source_control port" style="padding: 8px 0; border-bottom: 1px solid #eee;">
   <div class="tool-info-grid">
@@ -2410,7 +2442,7 @@ Note: to download the latest packages, use the [zopen package manager](/Guides/Q
 
 <div class="table-category" data-category="testing">
 
-## Testing
+## Testing 
 
 <div class="tool-item-filterable" data-package-name="check" data-searchable-text="check Blue 77.8% STABLE_check_3634 A unit testing framework for C testing port" style="padding: 8px 0; border-bottom: 1px solid #eee;">
   <div class="tool-info-grid">
@@ -2436,7 +2468,7 @@ Note: to download the latest packages, use the [zopen package manager](/Guides/Q
 
 <div class="table-category" data-category="uncategorized">
 
-## Uncategorized
+## Uncategorized 
 
 <div class="tool-item-filterable" data-package-name="autoconf" data-searchable-text="autoconf Blue 99.0% STABLE_autoconf_4231 A configuration management tool uncategorized port" style="padding: 8px 0; border-bottom: 1px solid #eee;">
   <div class="tool-info-grid">
@@ -2732,7 +2764,7 @@ Note: to download the latest packages, use the [zopen package manager](/Guides/Q
 
 <div class="table-category" data-category="utilities">
 
-## Utilities
+## Utilities 
 
 <div class="tool-item-filterable" data-package-name="alternatives" data-searchable-text="alternatives Green 100.0% STABLE_alternatives_3997 utilities port" style="padding: 8px 0; border-bottom: 1px solid #eee;">
   <div class="tool-info-grid">
@@ -2984,12 +3016,12 @@ Note: to download the latest packages, use the [zopen package manager](/Guides/Q
   </div>
 </div>
 
-<div class="tool-item-filterable" data-package-name="meta" data-searchable-text="meta Green 100.0% STABLE_meta_4228 zopen package manager utilities port" style="padding: 8px 0; border-bottom: 1px solid #eee;">
+<div class="tool-item-filterable" data-package-name="meta" data-searchable-text="meta Green 100.0% STABLE_meta_4233 zopen package manager utilities port" style="padding: 8px 0; border-bottom: 1px solid #eee;">
   <div class="tool-info-grid">
     <div class="tool-name"><strong><a href="https://github.com/zopencommunity/metaport" target="_blank" rel="noopener noreferrer">meta</a></strong></div>
     <div class="tool-status">Status: Green</div>
     <div class="tool-test">Test: 100.0%</div>
-    <div class="tool-release"><a href="https://github.com/zopencommunity/metaport/releases/download/STABLE_metaport_4228/meta-main.20260423_133700.zos.pax.Z" target="_blank" rel="noopener noreferrer">STABLE_meta_4228</a></div>
+    <div class="tool-release"><a href="https://github.com/zopencommunity/metaport/releases/download/STABLE_metaport_4233/meta-main.20260427_123829.zos.pax.Z" target="_blank" rel="noopener noreferrer">STABLE_meta_4233</a></div>
     <div class="tool-desc" title="zopen package manager">zopen package manager</div>
   </div>
 </div>
@@ -3318,7 +3350,7 @@ Note: to download the latest packages, use the [zopen package manager](/Guides/Q
 
 <div class="table-category" data-category="webframework">
 
-## Webframework
+## Webframework 
 
 <div class="tool-item-filterable" data-package-name="hugo" data-searchable-text="hugo Skipped N/A STABLE_hugo_4144 A static site generator webframework port" style="padding: 8px 0; border-bottom: 1px solid #eee;">
   <div class="tool-info-grid">
@@ -3337,4 +3369,4 @@ Note: to download the latest packages, use the [zopen package manager](/Guides/Q
 </div>
 
 
-Last updated:  2026-04-27 06:18:55 UTC
+Last updated:  2026-04-27 09:16:08 UTC

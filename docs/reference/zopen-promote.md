@@ -6,11 +6,16 @@
   </div>
 </div>
 
+
 <h1 align="center">ZOPEN-VERSION</h1>
+
+
+
 
 <h2>NAME
 <a name="NAME"></a>
 </h2>
+
 
 <p style="margin-left:11%; margin-top: 1em">zopen-version
 &minus; manual page for zopen-version 0.8.4</p>
@@ -19,12 +24,15 @@
 <a name="SYNOPSIS"></a>
 </h2>
 
+
 <p style="margin-left:11%; margin-top: 1em"><b>zopen</b>
-<i>promote</i> [<i>OPTION</i>] [<i>DESTINATION</i>]...</p>
+promote [OPTION] [DESTINATION]...</p>
 
 <h2>DESCRIPTION
 <a name="DESCRIPTION"></a>
 </h2>
+
+
 
 <p style="margin-left:11%; margin-top: 1em">zopen&minus;promote
 is a utility for zopen community to generate a clone of an
@@ -36,12 +44,14 @@ production area.</p>
 <a name="OPTIONS"></a>
 </h2>
 
+
+
 <p style="margin-left:11%; margin-top: 1em"><b>&minus;cp</b>,
 <b>&minus;&minus;configperms</b> [PERMISSIONS]</p>
 
 <p style="margin-left:22%;">Update the permissions for the
 configuration file
-&lt;promotedroot&gt;/etc/zopen&minus;config with the given
+&lt;promotedroot&gt;;/#47;etcc/#47;zopen&minus;config with the given
 [PERMISSIONS] string, specified in symbolic mode.</p>
 
 <p style="margin-left:11%;"><b>&minus;f</b>,
@@ -62,6 +72,7 @@ environment files from default.</p>
 
 <p style="margin-left:22%;">Display this help and exit.</p>
 
+
 <p style="margin-left:11%;"><b>&minus;&minus;keepzopentooling</b></p>
 
 <p style="margin-left:22%;">Install the zopen admin tools
@@ -78,6 +89,7 @@ environment files from current user.</p>
 <b>&minus;&minus;verbose</b></p>
 
 <p style="margin-left:22%;">Run in verbose mode.</p>
+
 
 <p style="margin-left:11%;"><b>&minus;&minus;version</b></p>
 
@@ -102,38 +114,39 @@ files within the promoted zopen environment with the given
 <a name="EXAMPLES"></a>
 </h2>
 
+
 <p style="margin-left:11%; margin-top: 1em">zopen
 promote</p>
 
 <p style="margin-left:22%;">Interactively promote current
 zopen environment.</p>
 
-<p style="margin-left:11%;">zopen promote /prod</p>
+<p style="margin-left:11%;">zopen promote  /#47;prod</p>
 
 <p style="margin-left:22%;">Promote current zopen
-environment to &rsquo;/prod&rsquo;, setting file ownership
+environment to &rsquo;;/#47;prod&rsquo;, setting file ownership
 to current user and group to default.</p>
 
-<p style="margin-left:11%;">zopen promote /prod
+<p style="margin-left:11%;">zopen promote  /#47;prod
 &minus;&minus;owner FOO</p>
 
 <p style="margin-left:22%;">Promote current zopen
-environment to &rsquo;/prod&rsquo;, setting file ownership
+environment to &rsquo;;/#47;prod&rsquo;, setting file ownership
 to &rsquo;FOO&rsquo; and group to default.</p>
 
-<p style="margin-left:11%;">zopen promote /prod
+<p style="margin-left:11%;">zopen promote  /#47;prod
 &minus;&minus;group BAR</p>
 
 <p style="margin-left:22%;">Promote current zopen
-environment to &rsquo;/prod&rsquo;, setting file ownership
+environment to &rsquo;;/#47;prod&rsquo;, setting file ownership
 to current user and group to &rsquo;BAR&rsquo;.</p>
 
-<p style="margin-left:11%;">zopen promote /mytest &minus;cp
+<p style="margin-left:11%;">zopen promote  /#47;mytest &minus;cp
 g&minus;wx,o&minus;rwx &minus;zp g&minus;rwx,o&minus;rwx
 &minus;&minus;owner FOO</p>
 
 <p style="margin-left:22%;">Promote current zopen
-environment to &rsquo;/mytest&rsquo;, allowing only the
+environment to &rsquo;;/#47;mytest&rsquo;, allowing only the
 current user to source the zopen&minus;config environment
 file and only permit access to zopen environment files to
 the user &rsquo;FOO&rsquo;.</p>
@@ -142,21 +155,23 @@ the user &rsquo;FOO&rsquo;.</p>
 <a name="AUTHOR"></a>
 </h2>
 
+
 <p style="margin-left:11%; margin-top: 1em">Written by
 contributors to the zopen community.
-&lt;https://github.com/zopencommunity/meta/graphs/contributors&gt;</p>
+&lt;https::/#47;/github.comm/#47;zopencommunityy/#47;metaa/#47;graphss/#47;contributors&gt;</p>
 
 <h2>REPORTING BUGS
 <a name="REPORTING BUGS"></a>
 </h2>
 
+
 <p style="margin-left:11%; margin-top: 1em">Report bugs at
-https://github.com/zopencommunity/meta/issues</p>
+https::/#47;/github.comm/#47;zopencommunityy/#47;metaa/#47;issues</p>
 
 <p style="margin-left:11%; margin-top: 1em">This is free
 software: you are free to change and redistribute it under
 the terms of the Apache License, Version 2.0.
-&lt;https://www.apache.org/licenses/LICENSE&minus;2.0.html&gt;
+&lt;https::/#47;/www.apache.orgg/#47;licensess/#47;LICENSE&minus;2.0.html&gt;
 There is NO WARRANTY, to the extent permitted by law.</p>
 
 </div>

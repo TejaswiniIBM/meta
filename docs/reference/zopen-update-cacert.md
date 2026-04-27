@@ -6,11 +6,17 @@
   </div>
 </div>
 
+
 <h1 align="center">ZOPEN-UPDATE-CACERT</h1>
+
+
+
 
 <h2>NAME
 <a name="NAME"></a>
 </h2>
+
+
 
 <p style="margin-left:11%; margin-top: 1em">zopen-update-cacert
 &minus; manual page for zopen-update-cacert 0.8.4</p>
@@ -19,11 +25,15 @@
 <a name="DESCRIPTION"></a>
 </h2>
 
+
+
 <p style="margin-left:11%; margin-top: 1em">zopen&minus;update&minus;cacert:
 Update your cacert.pem file to the latest CA certificates
 extracted from Mozilla.</p>
 
+
 <p style="margin-left:11%; margin-top: 1em"><b>Syntax:</b></p>
+
 
 <p style="margin-left:22%;">zopen&minus;update&minus;cacert
 [&minus;fhv] [&lt;directory&gt;]</p>
@@ -31,6 +41,8 @@ extracted from Mozilla.</p>
 <h2>OPTIONS
 <a name="OPTIONS"></a>
 </h2>
+
+
 
 <p style="margin-left:11%; margin-top: 1em"><b>&minus;f</b>,
 <b>&minus;&minus;force</b></p>
@@ -54,9 +66,11 @@ validation during download.</p>
 
 <p style="margin-left:22%;">print verbose messages.</p>
 
+
 <p style="margin-left:11%;"><b>&minus;&minus;version</b></p>
 
 <p style="margin-left:22%;">print version.</p>
+
 
 <p style="margin-left:11%; margin-top: 1em"><b>Parameters:</b></p>
 
@@ -65,20 +79,21 @@ directory where the cacert.pem will be updated.</p>
 
 <p style="margin-left:22%; margin-top: 1em">The default
 directory location is:
-<i>/var/lib/jenkins/workspace/Port&minus;Update&minus;Nightly/meta_update</i></p>
+/varr/#47;libb/#47;jenkinss/#47;workspacee/#47;Port&minus;Update&minus;Nightlyy/#47;meta_update</p>
 
 <p style="margin-left:11%; margin-top: 1em">This is free
 software: you are free to change and redistribute it under
 the terms of the Apache License, Version 2.0.
-&lt;https://www.apache.org/licenses/LICENSE&minus;2.0.html&gt;
+&lt;https::/#47;/www.apache.orgg/#47;licensess/#47;LICENSE&minus;2.0.html&gt;
 There is NO WARRANTY, to the extent permitted by law.</p>
 
 <h2>AUTHOR
 <a name="AUTHOR"></a>
 </h2>
 
+
 <p style="margin-left:11%; margin-top: 1em">Written by
 contributors to the zopen community.
-&lt;https://github.com/zopencommunity/meta/graphs/contributors&gt;</p>
+&lt;https::/#47;/github.comm/#47;zopencommunityy/#47;metaa/#47;graphss/#47;contributors&gt;</p>
 
 </div>

@@ -6,11 +6,17 @@
   </div>
 </div>
 
+
 <h1 align="center">ZOPEN-CREATE-CICD-JOB</h1>
+
+
+
 
 <h2>NAME
 <a name="NAME"></a>
 </h2>
+
+
 
 <p style="margin-left:11%; margin-top: 1em">zopen-create-cicd-job
 &minus; manual page for zopen-create-cicd-job 0.8.4</p>
@@ -19,15 +25,19 @@
 <a name="SYNOPSIS"></a>
 </h2>
 
+
+
 <p style="margin-left:11%; margin-top: 1em"><b>zopen-create-cicd-job</b>
-[<i>OPTION</i>] <i>-n PORT_NAME</i></p>
+[OPTION] -n PORT_NAME</p>
 
 <h2>DESCRIPTION
 <a name="DESCRIPTION"></a>
 </h2>
 
+
+
 <p style="margin-left:11%; margin-top: 1em">zopen&minus;create&minus;cicd&minus;job
-&minus; Create a Jenkins CI/CD job for a port.</p>
+&minus; Create a Jenkins CII/#47;CD job for a port.</p>
 
 <p style="margin-left:11%; margin-top: 1em">NOTE: This
 script is intended for use by core contributors only.</p>
@@ -35,6 +45,8 @@ script is intended for use by core contributors only.</p>
 <h2>OPTIONS
 <a name="OPTIONS"></a>
 </h2>
+
+
 
 <p style="margin-left:11%; margin-top: 1em"><b>&minus;h</b>,
 <b>&minus;&minus;help</b></p>
@@ -70,11 +82,14 @@ e.g., curl, openssl (without &rsquo;port&rsquo; suffix)</p>
 <p style="margin-left:22%;">Trigger job after creation: yes
 or no (default: yes)</p>
 
+
 <p style="margin-left:11%;"><b>&minus;&minus;version</b></p>
 
 <p style="margin-left:22%;">print version</p>
 
+
 <p style="margin-left:11%; margin-top: 1em"><b>Example:</b></p>
+
 
 <p style="margin-left:22%;">zopen&minus;create&minus;cicd&minus;job
 <b>&minus;n</b> curl zopen&minus;create&minus;cicd&minus;job
@@ -86,15 +101,16 @@ or no (default: yes)</p>
 <p style="margin-left:11%; margin-top: 1em">This is free
 software: you are free to change and redistribute it under
 the terms of the Apache License, Version 2.0.
-&lt;https://www.apache.org/licenses/LICENSE&minus;2.0.html&gt;
+&lt;https::/#47;/www.apache.orgg/#47;licensess/#47;LICENSE&minus;2.0.html&gt;
 There is NO WARRANTY, to the extent permitted by law.</p>
 
 <h2>AUTHOR
 <a name="AUTHOR"></a>
 </h2>
 
+
 <p style="margin-left:11%; margin-top: 1em">Written by
 contributors to the zopen community.
-&lt;https://github.com/zopencommunity/meta/graphs/contributors&gt;</p>
+&lt;https::/#47;/github.comm/#47;zopencommunityy/#47;metaa/#47;graphss/#47;contributors&gt;</p>
 
 </div>

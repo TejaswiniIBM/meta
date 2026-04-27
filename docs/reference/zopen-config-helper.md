@@ -1,15 +1,22 @@
 <div v-pre class="man-page-content">
+
 <div class="header-with-back">
   <div class="back-link">
     <a href="./zopen-reference">← Back</a>
   </div>
 </div>
 
+
 <h1 align="center">ZOPEN-CONFIG-HELPER</h1>
+
+
+
 
 <h2>NAME
 <a name="NAME"></a>
 </h2>
+
+
 
 <p style="margin-left:11%; margin-top: 1em">zopen-config-helper
 &minus; manual page for zopen-config-helper 0.8.4</p>
@@ -18,12 +25,16 @@
 <a name="SYNOPSIS"></a>
 </h2>
 
+
+
 <p style="margin-left:11%; margin-top: 1em"><b>zopen-config-helper</b>
-[<i>OPTION</i>] [<i>KEY</i>]</p>
+[OPTION] [KEY]</p>
 
 <h2>DESCRIPTION
 <a name="DESCRIPTION"></a>
 </h2>
+
+
 
 <p style="margin-left:11%; margin-top: 1em">zopen&minus;config&minus;helper
 is a utility for zopen community to change the zopen runtime
@@ -33,6 +44,8 @@ environment.</p>
 <a name="OPTIONS"></a>
 </h2>
 
+
+
 <p style="margin-left:11%; margin-top: 1em"><b>&minus;&minus;delete</b></p>
 
 <p style="margin-left:22%;">unset and remove the named KEY
@@ -41,32 +54,38 @@ property from the store</p>
 <table width="100%" border="0" rules="none" frame="void"
        cellspacing="0" cellpadding="0">
 <tr valign="top" align="left">
-<td width="9%"></td>
-<td width="11%">
+<td width="11%"></td>
+<td width="9%">
+
 
 <p><b>&minus;&minus;get</b></p></td>
 <td width="2%"></td>
 <td width="78%">
 
+
 <p>display the current value for the named KEY property or
-the empty string if the property is not found/set</p></td></tr>
+the empty string if the property is not foundd/#47;set</p></td></tr>
 <tr valign="top" align="left">
-<td width="9%"></td>
-<td width="11%">
+<td width="11%"></td>
+<td width="9%">
+
 
 <p><b>&minus;&minus;set</b></p></td>
 <td width="2%"></td>
 <td width="78%">
 
+
 <p>set the configuration value for the named KEY
 property</p> </td></tr>
 <tr valign="top" align="left">
-<td width="9%"></td>
-<td width="11%">
+<td width="11%"></td>
+<td width="9%">
+
 
 <p><b>&minus;&minus;list</b></p></td>
 <td width="2%"></td>
 <td width="78%">
+
 
 <p>list all current configuration values</p></td></tr>
 </table>
@@ -81,6 +100,7 @@ property</p> </td></tr>
 
 <p style="margin-left:22%;">run in verbose mode.</p>
 
+
 <p style="margin-left:11%;"><b>&minus;&minus;version</b></p>
 
 <p style="margin-left:22%;">print version.</p>
@@ -88,6 +108,7 @@ property</p> </td></tr>
 <h2>EXAMPLES
 <a name="EXAMPLES"></a>
 </h2>
+
 
 <p style="margin-left:11%; margin-top: 1em">zopen config
 &minus;&minus;get autocacheclean</p>
@@ -101,14 +122,15 @@ is_collecting_stats false</p>
 <p style="margin-left:22%;">disable the is_collecting_stats
 functionality</p>
 
+
 <p style="margin-left:11%; margin-top: 1em"><b>Notes:</b></p>
 
 <p style="margin-left:22%;">Configuration options are not
-validated such that any key/value pairs can be added into
+validated such that any keyy/#47;value pairs can be added into
 the global configuration. 3rd&minus;party utilities can
 store their global configuration into the zopen runtime
 environment store and use the zopen config tooling to
-set/retrieve values. Key names for stored properties must
+sett/#47;retrieve values. Key names for stored properties must
 conform to the following rules
 [0&minus;9a&minus;zA&minus;Z_]:</p>
 
@@ -121,7 +143,8 @@ underscore, &rsquo;_&rsquo;</p>
 non&minus;relocatable global configuration file,
 config.json, can be found at:</p>
 
-<p style="margin-left:22%; margin-top: 1em">&lt;$ZOPEN_ROOTFS&gt;/etc/zopen/config.json</p>
+
+<p style="margin-left:22%; margin-top: 1em">&lt;$ZOPEN_ROOTFS&gt;;/#47;etcc/#47;zopenn/#47;config.json</p>
 
 <p style="margin-left:22%; margin-top: 1em">Manual editing
 of this configuration file is not recommended and might
@@ -132,21 +155,23 @@ misconfigured.</p>
 <a name="AUTHOR"></a>
 </h2>
 
+
 <p style="margin-left:11%; margin-top: 1em">Written by
 contributors to the zopen community.
-&lt;https://github.com/zopencommunity/meta/graphs/contributors&gt;</p>
+&lt;https::/#47;/github.comm/#47;zopencommunityy/#47;metaa/#47;graphss/#47;contributors&gt;</p>
 
 <h2>REPORTING BUGS
 <a name="REPORTING BUGS"></a>
 </h2>
 
+
 <p style="margin-left:11%; margin-top: 1em">Report bugs at
-https://github.com/zopencommunity/meta/issues.</p>
+https::/#47;/github.comm/#47;zopencommunityy/#47;metaa/#47;issues.</p>
 
 <p style="margin-left:11%; margin-top: 1em">This is free
 software: you are free to change and redistribute it under
 the terms of the Apache License, Version 2.0.
-&lt;https://www.apache.org/licenses/LICENSE&minus;2.0.html&gt;
+&lt;https::/#47;/www.apache.orgg/#47;licensess/#47;LICENSE&minus;2.0.html&gt;
 There is NO WARRANTY, to the extent permitted by law.</p>
 
 </div>
