@@ -92,6 +92,7 @@ EOF
   git add docs/images/upstream/*
   git add docs/api/*
   git add docs/reference/*
+  git add docs/.vitepress/*
   git commit -m "Updating docs/apis/reference"
   git status
   git pull --rebase
