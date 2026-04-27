@@ -8,7 +8,40 @@
   --vp-c-brand-darker: #1e6b45;
 
   /* Increase layout max-width to reduce left/right spacing on larger screens */
-  --vp-layout-max-width: 1680px;
+  --vp-layout-max-width: 1920px;
+}
+
+/* Expand the main content container on larger screens */
+.VPDoc.has-aside .container,
+.VPDoc .container {
+  max-width: 1920px !important;
+}
+
+.VPDoc.has-aside .content-container {
+  max-width: none !important;
+}
+
+.vp-doc {
+  max-width: 1200px !important;
+  margin: 0 auto;
+}
+
+/* Adjust content width on larger screens */
+@media (min-width: 1440px) {
+  .VPDoc.has-aside .content {
+    padding-left: 64px !important;
+    padding-right: 64px !important;
+  }
+
+  .vp-doc {
+    max-width: 1400px !important;
+  }
+}
+
+@media (min-width: 1920px) {
+  .vp-doc {
+    max-width: 1600px !important;
+  }
 }
 
 /* Logo styling - horizontal logo with text - INCREASED SIZE with breathing space */
