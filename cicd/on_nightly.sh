@@ -56,6 +56,12 @@ EOF
     # This avoids injecting full-document tags (<html>, <head>, <body>) into markdown
     body_content=$(sed -n '/<body>/,/<\/body>/p' "${temp_html}" | sed '1d;$d' | sed '/<a href="#/d' | sed '/<br>$/d' | sed '/<hr>/d')
     
+    # Remove <i> and <em> tags to avoid Vue parsing issues
+    body_content=$(echo "${body_content}" | sed 's|<i>||g' | sed 's|</i>||g' | sed 's|<em>||g' | sed 's|</em>||g')
+    
+    # Escape forward slashes in paths to avoid Vue parsing them as self-closing tags
+    body_content=$(echo "${body_content}" | sed 's|/|&#47;|g')
+    
     # Clean up temporary HTML file
     rm -f "${temp_html}"
     
