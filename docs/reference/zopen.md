@@ -6,11 +6,16 @@
   </div>
 </div>
 
+
 <h1 align="center">ZOPEN-VERSION</h1>
+
+
+
 
 <h2>NAME
 <a name="NAME"></a>
 </h2>
+
 
 <p style="margin-left:11%; margin-top: 1em">zopen-version
 &minus; manual page for zopen-version 0.8.4</p>
@@ -19,66 +24,79 @@
 <a name="SYNOPSIS"></a>
 </h2>
 
+
 <p style="margin-left:11%; margin-top: 1em"><b>zopen</b>
-[<i>COMMAND</i>] [<i>OPTION</i>] [<i>PARAMETERS</i>]...</p>
+[COMMAND] [OPTION] [PARAMETERS]...</p>
 
 <h2>DESCRIPTION
 <a name="DESCRIPTION"></a>
 </h2>
 
+
 <p style="margin-left:11%; margin-top: 1em">zopen is a
 utility for managing a zopen community environment.</p>
+
 
 <p style="margin-left:11%; margin-top: 1em"><b>Command:</b></p>
 
 <table width="100%" border="0" rules="none" frame="void"
        cellspacing="0" cellpadding="0">
 <tr valign="top" align="left">
-<td width="9%"></td>
-<td width="11%">
+<td width="11%"></td>
+<td width="9%">
+
 
 <p>alt</p></td>
 <td width="2%"></td>
 <td width="78%">
 
+
 <p>manage alternate versions of zopen community
 packages</p> </td></tr>
 <tr valign="top" align="left">
-<td width="9%"></td>
-<td width="11%">
+<td width="11%"></td>
+<td width="9%">
+
 
 <p>audit</p></td>
 <td width="2%"></td>
 <td width="78%">
 
+
 <p>(beta) reports known vulnerabilities for the installed
 packages</p> </td></tr>
 <tr valign="top" align="left">
-<td width="9%"></td>
-<td width="11%">
+<td width="11%"></td>
+<td width="9%">
+
 
 <p>build</p></td>
 <td width="2%"></td>
 <td width="78%">
 
+
 <p>builds the enclosing zopen community git&minus;cloned
 package</p> </td></tr>
 <tr valign="top" align="left">
-<td width="9%"></td>
-<td width="11%">
+<td width="11%"></td>
+<td width="9%">
+
 
 <p>clean</p></td>
 <td width="2%"></td>
 <td width="78%">
 
+
 <p>cleans up your zopen environment</p></td></tr>
 <tr valign="top" align="left">
-<td width="9%"></td>
-<td width="11%">
+<td width="11%"></td>
+<td width="9%">
+
 
 <p>config</p></td>
 <td width="2%"></td>
 <td width="78%">
+
 
 <p>change zopen runtime environment settings</p></td></tr>
 </table>
@@ -99,9 +117,11 @@ project</p>
 <td width="11%"></td>
 <td width="6%">
 
+
 <p>init</p></td>
 <td width="5%"></td>
 <td width="78%">
+
 
 <p>initializes a zopen environment at the specified
 location</p> </td></tr>
@@ -123,9 +143,11 @@ community packages</p>
 <td width="11%"></td>
 <td width="6%">
 
+
 <p>info</p></td>
 <td width="5%"></td>
 <td width="73%">
+
 
 <p>displays detailed information about a package</p></td>
 <td width="5%">
@@ -134,9 +156,11 @@ community packages</p>
 <td width="11%"></td>
 <td width="6%">
 
+
 <p>list</p></td>
 <td width="5%"></td>
 <td width="73%">
+
 
 <p>lists information about zopen community packages</p></td>
 <td width="5%">
@@ -151,22 +175,26 @@ to github</p>
 <table width="100%" border="0" rules="none" frame="void"
        cellspacing="0" cellpadding="0">
 <tr valign="top" align="left">
-<td width="9%"></td>
-<td width="11%">
+<td width="11%"></td>
+<td width="9%">
+
 
 <p>query</p></td>
 <td width="2%"></td>
 <td width="78%">
 
+
 <p>list local or remote info about zopen community
 packages</p> </td></tr>
 <tr valign="top" align="left">
-<td width="9%"></td>
-<td width="11%">
+<td width="11%"></td>
+<td width="9%">
+
 
 <p>remove</p></td>
 <td width="2%"></td>
 <td width="78%">
+
 
 <p>removes installed zopen community packages</p></td></tr>
 </table>
@@ -187,9 +215,11 @@ community packages</p>
 <td width="11%"></td>
 <td width="7%">
 
+
 <p>usage</p></td>
 <td width="4%"></td>
 <td width="78%">
+
 
 <p>output details about the file system usage for your
 zopen environment</p></td></tr>
@@ -204,6 +234,8 @@ or library belongs to</p>
 <a name="OPTIONS"></a>
 </h2>
 
+
+
 <p style="margin-left:11%; margin-top: 1em"><b>&minus;h</b>,
 <b>&minus;&minus;help</b>, &minus;?</p>
 
@@ -217,6 +249,7 @@ or library belongs to</p>
 <h2>EXAMPLES
 <a name="EXAMPLES"></a>
 </h2>
+
 
 <p style="margin-left:11%; margin-top: 1em">zopen
 &minus;&minus;help</p>
@@ -267,21 +300,23 @@ zopen&minus;version(1)</p>
 <a name="AUTHOR"></a>
 </h2>
 
+
 <p style="margin-left:11%; margin-top: 1em">Written by
 contributors to the zopen community.
-&lt;https://github.com/zopencommunity/meta/graphs/contributors&gt;</p>
+&lt;https::/#47;/github.comm/#47;zopencommunityy/#47;metaa/#47;graphss/#47;contributors&gt;</p>
 
 <h2>REPORTING BUGS
 <a name="REPORTING BUGS"></a>
 </h2>
 
+
 <p style="margin-left:11%; margin-top: 1em">Report bugs at
-https://github.com/zopencommunity/meta/issues</p>
+https::/#47;/github.comm/#47;zopencommunityy/#47;metaa/#47;issues</p>
 
 <p style="margin-left:11%; margin-top: 1em">This is free
 software: you are free to change and redistribute it under
 the terms of the Apache License, Version 2.0.
-&lt;https://www.apache.org/licenses/LICENSE&minus;2.0.html&gt;
+&lt;https::/#47;/www.apache.orgg/#47;licensess/#47;LICENSE&minus;2.0.html&gt;
 There is NO WARRANTY, to the extent permitted by law.</p>
 
 </div>

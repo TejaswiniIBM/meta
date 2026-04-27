@@ -6,11 +6,16 @@
   </div>
 </div>
 
+
 <h1 align="center">ZOPEN-CLEAN</h1>
+
+
+
 
 <h2>NAME
 <a name="NAME"></a>
 </h2>
+
 
 <p style="margin-left:11%; margin-top: 1em">zopen-clean
 &minus; manual page for zopen-clean 0.8.4</p>
@@ -19,12 +24,16 @@
 <a name="SYNOPSIS"></a>
 </h2>
 
+
+
 <p style="margin-left:11%; margin-top: 1em"><b>zopen-clean</b>
-[<i>OPTION</i>] [<i>PACKAGE</i>]</p>
+[OPTION] [PACKAGE]</p>
 
 <h2>DESCRIPTION
 <a name="DESCRIPTION"></a>
 </h2>
+
+
 
 <p style="margin-left:11%; margin-top: 1em">zopen&minus;clean
 is a utility for zopen community to remove uneeded resources
@@ -34,27 +43,32 @@ from the system to save space and prevent clutter.</p>
 <a name="OPTIONS"></a>
 </h2>
 
+
 <table width="100%" border="0" rules="none" frame="void"
        cellspacing="0" cellpadding="0">
 <tr valign="top" align="left">
-<td width="9%"></td>
-<td width="11%">
+<td width="11%"></td>
+<td width="9%">
+
 
 <p style="margin-top: 1em"><b>&minus;&minus;deep</b></p></td>
 <td width="2%"></td>
 <td width="75%">
+
 
 <p style="margin-top: 1em">deep clean &minus; run all
 cleanup operations</p></td>
 <td width="3%">
 </td></tr>
 <tr valign="top" align="left">
-<td width="9%"></td>
-<td width="11%">
+<td width="11%"></td>
+<td width="9%">
+
 
 <p><b>&minus;&minus;all</b></p></td>
 <td width="2%"></td>
 <td width="75%">
+
 
 <p>apply cleanup command to all applicable packages.</p></td>
 <td width="3%">
@@ -93,6 +107,7 @@ metadata for zopen.</p>
 that are available as alternatives, leaving only the
 currently active version.</p>
 
+
 <p style="margin-left:11%;"><b>&minus;&minus;nostats</b></p>
 
 <p style="margin-left:22%;">do not output statistics from
@@ -103,6 +118,7 @@ the clean operation(s)</p>
 
 <p style="margin-left:22%;">run in verbose mode.</p>
 
+
 <p style="margin-left:11%;"><b>&minus;&minus;version</b></p>
 
 <p style="margin-left:22%;">print version.</p>
@@ -110,6 +126,7 @@ the clean operation(s)</p>
 <h2>EXAMPLES
 <a name="EXAMPLES"></a>
 </h2>
+
 
 <p style="margin-left:11%; margin-top: 1em">zopen clean
 &minus;c</p>
@@ -141,21 +158,23 @@ within the zopen environment</p>
 <a name="AUTHOR"></a>
 </h2>
 
+
 <p style="margin-left:11%; margin-top: 1em">Written by
 contributors to the zopen community.
-&lt;https://github.com/zopencommunity/meta/graphs/contributors&gt;</p>
+&lt;https::/#47;/github.comm/#47;zopencommunityy/#47;metaa/#47;graphss/#47;contributors&gt;</p>
 
 <h2>REPORTING BUGS
 <a name="REPORTING BUGS"></a>
 </h2>
 
+
 <p style="margin-left:11%; margin-top: 1em">Report bugs at
-https://github.com/zopencommunity/meta/issues.</p>
+https::/#47;/github.comm/#47;zopencommunityy/#47;metaa/#47;issues.</p>
 
 <p style="margin-left:11%; margin-top: 1em">This is free
 software: you are free to change and redistribute it under
 the terms of the Apache License, Version 2.0.
-&lt;https://www.apache.org/licenses/LICENSE&minus;2.0.html&gt;
+&lt;https::/#47;/www.apache.orgg/#47;licensess/#47;LICENSE&minus;2.0.html&gt;
 There is NO WARRANTY, to the extent permitted by law.</p>
 
 </div>

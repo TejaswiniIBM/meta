@@ -207,9 +207,6 @@
 - 2024-08-23: [Update cunit-version to 3.4.1 from 3.2.7](https://github.com/zopencommunity/cunitport/pull/4) ❓
 - 2024-06-08: [Update cunit-version to 3.3.1 from 3.2.7](https://github.com/zopencommunity/cunitport/pull/3) ❓
 
-### curlport
-- 2026-03-11: [Update curl-version to 8.19.0 from 8.18.0](https://github.com/zopencommunity/curlport/pull/59) ❌
-
 ### direnvport
 - 2025-04-11: [Update direnv-version to 2.36.0 from 2.35.0](https://github.com/zopencommunity/direnvport/pull/11) ❌
 
@@ -1101,5 +1098,5 @@
 ---
 
 
-> Last updated: 2026-04-27 06:11:20 EDT
+> Last updated: 2026-04-27 09:08:29 EDT
 

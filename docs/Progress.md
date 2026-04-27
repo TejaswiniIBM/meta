@@ -49,7 +49,6 @@
 * [jdport](https://github.com/zopencommunity/jdport) - Tests skipped or not enabled
 * [jenkinsport](https://github.com/zopencommunity/jenkinsport) - Tests skipped or not enabled
 * [lazygitport](https://github.com/zopencommunity/lazygitport) - Tests skipped or not enabled
-* [librabbitmqport](https://github.com/zopencommunity/librabbitmqport) - No releases tracked
 * [mavenport](https://github.com/zopencommunity/mavenport) - Tests skipped or not enabled
 * [microport](https://github.com/zopencommunity/microport) - Tests skipped or not enabled
 * [mkcertport](https://github.com/zopencommunity/mkcertport) - Tests skipped or not enabled
@@ -1916,7 +1915,7 @@
   <div class="tool-info-grid">
     <div class="tool-name"><strong><a href="https://github.com/zopencommunity/librabbitmqport" target="_blank" rel="noopener noreferrer">librabbitmqport</a></strong></div>
     <div class="tool-status">0</div>
-    <div class="tool-test">No builds</div>
+    <div class="tool-test">100.0%</div>
     <div class="tool-release">None</div>
     <div class="tool-desc"></div>
   </div>
@@ -2507,4 +2506,4 @@
   </div>
 </div>
 
-Last updated:  2026-04-27 06:18:55 UTC
+Last updated:  2026-04-27 09:16:08 UTC
