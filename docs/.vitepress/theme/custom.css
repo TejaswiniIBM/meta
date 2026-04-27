@@ -1,6 +1,7 @@
 /* Custom styles migrated from Docsify */
 
 :root {
+  --vp-nav-height: 80px;
   --vp-c-brand: #3eaf7c;
   --vp-c-brand-light: #4abf8a;
   --vp-c-brand-lighter: #63d4a0;
@@ -122,7 +123,13 @@
 
 /* Add breathing space to the navbar title container */
 .VPNavBarTitle {
-  padding: 8px 12px !important;
+  padding: 0px 12px 8px !important;
+}
+
+/* Logo background when sidebar is visible */
+.VPNavBar.has-sidebar .title {
+  background-color: var(--vp-sidebar-bg-color) !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1) !important;
 }
 
 /* Adjust navbar height to accommodate larger logo */

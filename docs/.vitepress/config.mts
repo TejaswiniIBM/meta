@@ -1,8 +1,16 @@
 import { defineConfig } from "vitepress";
 
+// Determine base path based on environment
+// For development (tejaswiniIBM/meta): use "/meta/"
+// For production (zopencommunity): use "/"
+// Set BASE_PATH environment variable when building:
+//   - For dev: BASE_PATH=/meta/ npm run docs:build
+//   - For prod: npm run docs:build (defaults to "/")
+const base = (typeof process !== "undefined" && process.env.BASE_PATH) || "/";
+
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: "/",
+  base: base,
   title: "zopen community",
   titleTemplate: false,
   description:
