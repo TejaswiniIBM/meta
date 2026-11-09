@@ -30,9 +30,9 @@ Options:
   --version                 print version.
   -u, --update, --upgrade   attempt to resolve vulnerabilities by upgrading packages.
   -r, --remove              remove packages with vulnerabilities.
-  --trivy                   run Trivy scanner on installed packages in addition to cache.
-  --trivy-only              run Trivy scanner only (skip remote vulnerability cache).
-  --trivy-severity <SEVS>   comma-separated severities for Trivy (e.g. HIGH,CRITICAL).
+  --no-trivy, --skip-trivy  disable local Trivy scanner (use vulnerability cache only).
+  --trivy-only              run local Trivy scanner only (skip remote vulnerability cache).
+  --trivy-severity <SEVS>   comma-separated severities for Trivy (default: UNKNOWN,LOW,MEDIUM,HIGH,CRITICAL).
   --trivy-offline           run Trivy in offline mode (skip vulnerability DB updates).
 
 Examples:
@@ -49,7 +49,7 @@ verbose=false
 debug=false
 upgrade=false
 remove=false
-use_trivy=false
+use_trivy=true
 trivy_only=false
 trivy_severity="UNKNOWN,LOW,MEDIUM,HIGH,CRITICAL"
 trivy_offline=false
@@ -76,6 +76,9 @@ while [ $# -gt 0 ]; do
     ;;
   "--trivy")
     use_trivy=true
+    ;;
+  "--no-trivy" | "--skip-trivy" | "--cache-only")
+    use_trivy=false
     ;;
   "--trivy-only")
     use_trivy=true
@@ -112,6 +115,20 @@ while [ $# -gt 0 ]; do
   shift
 done
 
+if $use_trivy; then
+  if command -v trivy >/dev/null 2>&1; then
+    printVerbose "Trivy scanner detected at $(command -v trivy)"
+  else
+    if $trivy_only; then
+      printError "--trivy-only requires the 'trivy' command, which was not found in PATH."
+      exit 1
+    else
+      printVerbose "Trivy not found in PATH; falling back to community vulnerability cache."
+      use_trivy=false
+    fi
+  fi
+fi
+
 if [ $upgrade = true ] && [ $remove = true ]; then
   printError "Cannot use both --upgrade and --remove options at once."
   exit 1
@@ -141,13 +158,51 @@ downloadJsonCaches()
   fi
 }
 
-downloadJsonCaches
+trivyScanPackage()
+{
+  _pkg="$1"
+  _dir="$2"
+  _out="${TMPDIR:-/tmp}/zopen-audit-trivy.$$.${_pkg}.json"
 
-if [ ! -f "${JSON_CVE_CACHE}" ]; then
-  printError "Vulnerability json cache file not found."
-  exit 1
+  trivy fs \
+    --quiet \
+    --format json \
+    --scanners vuln \
+    --severity "${trivy_severity}" \
+    $([ "$trivy_offline" = true ] && echo "--skip-db-update --offline-scan") \
+    --cache-dir "${ZOPEN_ROOTFS}/var/cache/trivy" \
+    --timeout 5m \
+    --output "${_out}" \
+    "${_dir}" >/dev/null 2>&1
+  _rc=$?
+  if [ ${_rc} -ne 0 ] || ! jq -e . "${_out}" >/dev/null 2>&1; then
+    printVerbose "Trivy scan failed for ${_pkg} (rc=${_rc})"
+    rm -f "${_out}"
+    return 1
+  fi
+
+  # Emit the same 3-column TSV that the existing loop consumes: severity <TAB> id <TAB> details
+  jq -r '.Results[]? | .Vulnerabilities[]?
+         | [ (if .Severity == "UNKNOWN" then "LOW" else .Severity end),
+             .VulnerabilityID,
+             (.PkgName + " " + .InstalledVersion + ": " + (.Title // .Description // "")
+              + (if .FixedVersion and .FixedVersion != "" then " (fixed in " + .FixedVersion + ")" else "" end) ) ]
+         | @tsv' "${_out}" 2>/dev/null
+  rm -f "${_out}"
+}
+
+if ! $trivy_only; then
+  downloadJsonCaches
+
+  if [ ! -f "${JSON_CVE_CACHE}" ]; then
+    printError "Vulnerability json cache file not found."
+    exit 1
+  fi
+  printVerbose "Obtained vulnerability json cache."
+else
+  printVerbose "Skipping remote vulnerability cache in --trivy-only mode."
+  JSON_CVE_CACHE=""
 fi
-printVerbose "Obtained vulnerability json cache."
 
 if [ $upgrade = true ] && [ ! -f "${LATEST_RELEASES_CACHE}" ]; then
   printError "Latest releases json cache file not found."
@@ -198,12 +253,23 @@ while IFS= read -r repo; do
   fi
 
   # Fetch CVEs using the release timestamp from the vulnerabilities JSON
-  cves=$(jq -cr '.["'$repo'"] // {} | .["'$release'"] // {} | .CVEs? // [] | .[] | [.severity, .id, (if .fixed_version and .fixed_version != "" then .details + " (fixed in " + .fixed_version + ")" else .details end)] | @tsv' $JSON_CVE_CACHE 2>/dev/null)
-
-  if [ $? -gt 0 ]; then
-    printVerbose "Failed to fetch vulnerabilities for $repo"
-    continue
+  cves=""
+  if [ -n "${JSON_CVE_CACHE}" ] && [ -f "${JSON_CVE_CACHE}" ]; then
+    cves=$(jq -cr '.["'$repo'"] // {} | .["'$release'"] // {} | .CVEs? // [] | .[] | [.severity, .id, (if .fixed_version and .fixed_version != "" then .details + " (fixed in " + .fixed_version + ")" else .details end)] | @tsv' $JSON_CVE_CACHE 2>/dev/null)
   fi
+
+  # Run local Trivy scan if enabled
+  if $use_trivy; then
+    trivy_cves=$(trivyScanPackage "${repo}" "${pkghome}")
+    if [ -n "${trivy_cves}" ]; then
+      if [ -n "${cves}" ]; then
+        cves=$(printf "%s\n%s\n" "${cves}" "${trivy_cves}" | sed '/^$/d' | sort -u)
+      else
+        cves="${trivy_cves}"
+      fi
+    fi
+  fi
+
   if [ -z "$cves" ]; then
     printVerbose "No vulnerabilities found in $repo"
     continue
