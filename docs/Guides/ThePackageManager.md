@@ -71,6 +71,19 @@ zopen upgrade
 zopen audit
 ```
 
+You can also run live on-host vulnerability scanning with Aqua Security Trivy (if installed) using:
+
+```bash
+# Scan using both local Trivy and cached community vulnerability data
+zopen audit --trivy
+
+# Scan filtering by specific severities
+zopen audit --trivy --trivy-severity HIGH,CRITICAL
+
+# Scan in offline mode (skips Trivy DB download)
+zopen audit --trivy --trivy-offline
+```
+
 ## Package Collisions with z/OS UNIX tools
 
 Packages such as `coreutils`, `gawk`, `sed`, `findutils`, `grep`, `diffutils`, `man-db` and `openssh` provide executables that collide with the z/OS UNIX tools under `/bin`.

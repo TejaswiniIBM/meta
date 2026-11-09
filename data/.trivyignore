@@ -1,0 +1,12 @@
+# Trivy Vulnerability & Secret Suppression File for zopen community
+#
+# Rules in this file are evaluated by Trivy during scanning.
+# Every suppression MUST include:
+#   1. A clear comment explaining the reason / false positive rationale.
+#   2. The CVE/GHSA or rule ID on a standalone line.
+#   3. An expiry date where applicable (e.g. # exp: 2027-01-01).
+#
+# Example:
+# # Reason: Test-only fixture containing mock RSA private key
+# # exp: 2027-01-01
+# CVE-2023-00000

@@ -30,6 +30,10 @@ Options:
   --version                 print version.
   -u, --update, --upgrade   attempt to resolve vulnerabilities by upgrading packages.
   -r, --remove              remove packages with vulnerabilities.
+  --trivy                   run Trivy scanner on installed packages in addition to cache.
+  --trivy-only              run Trivy scanner only (skip remote vulnerability cache).
+  --trivy-severity <SEVS>   comma-separated severities for Trivy (e.g. HIGH,CRITICAL).
+  --trivy-offline           run Trivy in offline mode (skip vulnerability DB updates).
 
 Examples:
   zopen audit       check for vulnerabilities in all installed packages
@@ -45,6 +49,10 @@ verbose=false
 debug=false
 upgrade=false
 remove=false
+use_trivy=false
+trivy_only=false
+trivy_severity="UNKNOWN,LOW,MEDIUM,HIGH,CRITICAL"
+trivy_offline=false
 
 while [ $# -gt 0 ]; do
   printVerbose "Parsing option: $1"
@@ -65,6 +73,31 @@ while [ $# -gt 0 ]; do
     ;;
   "-r" | "--remove")
     remove=true
+    ;;
+  "--trivy")
+    use_trivy=true
+    ;;
+  "--trivy-only")
+    use_trivy=true
+    trivy_only=true
+    ;;
+  "--trivy-severity")
+    shift
+    if [ $# -eq 0 ]; then
+      printError "--trivy-severity requires an argument (e.g. HIGH,CRITICAL)"
+      exit 1
+    fi
+    trivy_severity="$1"
+    # Validate severity argument (only uppercase letters and commas allowed)
+    case "${trivy_severity}" in
+      *[!A-Za-z,]*)
+        printError "Invalid severity value: ${trivy_severity}. Allowed characters: A-Z, commas."
+        exit 1
+        ;;
+    esac
+    ;;
+  "--trivy-offline")
+    trivy_offline=true
     ;;
   "--debug")
     # shellcheck disable=SC2034
@@ -165,7 +198,7 @@ while IFS= read -r repo; do
   fi
 
   # Fetch CVEs using the release timestamp from the vulnerabilities JSON
-  cves=$(jq -cr '.["'$repo'"] // {} | .["'$release'"] // {} | .CVEs? // [] | .[] | [.severity, .id, .details] | @tsv' $JSON_CVE_CACHE)
+  cves=$(jq -cr '.["'$repo'"] // {} | .["'$release'"] // {} | .CVEs? // [] | .[] | [.severity, .id, (if .fixed_version and .fixed_version != "" then .details + " (fixed in " + .fixed_version + ")" else .details end)] | @tsv' $JSON_CVE_CACHE 2>/dev/null)
 
   if [ $? -gt 0 ]; then
     printVerbose "Failed to fetch vulnerabilities for $repo"
@@ -228,6 +261,9 @@ while IFS= read -r repo; do
         ;;
       "CRITICAL")
         critical_vulns=$((critical_vulns + 1))
+        ;;
+      *)
+        low_vulns=$((low_vulns + 1))
         ;;
     esac
 

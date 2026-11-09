@@ -1,6 +1,7 @@
 # Changelog
 ## February 2025 🚧
 ### 🔍 Other Changes
+- Add Aqua Security Trivy vulnerability integration and scanning options to `zopen-audit`
 - Pass recursive submodule option to checkout command ([#966](https://github.com/zopencommunity/meta/pull/966))
 - Provide a fuller template for buildenv ([#964](https://github.com/zopencommunity/meta/pull/964))
 - fix: typos in documentation files ([#962](https://github.com/zopencommunity/meta/pull/962))
