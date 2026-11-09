@@ -119,12 +119,23 @@ if $use_trivy; then
   if command -v trivy >/dev/null 2>&1; then
     printVerbose "Trivy scanner detected at $(command -v trivy)"
   else
-    if $trivy_only; then
-      printError "--trivy-only requires the 'trivy' command, which was not found in PATH."
-      exit 1
+    printInfo "Trivy not found in PATH. Attempting automatic installation via zopen-install..."
+    if [ -x "${MYDIR}/zopen-install" ] && "${MYDIR}/zopen-install" -y trivy >/dev/null 2>&1; then
+      if command -v trivy >/dev/null 2>&1; then
+        printInfo "Trivy installed successfully."
+        use_trivy=true
+      else
+        printWarning "Trivy installation completed but binary was not found in PATH; falling back to vulnerability cache."
+        use_trivy=false
+      fi
     else
-      printVerbose "Trivy not found in PATH; falling back to community vulnerability cache."
-      use_trivy=false
+      if $trivy_only; then
+        printError "--trivy-only requires the 'trivy' command, which could not be automatically installed."
+        exit 1
+      else
+        printVerbose "Auto-installation of Trivy unavailable; falling back to community vulnerability cache."
+        use_trivy=false
+      fi
     fi
   fi
 fi
