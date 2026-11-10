@@ -241,6 +241,8 @@ vulns_added=0
 removable_vuln_pkgs=""
 num_removable=0
 
+table_header_printed=false
+
 printHeader "Scanning for vulnerabilities..."
 while IFS= read -r repo; do
   repo="${repo##*/}"
@@ -321,33 +323,45 @@ while IFS= read -r repo; do
 
   # Iterate through CVEs if any are found
   while IFS="$(echo t | tr t \\t)" read -r severity id details; do
-    printHeader "${severity} severity found for $repo:"
-    echo "$id"
-    echo "$details"
+    if ! $table_header_printed; then
+      echo ""
+      if $upgrade; then
+        printf "${NC}${UNDERLINE}%-16s %-10s %-20s %-14s %s${NC}\n" "Package" "Severity" "Vulnerability ID" "Resolution" "Details"
+      else
+        printf "${NC}${UNDERLINE}%-16s %-10s %-20s %s${NC}\n" "Package" "Severity" "Vulnerability ID" "Details"
+      fi
+      table_header_printed=true
+    fi
 
     total_vulns=$((total_vulns + 1))
-    case "$severity" in
+    sev_padded=$(printf "%-10s" "${severity}")
+
+    case "${severity}" in
       "LOW")
         low_vulns=$((low_vulns + 1))
+        color_sev="${GREEN}${sev_padded}${NC}"
         ;;
       "MEDIUM")
         moderate_vulns=$((moderate_vulns + 1))
+        color_sev="${YELLOW}${sev_padded}${NC}"
         ;;
       "HIGH")
         high_vulns=$((high_vulns + 1))
+        color_sev="${RED}${sev_padded}${NC}"
         ;;
       "CRITICAL")
         critical_vulns=$((critical_vulns + 1))
+        color_sev="${RED}${sev_padded}${NC}"
         ;;
       *)
         low_vulns=$((low_vulns + 1))
+        color_sev="${sev_padded}"
         ;;
     esac
 
     if $upgrade; then
       if $is_latest_release; then
-        # Skip this section if this is already the latest release
-        echo "This is the latest release of this package."
+        res_formatted=$(printf "%-14s" "Latest release")
       else
         # Check if this vuln is resolved in the latest release
         resolved=true
@@ -360,13 +374,16 @@ $(printf "%s\n" "$latest_release_vulns")
 LATEST
         if $resolved; then
           pkg_vulns_resolved=$((pkg_vulns_resolved + 1))
-          echo "Resolved in the latest release of this package."
+          res_formatted="${GREEN}$(printf "%-14s" "Resolved")${NC}"
         else
           pkg_vulns_unresolved=$((pkg_vulns_unresolved + 1))
+          res_formatted="${RED}$(printf "%-14s" "Unresolved")${NC}"
         fi
       fi
+      printf "%-16s %b %-20s %b %s\n" "${repo}" "${color_sev}" "${id}" "${res_formatted}" "${details}"
+    else
+      printf "%-16s %b %-20s %s\n" "${repo}" "${color_sev}" "${id}" "${details}"
     fi
-    echo ""
   done << CVES
 $(printf "%s\n" "$cves")
 CVES
@@ -382,6 +399,10 @@ CVES
 done << EOF
 $(printf "%s\n" "$installed_packages")
 EOF
+
+if $table_header_printed; then
+  echo ""
+fi
 
 # Print summary
 printHeader "CVE Summary:"
