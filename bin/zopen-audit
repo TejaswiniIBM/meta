@@ -120,7 +120,18 @@ if $use_trivy; then
     printVerbose "Trivy scanner detected at $(command -v trivy)"
   else
     printInfo "Trivy not found in PATH. Attempting automatic installation via zopen-install..."
-    if [ -x "${MYDIR}/zopen-install" ] && "${MYDIR}/zopen-install" -y trivy >/dev/null 2>&1; then
+    install_out=""
+    if [ -x "${MYDIR}/zopen-install" ]; then
+      install_out=$("${MYDIR}/zopen-install" -y trivy 2>&1)
+      install_rc=$?
+      if [ ${install_rc} -ne 0 ] || printf "%s\n" "${install_out}" | grep -q "ERROR"; then
+        printWarning "Trivy installation failed: $(printf "%s\n" "${install_out}" | grep "ERROR" | tail -1)"
+        install_rc=1
+      fi
+    else
+      install_rc=1
+    fi
+    if [ ${install_rc} -eq 0 ]; then
       if command -v trivy >/dev/null 2>&1; then
         printInfo "Trivy installed successfully."
         use_trivy=true
@@ -242,6 +253,7 @@ removable_vuln_pkgs=""
 num_removable=0
 
 printHeader "Scanning for vulnerabilities..."
+table_header_printed=false
 while IFS= read -r repo; do
   repo="${repo##*/}"
   pkghome="${ZOPEN_PKGINSTALL}/${repo}/${repo}"
@@ -319,12 +331,36 @@ while IFS= read -r repo; do
   pkg_vulns_resolved=0
   pkg_vulns_unresolved=0
 
+  # Determine column width for details based on screen/terminal width (80% of screen width)
+  if ! ${table_header_printed}; then
+    term_cols=$(tput cols 2>/dev/null)
+    case "$term_cols" in
+      ''|*[!0-9]*) term_cols=${COLUMNS:-80} ;;
+    esac
+    case "$term_cols" in
+      ''|*[!0-9]*) term_cols=80 ;;
+    esac
+
+    details_col_width=$((term_cols * 80 / 100))
+    [ "${details_col_width}" -lt 40 ] && details_col_width=40
+    details_dashes=$(printf "%*s" "$((details_col_width + 2))" "" | tr " " "-")
+
+    if $upgrade; then
+      table_border="+------------------+------------+----------------------+------------------+${details_dashes}+"
+      printf "%s\n" "${table_border}"
+      printf "| %-16s | %-10s | %-20s | %-16s | %-*s |\n" "Package" "Severity" "ID" "Status" "${details_col_width}" "Details"
+      printf "%s\n" "${table_border}"
+    else
+      table_border="+------------------+------------+----------------------+${details_dashes}+"
+      printf "%s\n" "${table_border}"
+      printf "| %-16s | %-10s | %-20s | %-*s |\n" "Package" "Severity" "ID" "${details_col_width}" "Details"
+      printf "%s\n" "${table_border}"
+    fi
+    table_header_printed=true
+  fi
+
   # Iterate through CVEs if any are found
   while IFS="$(echo t | tr t \\t)" read -r severity id details; do
-    printHeader "${severity} severity found for $repo:"
-    echo "$id"
-    echo "$details"
-
     total_vulns=$((total_vulns + 1))
     case "$severity" in
       "LOW")
@@ -346,8 +382,7 @@ while IFS= read -r repo; do
 
     if $upgrade; then
       if $is_latest_release; then
-        # Skip this section if this is already the latest release
-        echo "This is the latest release of this package."
+        status="Latest"
       else
         # Check if this vuln is resolved in the latest release
         resolved=true
@@ -360,13 +395,33 @@ $(printf "%s\n" "$latest_release_vulns")
 LATEST
         if $resolved; then
           pkg_vulns_resolved=$((pkg_vulns_resolved + 1))
-          echo "Resolved in the latest release of this package."
+          status="Resolved"
         else
           pkg_vulns_unresolved=$((pkg_vulns_unresolved + 1))
+          status="Unresolved"
         fi
       fi
     fi
-    echo ""
+
+    # Wrap details within the dynamic column width
+    first_line=true
+    printf "%s\n" "${details}" | fold -s -w "${details_col_width}" | while IFS= read -r line; do
+      line=$(echo "$line" | sed 's/[ \t]*$//')
+      if $first_line; then
+        if $upgrade; then
+          printf "| %-16s | %-10s | %-20s | %-16s | %-*s |\n" "${repo}" "${severity}" "${id}" "${status}" "${details_col_width}" "${line}"
+        else
+          printf "| %-16s | %-10s | %-20s | %-*s |\n" "${repo}" "${severity}" "${id}" "${details_col_width}" "${line}"
+        fi
+        first_line=false
+      else
+        if $upgrade; then
+          printf "| %-16s | %-10s | %-20s | %-16s | %-*s |\n" "" "" "" "" "${details_col_width}" "${line}"
+        else
+          printf "| %-16s | %-10s | %-20s | %-*s |\n" "" "" "" "${details_col_width}" "${line}"
+        fi
+      fi
+    done
   done << CVES
 $(printf "%s\n" "$cves")
 CVES
@@ -382,6 +437,10 @@ CVES
 done << EOF
 $(printf "%s\n" "$installed_packages")
 EOF
+
+if ${table_header_printed}; then
+  printf "%s\n" "${table_border}"
+fi
 
 # Print summary
 printHeader "CVE Summary:"
