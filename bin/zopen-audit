@@ -334,7 +334,11 @@ while IFS= read -r repo; do
 
   # Determine column width for details to stretch table to the full screen/terminal width
   if ! ${table_header_printed}; then
-    term_cols=$(tput cols 2>/dev/null)
+    # tput does not handle ssh sessions well on z/OS, so query stty first
+    term_cols=$(stty 2>/dev/null | awk -F'[/=;]' '/columns/ { print $4 }' | tr -d " ")
+    case "$term_cols" in
+      ''|*[!0-9]*) term_cols=$(tput cols 2>/dev/null) ;;
+    esac
     case "$term_cols" in
       ''|*[!0-9]*) term_cols=${COLUMNS:-80} ;;
     esac
