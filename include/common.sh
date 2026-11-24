@@ -15,7 +15,11 @@ zopenInitialize()
   for zopen_tmp_dir in "${TMPDIR}" "${TMP}" /tmp; do
     [ -z "${zopen_tmp_dir}" ] && continue
     # Remove trailing slashes to avoid issues with some shells/filesystems
-    zopen_tmp_dir=$(echo "${zopen_tmp_dir}" | /bin/sed 's#/*$##')
+    if [ -x /bin/sed ]; then
+      zopen_tmp_dir=$(echo "${zopen_tmp_dir}" | /bin/sed 's#/*$##')
+    else
+      zopen_tmp_dir=$(echo "${zopen_tmp_dir}" | sed 's#/*$##')
+    fi
     if [ -d "${zopen_tmp_dir}" ] || [ -d "${zopen_tmp_dir}/." ]; then
       break
     fi
@@ -555,7 +559,11 @@ zossed()
   # Use the standard z/OS sed utility; If the sed package is installed
   # GNU sed becomes the dominant version which might change how
   # matching is performed
-  /bin/sed "$@"
+  if [ -x /bin/sed ]; then
+    /bin/sed "$@"
+  else
+    sed "$@"
+  fi
 }
 
 zosfind()
@@ -566,7 +574,11 @@ zosfind()
   # "-wholename" is not available on standard zosfind. For the tooling to be
   # consistent across platforms (where findutils is/is not installed) use the
   # standard zos version
-  /bin/find "$@"
+  if [ -x /bin/find ]; then
+    /bin/find "$@"
+  else
+    find "$@"
+  fi
 }
 
 zosdu()
@@ -574,7 +586,11 @@ zosdu()
   # Use the standard z/OS du utility; if the coreutils package is installed, this
   # changes the behaviour of the du command so we need to ensure we support those
   # who do not have that installed
-  /bin/du "$@"
+  if [ -x /bin/du ]; then
+    /bin/du "$@"
+  else
+    du "$@"
+  fi
 }
 
 findrev()
